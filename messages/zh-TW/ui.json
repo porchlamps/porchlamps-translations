@@ -75,6 +75,7 @@
 		"inputPlaceholder": "{daypart, select, morning {今天想說什麼…} day {今天想說什麼…} evening {今晚想說什麼…} other {今晚想說什麼…}}",
 		"leave": "留下",
 		"rise": "昨晚 {n} 盞燈為你亮著",
+		"riseWait": "你不在的時候，有人來過",
 		"echo": {
 			"returned": "你為他點過燈，他又回來了",
 			"first": "他今晚的第一盞燈",
@@ -85,6 +86,12 @@
 			"line": "今晚你的 {n} 盞燈落在這些地方",
 			"more": "再點一些"
 		}
+	},
+	"sound": {
+		"toggle": "聲音",
+		"ask": "要聽得到燈的聲音嗎",
+		"yes": "要",
+		"no": "安靜就好"
 	},
 	"actions": {
 		"house": "我的房子",
