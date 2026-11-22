@@ -15,7 +15,7 @@
 		"contact": "這裡不能留聯絡方式",
 		"empty": "還沒寫任何話",
 		"too_long": "最多只能寫 {max} 個字",
-		"already_posted": "今晚已經說了三句，明天再來說說吧",
+		"already_posted": "今晚已經說了 {max} 句，明天再來說說吧",
 		"generic": "暫時送不出去，晚點再試"
 	},
 	"crisis": {

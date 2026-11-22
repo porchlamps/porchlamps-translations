@@ -1,636 +1,840 @@
 {
 	"site": {
 		"name": "Porchlamps",
-		"title": "",
-		"description": "",
-		"ogAlt": ""
-	},
-	"legend": {
-		"open": "",
-		"rules": {
-			"0": "",
-			"1": "",
-			"2": ""
-		}
+		"title": "Porchlamps | Can't sleep? Leave a line anonymously",
+		"description": "Home at night, can't sleep, want to talk but don't feel like answering messages? Leave a line anonymously on Porchlamps. No one can reply; they can only quietly light a lamp for you, glowing on Taiwan's night map.",
+		"ogAlt": "Porchlamps: get home, leave a line, and someone will light a lamp for you"
 	},
 	"hints": {
-		"skipAll": ""
+		"planeAimed": "You can also send them a paper plane",
+		"planeDrift": "Let a paper plane drift on the wind and land at someone's door",
+		"skipAll": "Not now"
 	},
 	"visit": {
-		"pageTitle": "",
-		"empty": "",
-		"backTonight": "",
-		"lit": "",
-		"loadFailed": "",
-		"retry": "",
-		"lightFailed": "",
-		"byline": "",
-		"pick": "",
-		"litNow": "",
-		"again": "",
-		"backMap": "",
-		"allLit": "",
-		"returned": "",
-		"earlier": "",
-		"report": "",
-		"reported": "",
-		"shareStory": ""
+		"pageTitle": "House・Porchlamps",
+		"empty": "This house hasn't lit a lamp yet",
+		"backTonight": "Back to the map",
+		"lit": "You've already lit this lamp",
+		"loadFailed": "The connection isn't very steady. Try again in a bit",
+		"retry": "Try again",
+		"lightFailed": "That didn't go through. Try again in a bit",
+		"byline": "{who}・{time}",
+		"pick": "Pick a lamp to give them",
+		"litNow": "Your lamp is lit. They'll see it when they're back",
+		"again": "Light another",
+		"backMap": "Back to the map",
+		"allLit": "{daypart, select, morning {You've lit a lamp for every house on the map today} day {You've lit a lamp for every house on the map today} evening {You've lit a lamp for every house on the map tonight} other {You've lit a lamp for every house on the map tonight}}",
+		"returned": "{daypart, select, morning {Of the people you lit lamps for, {n, plural, one {{n} came back today} other {{n} came back today}} →} day {Of the people you lit lamps for, {n, plural, one {{n} came back today} other {{n} came back today}} →} evening {Of the people you lit lamps for, {n, plural, one {{n} came back tonight} other {{n} came back tonight}} →} other {Of the people you lit lamps for, {n, plural, one {{n} came back tonight} other {{n} came back tonight}} →}}",
+		"earlier": "Earlier nights",
+		"report": "Report this line",
+		"reported": "Report received, thank you",
+		"shareStory": "Make this line into a card to share"
 	},
 	"tonight": {
+		"newyearRemind": {
+			"open": "Remind me on New Year's Eve",
+			"ics": "Add to calendar",
+			"google": "Google Calendar",
+			"push": "Remind me with a notification",
+			"pushOn": "You'll get a notification on the night of 12/31",
+			"pushFailed": "Couldn't set that up. Try again in a bit",
+			"calendarTitle": "Porchlamps: light lamps and count down together",
+			"calendarDetails": "Tonight at 11 p.m., all of Taiwan lights lamps and counts down together"
+		},
 		"newyear": {
-			"minutes": "",
-			"seconds": "",
-			"celebrate": "",
-			"celebrateQuiet": "",
-			"held": "",
-			"show": ""
+			"minutes": "{m, plural, one {{m} minute until 2027} other {{m} minutes until 2027}}",
+			"seconds": "{s, plural, one {{s} second until 2027} other {{s} seconds until 2027}}",
+			"celebrate": "It's 2027. Tonight, {n, plural, one {{n} lamp} other {{n} lamps}} across Taiwan are celebrating with you",
+			"celebrateQuiet": "It's 2027. Someone is celebrating with you tonight",
+			"held": "{m, plural, one {{m} more person saved their firework to set off together now} other {{m} more people saved their fireworks to set off together now}}",
+			"show": "Porchlamps' New Year fireworks for everyone"
 		},
-		"whispersLabel": "",
-		"nextHouse": "",
-		"countyLights": "",
-		"countyLit": "",
-		"countyDark": "",
-		"countyEmpty": "",
-		"countyMine": "",
-		"countyLitByMe": "",
-		"countyGo": "",
-		"heavy": "",
+		"whispersLabel": "{daypart, select, morning {Lines others left today} day {Lines others left today} evening {Lines others left tonight} other {Lines others left tonight}}",
+		"nextHouse": "Next →",
+		"countyLights": "{daypart, select, morning {{n, plural, one {{n} lamp today} other {{n} lamps today}}} day {{n, plural, one {{n} lamp today} other {{n} lamps today}}} evening {{n, plural, one {{n} lamp tonight} other {{n} lamps tonight}}} other {{n, plural, one {{n} lamp tonight} other {{n} lamps tonight}}}}",
+		"countyLit": "{daypart, select, morning {Lamps are lit today} day {Lamps are lit today} evening {Lamps are lit tonight} other {Lamps are lit tonight}}",
+		"countyDark": "{daypart, select, morning {No lamps yet today} day {No lamps yet today} evening {No lamps yet tonight} other {No lamps yet tonight}}",
+		"countyEmpty": "{daypart, select, morning {No lamps in {cityName} this morning yet. Come back tonight} day {No lamps in {cityName} during the day yet. Come back tonight} evening {No lamps in {cityName} tonight yet. Check back in a bit} other {No lamps in {cityName} in the night yet. Check back a little later}}",
+		"countyMine": "You",
+		"countyLitByMe": "Lamp lit",
+		"countyGo": "Light a lamp →",
+		"heavy": "This line is a bit heavy",
 		"mineNote": {
-			"seeYou": ""
+			"seeYou": "All set, see you in the morning"
 		},
-		"noLightYet": "",
-		"nthLight": "",
-		"litBefore": "",
-		"loading": "",
-		"loadFailed": "",
-		"mine": "",
-		"chipLights": ""
+		"noLightYet": "{daypart, select, morning {This line will glow for 24 hours. Come back tonight to see who stopped by} day {This line will glow for 24 hours. Come back tonight to see who stopped by} evening {This line will glow for 24 hours. Come back tomorrow to see who stopped by} other {This line will glow for 24 hours. Come back after you've slept to see who stopped by}}",
+		"nthLight": "Someone has lit a lamp for you for the {n, selectordinal, one {{n}st} two {{n}nd} few {{n}rd} other {{n}th}} time",
+		"litBefore": "You've lit a lamp for them before",
+		"litLine": "Lamp lit. It'll glow for 24 hours, and they'll see it when they're back",
+		"loading": "{daypart, select, morning {Loading today's lines} day {Loading today's lines} evening {Loading tonight's lines} other {Loading tonight's lines}}",
+		"loadFailed": "The connection isn't very steady. Try again in a bit",
+		"mine": "{cityName}・You",
+		"chipLights": "{n, plural, one {{n} lamp} other {{n} lamps}}",
+		"sayAnother": "Say one more",
+		"moreLights": "More lamps",
+		"inputPlaceholder": "{daypart, select, morning {What's on your mind today…} day {What's on your mind today…} evening {What's on your mind tonight…} other {What's on your mind tonight…}}",
+		"leave": "Leave it here",
+		"rise": "{n, plural, one {{n} lamp glowed for you last night} other {{n} lamps glowed for you last night}}",
+		"echo": {
+			"returned": "You lit a lamp for them before, and they came back",
+			"first": "Their first lamp tonight",
+			"sameCity": "You're both in {city}",
+			"nth": "You're the {n, selectordinal, one {{n}st} two {{n}nd} few {{n}rd} other {{n}th}} to light one for them"
+		},
+		"nightEnd": {
+			"line": "{n, plural, one {Tonight your lamp landed here} other {Tonight your {n} lamps landed in these places}}",
+			"more": "Light a few more"
+		}
 	},
 	"actions": {
-		"house": "",
-		"houseUnseen": "",
-		"me": "",
-		"light": "",
-		"next": "",
-		"more": "",
-		"report": "",
-		"share": "",
-		"edit": "",
-		"collapse": "",
-		"send": "",
-		"close": "",
-		"back": "",
-		"backTonight": "",
-		"retry": ""
+		"house": "My house",
+		"houseUnseen": "My house, new lamps are lit",
+		"wish": "Wishing well",
+		"me": "Me",
+		"light": "Light a lamp",
+		"next": "Next line",
+		"more": "More",
+		"report": "Report",
+		"share": "Invite a friend to light a lamp",
+		"edit": "Edit",
+		"collapse": "Collapse",
+		"send": "Send",
+		"close": "Close",
+		"back": "Back",
+		"backTonight": "Back to the map",
+		"retry": "Try again",
+		"write": "Leave a line",
+		"mine": "See what I said tonight",
+		"reportFlow": {
+			"title": "Report this line",
+			"why": "The closest reason is",
+			"reasons": {
+				"harass": "Attacking, harassing, or discriminating against others",
+				"contact": "Contact details or ads",
+				"sexual": "Sexual or upsetting content",
+				"other": "Something else"
+			},
+			"submit": "Send report",
+			"cancel": "Cancel",
+			"failed": "It didn't go through. Try again in a bit",
+			"done": "Got it, thank you",
+			"ok": "OK"
+		}
 	},
 	"compose": {
-		"label": "",
+		"label": "{daypart, select, morning {A line for today} day {A line for today} evening {A line for tonight} other {A line for tonight}}",
 		"placeholders": {
-			"0": "",
-			"1": "",
-			"2": ""
+			"0": "Worked late again today...",
+			"1": "Missing home",
+			"2": "It's nothing really, I just want someone to know"
 		},
 		"starters": {
-			"0": "",
-			"1": "",
-			"2": "",
-			"3": ""
+			"0": "So tired today",
+			"1": "I want to go home",
+			"2": "Can't sleep",
+			"3": "Something good happened"
 		},
-		"count": "",
-		"countLabel": "",
-		"cityOnly": "",
+		"count": "{n}/{max}",
+		"countLabel": "{n, plural, one {{n} character written} other {{n} characters written}}, up to {max}",
+		"cityOnly": "{region, select, hk {Only your district will be shown} many {Only where you are will be shown} other {Only your city will be shown}}",
 		"share": {
-			"label": "",
-			"hint": ""
+			"label": "This line can be made into a card and shared",
+			"hint": "{region, select, hk {Your name and district won't be on the card. Once an image is shared, it can't be taken back} many {Your name and where you are won't be on the card. Once an image is shared, it can't be taken back} other {Your name and city won't be on the card. Once an image is shared, it can't be taken back}}"
 		},
 		"sticker": {
-			"open": "",
-			"change": "",
-			"tray": "",
-			"remove": ""
+			"open": "Add a sticker",
+			"change": "Sticker: {name}. Tap to change or remove",
+			"tray": "Pick a sticker",
+			"remove": "No sticker"
 		}
 	},
 	"stickers": {
-		"tea": "",
-		"moon": "",
-		"cat": "",
-		"umbrella": "",
-		"noodles": "",
-		"blanket": "",
-		"house": "",
-		"laptop": "",
-		"boba": "",
-		"scooter": "",
-		"sprout": "",
-		"lantern": ""
+		"tea": "Hot tea",
+		"moon": "Moon and stars",
+		"cat": "Sleeping cat",
+		"umbrella": "Umbrella",
+		"noodles": "Instant noodles",
+		"blanket": "Blanket",
+		"house": "Little house with a light on",
+		"laptop": "Laptop still open",
+		"boba": "Bubble tea",
+		"scooter": "Scooter",
+		"sprout": "Sprout",
+		"lantern": "Lantern"
 	},
 	"city": {
-		"pick": ""
+		"pick": "{scope, select, many {Where are you right now} other {Which city are you in right now}}",
+		"region": {
+			"tw": "Taiwan",
+			"hk": "Hong Kong"
+		}
 	},
 	"login": {
-		"google": "",
-		"header": "",
-		"inApp": "",
-		"copyLink": "",
-		"copied": "",
+		"google": "Sign in with Google",
+		"header": "Sign in",
+		"inApp": "Please open this page in Safari or Chrome to sign in",
+		"copyLink": "Copy link",
+		"copied": "Copied",
 		"email": {
-			"lead": "",
-			"button": ""
+			"lead": "Tomorrow morning, we'll email you who lit a lamp for you",
+			"button": "Get the morning email with Google"
 		}
 	},
 	"handoff": {
-		"open": "",
-		"fallback": "",
-		"title": "",
-		"yourLine": "",
-		"noLine": "",
-		"yes": "",
-		"no": "",
-		"invalid": "",
-		"failed": ""
+		"open": "Open in {browser} and take your house with you",
+		"fallback": "If it doesn't open, copy the link and paste it into {browser}",
+		"title": "Is this your house?",
+		"yourLine": "The latest line from this house",
+		"noLine": "This house hasn't said anything yet",
+		"yes": "Yes, bring it over",
+		"no": "No",
+		"invalid": "This link has expired. Go back to the original app and tap again.",
+		"failed": "That didn't work. Try again in a bit"
 	},
 	"morning": {
-		"greeting": "",
-		"nightPassed": "",
-		"whileAway": "",
-		"nth": "",
-		"enter": ""
+		"greeting": "Good morning",
+		"nightPassed": "{n, plural, one {{n} lamp came by in the night} other {{n} lamps came by in the night}}",
+		"whileAway": "{n, plural, one {{n} lamp came by while you were away} other {{n} lamps came by while you were away}}",
+		"nth": "The {n, selectordinal, one {{n}st} two {{n}nd} few {{n}rd} other {{n}th}} time they've lit a lamp for you",
+		"enter": "See my house"
 	},
 	"house": {
-		"pageTitle": "",
+		"pageTitle": "My house・Porchlamps",
+		"invitedCount": "{n, plural, one {{n} person came because of you} other {{n} people came because of you}}",
 		"share": {
-			"label": "",
-			"heavy": ""
+			"label": "This line can be made into a card and shared",
+			"heavy": "This line won't be made into a card"
 		},
-		"returned": "",
-		"lightAgain": "",
-		"windowDate": "",
-		"windowReceived": "",
-		"windowOpen": "",
-		"nightNoLight": "",
-		"nightLoadFailed": "",
-		"recentTitle": "",
-		"recentEmpty": "",
-		"moreLights": "",
-		"morePeople": "",
-		"fold": "",
-		"recentFrom": "",
-		"recentFromCity": "",
-		"agoMinutes": "",
-		"agoHours": "",
-		"hoursLeft": "",
-		"legendTitle": "",
-		"collected": "",
-		"saveHouse": "",
-		"saveHouseLater": "",
-		"day": "",
-		"growNext": "",
-		"received": "",
-		"given": "",
-		"collectionTitle": "",
-		"noHouse": "",
-		"loadFailed": "",
-		"publicLabel": "",
-		"publicAsk": "",
-		"publicYes": "",
-		"publicNo": "",
-		"publicFailed": ""
+		"returned": "{daypart, select, morning {Of the people you lit lamps for, {n, plural, one {{n} came back today} other {{n} came back today}}} day {Of the people you lit lamps for, {n, plural, one {{n} came back today} other {{n} came back today}}} evening {Of the people you lit lamps for, {n, plural, one {{n} came back tonight} other {{n} came back tonight}}} other {Of the people you lit lamps for, {n, plural, one {{n} came back tonight} other {{n} came back tonight}}}}",
+		"lightAgain": "Light another lamp for {who}",
+		"windowDate": "{m}/{d}",
+		"windowReceived": "{n, plural, =0 {No lamps yet} one {{n} lamp} other {{n} lamps}}",
+		"windowOpen": "{m}/{d}, {n, plural, one {{n} lamp received} other {{n} lamps received}}",
+		"nightNoLight": "No lamps this night, but the window is still lit",
+		"nightLoadFailed": "Can't open this night for now. Try again in a bit",
+		"recentTitle": "Lamps you received",
+		"recentEmpty": "No lamps in the last 24 hours",
+		"moreLights": "{n, plural, one {See {n} more lamp} other {See {n} more lamps}}",
+		"morePeople": "{n, plural, one {See {n} more person} other {See {n} more people}}",
+		"fold": "Collapse",
+		"recentFrom": "{who}",
+		"recentFromCity": "A lamp from {city}",
+		"agoMinutes": "{minutes, plural, one {{minutes} minute ago} other {{minutes} minutes ago}}",
+		"agoHours": "{hours, plural, one {{hours} hour ago} other {{hours} hours ago}}",
+		"hoursLeft": "{h, plural, =0 {About to go out} one {Will glow for {h} more hour} other {Will glow for {h} more hours}}",
+		"legendTitle": "Lamp colors",
+		"collected": "{n} / {total}",
+		"saveHouse": "Sign in and your house will still be here when you change phones",
+		"saveHouseLater": "Not now",
+		"day": "Day {n}",
+		"growNext": "{left, plural, one {In {left} more night,} other {In {left} more nights,}} {id, select, plant {a small plant will appear by the door} lamp {a small lamp will light up by the door} smoke {smoke will drift from the chimney} tree {a tree will grow in the yard} cat {a cat will come to the door} star {a star will appear above the roof} other {}}",
+		"received": "lamps have shone on your house",
+		"given": "lamps you lit for others",
+		"collectionTitle": "Where your lamps came from",
+		"noHouse": "You don't have a house here yet. Leave a line and your first window will light up",
+		"loadFailed": "Can't open your house for now. Try again in a bit",
+		"publicLabel": "Let others visit my house",
+		"publicAsk": "Let others visit your house?",
+		"publicYes": "Yes, let people visit",
+		"publicNo": "Not now",
+		"publicFailed": "Can't change this for now. Try again in a bit",
+		"silhouette": {
+			"reader": {
+				"line0": "The tea's still warm",
+				"line1": "Third time reading this page"
+			},
+			"cat": {
+				"line0": "It would rather be asleep",
+				"line1": "It owns the windowsill"
+			},
+			"plant": {
+				"line0": "The leaves have grown a little",
+				"line1": "It should be sunny tomorrow"
+			},
+			"guitar": {
+				"line0": "Only knows these three chords",
+				"line1": "Playing softly. The neighbors are asleep"
+			}
+		}
 	},
 	"install": {
-		"add": "",
-		"iosTitle": "",
+		"add": "Add to Home Screen",
+		"iosTitle": "Add to Home Screen",
 		"iosSteps": {
-			"0": "",
-			"1": ""
+			"0": "Tap your browser's share button",
+			"1": "Scroll down to \"Add to Home Screen\""
 		},
-		"iosWhy": "",
-		"iosDone": ""
+		"iosWhy": "Tomorrow morning, one tap brings you back to see your lamps",
+		"iosDone": "Got it"
 	},
 	"push": {
-		"light": "",
-		"lightAnon": "",
-		"morning": "",
-		"evening": "",
-		"ask": "",
-		"wantsLights": "",
-		"wantsEvening": "",
-		"sectionTitle": "",
-		"denied": "",
-		"needsInstall": "",
-		"unsupported": "",
-		"serviceOff": "",
-		"failed": ""
+		"light": "Someone in {city} lit a “{label}” lamp for you",
+		"lightAnon": "Someone lit a lamp for you",
+		"lightMilestone": "{n, plural, one {{n} lamp is already glowing for you tonight} other {{n} lamps are already glowing for you tonight}}",
+		"morning": "{n, plural, one {{n} lamp glowed for you} other {{n} lamps glowed for you}}",
+		"plane": "A paper plane flew in from {city}",
+		"planeAnon": "A paper plane flew in",
+		"line": "Someone in {city} you lit a lamp for said one more thing. How are they feeling now?",
+		"lineAnon": "Someone you lit a lamp for said one more thing. How are they feeling now?",
+		"morningPlanes": "{n, plural, one {{n} paper plane is waiting at your door} other {{n} paper planes are waiting at your door}}",
+		"morningWithPlanes": "{n, plural, one {{n} lamp glowed for you} other {{n} lamps glowed for you}}, and {planes, plural, one {{planes} paper plane is waiting at your door} other {{planes} paper planes are waiting at your door}}",
+		"morningLines": "{n, plural, one {In the night, {n} person you lit a lamp for said one more thing} other {In the night, {n} people you lit lamps for said one more thing}}",
+		"evening": "Home yet? Anything you'd like to say tonight",
+		"newyearTwoDays": "New Year's Eve is the day after tomorrow. On the night of 12/31, everyone lights lamps and counts down together",
+		"newyearTomorrow": "New Year's Eve is tomorrow. Count down together at 11 p.m. on 12/31",
+		"newyearTonight": "Tonight at 11 p.m., all of Taiwan lights lamps and counts down together",
+		"newyearGiver": "Lots of people are here for the first time tonight. Some are still waiting for their first lamp",
+		"wantsNewyear": "Remind me on the two nights before New Year's Eve",
+		"wantsNewyearGiver": "Call me at 11 p.m. on New Year's Eve to light lamps",
+		"ask": "Notify me when someone lights a lamp",
+		"wantsLights": "Notify me when I get lamps or paper planes",
+		"wantsEvening": "Remind me in the evening to come back and leave a line",
+		"wantsLines": "Notify me when someone I lit a lamp for says more",
+		"sectionTitle": "Notifications",
+		"denied": "Notifications are turned off. Turn them on in your browser settings",
+		"needsInstall": "Add this to your Home Screen and open it from there to get notifications",
+		"unsupported": "This browser doesn't support notifications",
+		"serviceOff": "Your browser's push service is off. Turn it on in privacy settings",
+		"failed": "Couldn't set that up. Try again in a bit"
 	},
 	"me": {
-		"pageTitle": "",
-		"title": "",
-		"back": "",
-		"preview": "",
-		"noNameYet": "",
-		"nicknameLabel": "",
-		"cityLabel": "",
-		"save": "",
-		"saved": "",
-		"useAuto": "",
-		"cityFailed": "",
+		"pageTitle": "Me・Porchlamps",
+		"title": "Me",
+		"back": "Back to your house",
+		"preview": "How others see you",
+		"noNameYet": "No name yet",
+		"nicknameLabel": "Your name",
+		"cityLabel": "{region, select, hk {Your district} many {Where you are} other {Your city}}",
+		"save": "Save",
+		"saved": "Saved",
+		"useAuto": "Use \"{auto}\" again",
+		"cityFailed": "Couldn't update. Try again in a bit",
 		"nicknameErrors": {
-			"length": "",
-			"chars": "",
-			"blocked": "",
-			"generic": ""
+			"length": "Names can be up to 8 Chinese characters or 16 English letters",
+			"chars": "Names can only use Chinese characters, English letters and \"・\"",
+			"blocked": "This name can't be used. Please pick another",
+			"area": "{region, select, hk {No need to add your district to the name. It shows up on its own} many {No need to add where you are to the name. It shows up on its own} other {No need to add your city to the name. It shows up on its own}}",
+			"generic": "Couldn't change the name. Try again in a bit"
 		},
-		"loadFailed": "",
-		"logout": "",
-		"logoutFailed": "",
-		"deleteAccount": "",
-		"deleteConfirm": "",
-		"deleteConfirmYes": "",
-		"deleteCancel": "",
-		"deleteFailed": ""
+		"loadFailed": "Couldn't load your info. Try again in a bit",
+		"logout": "Sign out",
+		"coffee": "Buy the author a coffee",
+		"logoutFailed": "Couldn't sign out. Try again in a bit",
+		"deleteAccount": "Delete account",
+		"deleteConfirm": "Your house and all your lamps will be erased. This can't be undone",
+		"deleteConfirmYes": "Yes, delete",
+		"deleteCancel": "Cancel",
+		"translate": "Porchlamps would like a version that reads naturally to people in Hong Kong. If you're up for it, you can help translate one sentence at a time on a web page. No coding needed.",
+		"translateLink": "Help translate into Hong Kong Chinese",
+		"deleteFailed": "Couldn't delete. Try again in a bit"
 	},
 	"map": {
-		"house": "",
-		"myHouse": "",
-		"showAll": "",
-		"collectedLabel": ""
+		"house": "Visit this house",
+		"myHouse": "My house",
+		"showAll": "Show all",
+		"collectedLabel": "{scope, select, many {{count, plural, =0 {No lamps from other places yet} one {Received lamps from this place: {cityNames}} other {Received lamps from these places: {cityNames}}}} other {{count, plural, =0 {No lamps from other cities yet} one {Received lamps from this city: {cityNames}} other {Received lamps from these cities: {cityNames}}}}}"
+	},
+	"planes": {
+		"phrases": {
+			"thought": "Thought of you, so I folded this plane",
+			"noreply": "No need to reply. Just wanted to say good night",
+			"blanket": "It's a little cold tonight. Stay under the covers",
+			"fed": "Have you eaten yet",
+			"tomorrow": "Rest for now. Everything else can wait until tomorrow",
+			"slow": "Going slowly is still going forward",
+			"company": "This plane just came to keep you company for a bit",
+			"sleep": "Get a good night's sleep tonight",
+			"awake": "You're not the only one awake",
+			"seeyou": "See you tomorrow",
+			"enough": "Let's stop here for today. That's already enough",
+			"far": "Someone far away is thinking of you",
+			"unknown": "Someone folded a plane for you"
+		},
+		"send": "Send a paper plane",
+		"sendTo": "Send a paper plane to {who}",
+		"to": "To {who}",
+		"drift": "Let a paper plane drift on the wind",
+		"fire": "Let it fly",
+		"sent": "It's on its way",
+		"blocked": "This plane can't get there",
+		"from": "From {city}",
+		"fromAnon": "From somewhere",
+		"waiting": "{n, plural, one {{n} paper plane} other {{n} paper planes}}",
+		"mailbox": "Mailbox",
+		"mailboxCount": "{n} received",
+		"open": "Open the paper plane",
+		"letter": "An unfolded paper plane",
+		"fold": "Fold it up"
 	},
 	"firework": {
-		"button": "",
-		"offerTitle": "",
-		"offerBody": "",
-		"fire": "",
-		"later": "",
-		"pick": "",
-		"cancel": "",
-		"hold": "",
-		"heldNote": ""
+		"button": "Set off a firework",
+		"offerTitle": "{n, plural, one {You've lit {n} lamp} other {You've lit {n} lamps}}",
+		"offerBody": "A firework for you",
+		"failed": "It didn't send. Try again",
+		"fire": "{scope, select, many {Pick a place to set it off} other {Pick a city to set it off}}",
+		"later": "Later",
+		"pick": "{scope, select, many {Tap a place to set off a firework} other {Tap a city to set off a firework}}",
+		"cancel": "Cancel",
+		"hold": "Save it for New Year's Eve",
+		"heldNote": "Saved. It will go off at 00:00 with the rest",
+		"giftInvitedTitle": "Someone sent you a firework",
+		"giftInvitedBody": "You have seven days to set it off",
+		"explainTitle": "One more firework, just for you",
+		"explainBody": "When a friend comes in through your link and leaves a line, you both get a firework.",
+		"explainShare": "Send the link",
+		"explainShareText": "Thought of you, so I'm sending this",
+		"explainLater": "Maybe later",
+		"giftInviterTitle": "Someone came because of you",
+		"giftInviterBody": "A firework for you",
+		"giftMore": "{n} more"
 	},
-	"inAppBrowser": "",
+	"inAppBrowser": "Please open this page in Safari or Chrome to sign in with Google",
+	"error": {
+		"title": "The screen got stuck",
+		"line": "Just refresh. Your house and lamps are all still here",
+		"reload": "Refresh"
+	},
 	"footer": {
-		"coffee": "",
-		"about": "",
-		"privacy": "",
-		"terms": "",
-		"contact": "",
-		"feedback": "",
-		"home": "",
-		"nav": ""
+		"coffee": "Buy the author a coffee",
+		"about": "About",
+		"privacy": "Privacy policy",
+		"terms": "Terms of use",
+		"contact": "Contact",
+		"feedback": "Wishing well",
+		"home": "Back to the map",
+		"nav": "Site info",
+		"translate": "Help translate"
 	},
 	"feedback": {
-		"kindLabel": "",
+		"kindLabel": "The coin in your hand is",
 		"kinds": {
-			"bug": "",
-			"idea": "",
-			"other": ""
+			"bug": "A complaint: this is broken, or a pain to use",
+			"idea": "A wish: I wish there were…",
+			"other": "Nothing, just passing by and tossing a coin"
 		},
-		"messageLabel": "",
-		"contactLabel": "",
-		"contactPlaceholder": "",
-		"contactHint": "",
-		"houseNote": "",
-		"privacy": "",
-		"send": "",
-		"sending": "",
-		"sent": "",
-		"again": "",
-		"invalid": "",
-		"failed": "",
-		"rateLimited": ""
+		"messageLabel": "Tell the well",
+		"placeholders": {
+			"idea": "The more specific, the likelier it comes true. The well isn't very bright.",
+			"bug": "Which screen, what you did, what happened. The clearer the grumble, the faster the fix.",
+			"other": "Say anything. The well is a good listener, just not much of a talker."
+		},
+		"contactLabel": "Leave a way to reach you (optional)",
+		"contactPlaceholder": "Email or Threads account",
+		"contactHint": "If a wish doesn't make sense, the author will come ask. Leaving it blank is fine; the well doesn't hold grudges.",
+		"houseNote": "If you have a house, its code comes along, so the author can go see for themselves.",
+		"privacy": "The bottom of the well drains into the author's private GitHub. Only the author can see it; it won't float over to anyone else.",
+		"send": "Toss it in",
+		"sending": "Plop…",
+		"sent": "Plop. Got it. The author will fish it out when there's time.",
+		"again": "Toss another",
+		"invalid": "Didn't go in: too few words or too many for the well to swallow. Change it and toss again.",
+		"failed": "The well is a little clogged right now. Try again later, or write to {email}",
+		"rateLimited": "That's a lot of coins for one hour; the well needs a breather. Try again later, or write to {email}"
 	},
 	"share": {
-		"copied": "",
-		"saveImage": "",
+		"copied": "Copied",
+		"fireworkButton": "Share this firework",
+		"glowButton": "Share this glow",
+		"litText": "{n, plural, one {Tonight I lit a lamp for {n} person. Come light one too} other {Tonight I lit lamps for {n} people. Come light one too}}",
+		"newyearLitText": "{n, plural, one {On the last night of the year, I lit a lamp for {n} person. Come light one too} other {On the last night of the year, I lit lamps for {n} people. Come light one too}}",
+		"saveImage": "Save this image",
 		"story": {
-			"invite": "",
-			"brand": "",
-			"domain": "",
-			"text": ""
+			"invite": "Get home, leave a line too",
+			"brand": "Porchlamps",
+			"domain": "Search \"Porchlamps\" on Google・porchlamps.app",
+			"text": "Get home, leave a line too"
 		}
 	},
 	"email": {
-		"subject": "",
-		"preheader": "",
-		"brand": "",
-		"date": "",
-		"greeting": "",
-		"lead": "",
-		"litFor": "",
-		"more": "",
-		"mixTitle": "",
-		"count": "",
-		"houseTitle": "",
-		"house": "",
-		"houseNote": "",
-		"cta": "",
+		"subject": "{n, plural, one {{n} lamp was lit for you} other {{n} lamps were lit for you}}",
+		"subjectPlanes": "Paper planes are waiting at your door",
+		"planes": "{n, plural, one {{n} paper plane is waiting at your door} other {{n} paper planes are waiting at your door}}",
+		"newyear": "Tonight at 11 p.m., all of Taiwan lights lamps and counts down together",
+		"preheader": "Last night after you fell asleep, someone passed by your door.",
+		"preheaderPlanes": "Last night after you fell asleep, someone folded a paper plane for you.",
+		"brand": "Porchlamps",
+		"date": "{weekday, select, 0 {Sunday} 1 {Monday} 2 {Tuesday} 3 {Wednesday} 4 {Thursday} 5 {Friday} other {Saturday}}, {month}/{day}",
+		"greeting": "Good morning.",
+		"lead": "Last night after you fell asleep, someone passed by your door and lit a lamp for you.",
+		"litFor": "lamps lit for you",
+		"more": "+{n}",
+		"mixTitle": "Someone wanted to tell you",
+		"count": "{n, plural, one {{n} lamp} other {{n} lamps}}",
+		"houseTitle": "Your house",
+		"house": "{windows, plural, one {It has <n>{windows}</n> window} other {It has <n>{windows}</n> windows}}, and {total, plural, one {<n>{total}</n> lamp has} other {<n>{total}</n> lamps have}} glowed in all.",
+		"houseNote": "Every night stays in the house.",
+		"cta": "Go see your house",
 		"closing": {
-			"0": "",
-			"1": ""
+			"0": "Take it slow today, too.",
+			"1": "When you get home tonight, your house will be here waiting."
 		},
-		"footer": "",
-		"settings": "",
-		"domain": "",
-		"unsubscribe": "",
-		"setting": "",
-		"ask": "",
-		"sendsTo": "",
+		"footer": "This email is written only for you: it doesn't include anything you wrote, or anyone else's name. You're getting it because you turned on \"Tell me by email in the morning\" on your profile page.",
+		"footerGuest": "This email is written only for you: it doesn't include anything you wrote, or anyone else's name. You're getting it because you left this email address on Porchlamps.",
+		"settings": "Notification settings",
+		"domain": "porchlamps.app",
+		"unsubscribe": "Unsubscribe from the morning email",
+		"coffee": "Buy the author a coffee",
+		"setting": "Tell me by email in the morning",
+		"ask": "Tell me by email in the morning",
+		"sendsTo": "Sent to {email}",
 		"unsubPage": {
-			"title": "",
-			"button": "",
-			"done": "",
-			"bad": ""
+			"title": "Unsubscribe from the morning email",
+			"button": "Yes, unsubscribe",
+			"done": "You've been unsubscribed. If you want these again later, turn them on from your profile page.",
+			"bad": "This link is incomplete. Please turn off notifications on your profile page."
+		},
+		"guestAsk": {
+			"ask": "Tell me tomorrow morning how many lamps I got",
+			"placeholder": "Your email",
+			"send": "Send confirmation email",
+			"sent": "The confirmation email is on its way. Open your inbox and tap it",
+			"invalid": "That doesn't look quite right",
+			"failed": "It didn't send. Try again in a moment"
+		}
+	},
+	"emailVerify": {
+		"mail": {
+			"subject": "One tap, and tomorrow morning we'll tell you how many lamps you got",
+			"preheader": "One tap, and we'll tell you tomorrow morning.",
+			"opening": "You left this email address on Porchlamps.",
+			"lead": "Confirm it's you, and tomorrow morning we'll tell you how many lamps glowed for you last night.",
+			"cta": "It's me, confirm",
+			"ttl": "The link works for 24 hours.",
+			"footer": "If you didn't enter this, you can ignore it. If you don't confirm, you won't get the morning email."
+		},
+		"page": {
+			"title": "Confirm this is your email",
+			"lead": "Tap once, and tomorrow morning we'll tell you how many lamps glowed for you last night.",
+			"button": "It's me, confirm",
+			"failed": "That didn't work. Try pressing it again",
+			"doneTitle": "OK, we'll tell you in the morning",
+			"doneLead": "When you wake up, there'll be an email in your inbox.",
+			"doneCta": "Go see your house",
+			"expiredTitle": "This link has been used or has expired",
+			"expired": "Just go back to the home page and send it again.",
+			"badTitle": "This link is incomplete",
+			"bad": "Just go back to the home page and send it again.",
+			"home": "Back to home",
+			"previewLead": "Is this your house? Its latest line is:",
+			"previewEmpty": "This house hasn't said anything yet.",
+			"mine": "It's mine, confirm",
+			"notMine": "This isn't mine",
+			"notMineTitle": "Then you can ignore this email",
+			"notMineLead": "If you don't confirm, you won't get the morning email."
 		}
 	},
 	"pages": {
 		"about": {
-			"title": "",
-			"description": "",
+			"title": "About Porchlamps",
+			"description": "Porchlamps is a quiet little place: when you can't sleep at night, leave a line, and someone will quietly light a lamp for you. No real names, and no one to follow.",
 			"what": {
-				"0": "",
-				"1": "",
-				"2": ""
+				"0": "Porchlamps is a quiet little place: when you can't sleep at night, come here and leave a line, and someone will quietly light a lamp for you.",
+				"1": "There are no real names, no profile pictures, and no one to follow. The lines and lamps stay lit on the home page for only 24 hours.",
+				"2": "After you light 3 lamps, you can set off a firework over a city or district, without leaving your name. When every line left in a city or district has had a lamp lit for it, the ground there lights up.",
+				"3": "You can invite a friend to Porchlamps. Once they leave their first line, each of you gets a firework, and you have seven days to set it off. The link won't lead them to your house or your lines, and you won't know which line is theirs.",
+				"4": "After you sign in, you can send a paper plane to a line you lit a lamp for tonight, or let one drift on the wind and land at the door of someone who left a line tonight. One plane a night. It only carries a few set phrases: you can't type, and no one can reply. You won't know if they open it. If no one opens it within 24 hours, it flies away."
 			},
-			"keeper": "",
-			"notService": "",
-			"crisisLead": "",
-			"translate": "",
-			"translateLink": ""
+			"keeper": "A keeper reads every line and does their best to make sure everyone gets a lamp.",
+			"support": "Porchlamps is looked after by one person, with no ads. If it has kept you company and you'd like to help keep it going, you can buy the author a coffee.",
+			"supportLink": "Buy the author a coffee",
+			"notService": "Porchlamps is not a counseling or crisis service.",
+			"crisisLead": "If you need someone to talk to right now:",
+			"translate": "Porchlamps also wants to be understood by people in Hong Kong and elsewhere. If you'd like to help translate, you don't need to know how to code. You just translate one sentence at a time on a web page.",
+			"translateLink": "Help translate on Crowdin",
+			"mapCredit": "Hong Kong district boundaries: Home Affairs Department, Government of the Hong Kong Special Administrative Region, via DATA.GOV.HK. Copyright in the data belongs to the Government of the Hong Kong Special Administrative Region and the relevant organizations."
 		},
 		"feedback": {
-			"title": "",
-			"description": "",
-			"lead": "",
-			"translate": "",
-			"translateLink": ""
+			"title": "Wishing well",
+			"description": "Features you want, things that bug you: toss them into the well. The author fishes them out.",
+			"lead": "This is a very shallow well, and only the author fishes in it. Features you want, things that bug you, or just a sigh at the water: toss it all in.",
+			"translate": "You can also help translate Porchlamps into other languages.",
+			"translateLink": "Help translate on Crowdin"
 		},
 		"notFound": {
-			"title": "",
-			"line": "",
-			"back": ""
+			"title": "There's no house here",
+			"line": "Looks like you took a wrong turn, but the lamp at the door is still lit",
+			"back": "Back to the map"
 		},
 		"contact": {
-			"title": "",
-			"lead": ""
+			"title": "Contact the author",
+			"lead": "For questions, corrections, or complaints, please write to"
 		}
 	},
 	"eggs": {
 		"meteor": {
-			"label": "",
-			"line": ""
+			"label": "Meteor",
+			"line": "Did you see it? Make a wish"
 		},
 		"moon": {
-			"label": "",
-			"line": ""
+			"label": "Moon",
+			"line": "The rabbit on the moon is still awake too"
 		},
 		"festival": {
 			"lantern": {
-				"label": "",
-				"line": ""
+				"label": "Lantern Festival",
+				"line": "It's the Lantern Festival tonight. Have your tangyuan while it's hot"
 			},
 			"qixi": {
-				"label": "",
-				"line": ""
+				"label": "Qixi",
+				"line": "It's Qixi tonight. The magpie bridge is lit up too"
 			},
 			"midautumn": {
-				"label": "",
-				"line": ""
+				"label": "Mid-Autumn",
+				"line": "The moon is very round tonight"
 			},
 			"xmasEve": {
-				"label": "",
-				"line": ""
+				"label": "Christmas Eve",
+				"line": "It's Christmas Eve tonight. May you be safe"
 			},
 			"xmas": {
-				"label": "",
-				"line": ""
+				"label": "Christmas",
+				"line": "Merry Christmas. You've worked hard today too"
 			},
 			"newYearEve": {
-				"label": "",
-				"line": ""
+				"label": "New Year's Eve",
+				"line": "The last night of the year. Tonight, too, someone is leaving a lamp on for you"
 			},
 			"birthday": {
-				"label": "",
-				"line": ""
+				"label": "Porchlamps' birthday",
+				"line": "It's Porchlamps' birthday today. Thank you for coming"
 			}
 		},
 		"whale": {
-			"label": "",
-			"line": ""
+			"label": "Whale",
+			"line": "It's just passing by, saying hi to you"
 		},
 		"landmarks": {
 			"taipei": {
-				"name": "",
-				"line": ""
+				"name": "Taipei 101",
+				"line": "101 is still awake too. It says it's just waiting for New Year's Eve"
 			},
 			"newtaipei": {
-				"name": "",
-				"line": ""
+				"name": "Tamsui Lovers' Bridge",
+				"line": "New Taipei is so big that by the time you walk from one end to the other, it's morning"
 			},
 			"keelung": {
-				"name": "",
-				"line": ""
+				"name": "Zhengbin Fishing Port",
+				"line": "It rained in Keelung again today, didn't it. We all know"
 			},
 			"taoyuan": {
-				"name": "",
-				"line": ""
+				"name": "Taoyuan Airport",
+				"line": "Planes are still flying, but you don't have to go anywhere tonight"
 			},
 			"hsinchucity": {
-				"name": "",
-				"line": ""
+				"name": "East Gate",
+				"line": "The wind in Hsinchu is strong. Hold on to your hat"
 			},
 			"hsinchucounty": {
-				"name": "",
-				"line": ""
+				"name": "Neiwan Train",
+				"line": "The Neiwan train has finished for the day, and so have you"
 			},
 			"miaoli": {
-				"name": "",
-				"line": ""
+				"name": "Longteng Broken Bridge",
+				"line": "Miaoli is here. It really is here"
 			},
 			"taichung": {
-				"name": "",
-				"line": ""
+				"name": "Taichung Opera House",
+				"line": "Taichung people say: we're just on the road"
 			},
 			"changhua": {
-				"name": "",
-				"line": ""
+				"name": "Baguashan Buddha",
+				"line": "The Buddha has watched over Changhua for many years, and tonight too"
 			},
 			"nantou": {
-				"name": "",
-				"line": ""
+				"name": "Jade Mountain",
+				"line": "It's cold up on Jade Mountain. Do you have a blanket over there?"
 			},
 			"yunlin": {
-				"name": "",
-				"line": ""
+				"name": "Xiluo Bridge",
+				"line": "The nights in Yunlin are dark, so there are lots of stars"
 			},
 			"chiayicity": {
-				"name": "",
-				"line": ""
+				"name": "Chiayi Fountain",
+				"line": "Have another bowl of turkey rice tomorrow"
 			},
 			"chiayicounty": {
-				"name": "",
-				"line": ""
+				"name": "Alishan Forest Railway",
+				"line": "Up on Alishan, someone is already waiting for the sunrise"
 			},
 			"tainan": {
-				"name": "",
-				"line": ""
+				"name": "Chihkan Tower",
+				"line": "The late-night food in Tainan is still open, you know how it is"
 			},
 			"kaohsiung": {
-				"name": "",
-				"line": ""
+				"name": "85 Sky Tower",
+				"line": "It's still hot in Kaohsiung right now, isn't it"
 			},
 			"pingtung": {
-				"name": "",
-				"line": ""
+				"name": "Sail Rock",
+				"line": "Pingtung is long. It takes a while to drive from one end to the other"
 			},
 			"yilan": {
-				"name": "",
-				"line": ""
+				"name": "Turtle Island",
+				"line": "People in Yilan seem to go to bed early. I'm a little envious"
 			},
 			"hualien": {
-				"name": "",
-				"line": ""
+				"name": "Qingshui Cliff",
+				"line": "The mountains in Hualien are high, and the stars are close"
 			},
 			"taitung": {
-				"name": "",
-				"line": ""
+				"name": "Luye Hot Air Balloons",
+				"line": "The hot air balloons have landed for now. They'll fly again tomorrow"
 			},
 			"penghu": {
-				"name": "",
-				"line": ""
+				"name": "Cross-Sea Bridge",
+				"line": "The wind in Penghu is always there, tonight too"
 			},
 			"kinmen": {
-				"name": "",
-				"line": ""
+				"name": "Wind Lion God",
+				"line": "The Wind Lion God guards Kinmen, and keeps an eye on your door too"
 			},
 			"lienchiang": {
-				"name": "",
-				"line": ""
+				"name": "Qinbi Village",
+				"line": "Matsu is far away, but the night is the same"
 			}
 		},
 		"candle": {
-			"line": ""
+			"line": "The wind is strong, but it still glows"
 		},
 		"newYear": {
-			"label": "",
-			"line": ""
+			"label": "New Year",
+			"line": "Happy New Year"
 		},
 		"console": {
-			"art": "",
+			"art": "    )\n   (\n  .-.\n  | |\n  | |\n _|_|_",
 			"lines": {
-				"0": "",
-				"1": ""
+				"0": "You're still awake too.",
+				"1": "There's no back office to peek into here, only lamps."
 			}
 		},
 		"konami": {
-			"label": ""
+			"label": "A pixel Taiwan at night. Tap to close"
 		}
 	},
 	"browserSwitch": {
-		"openIn": ""
+		"openIn": "Open in {browser} so your house stays with you"
+	},
+	"invite": {
+		"pageTitle": "Thought of you, so I'm sending this",
+		"description": "It's quiet here at night. When you get home, you can leave a line.",
+		"ogAlt": "An open door at night with a fire glowing inside: thought of you, so I'm sending this"
 	},
 	"og": {
-		"brand": "",
-		"lit": "",
+		"brand": "Porchlamps",
+		"lit": "{n, plural, one {Tonight I lit a lamp for {n} person} other {Tonight I lit lamps for {n} people}}",
 		"litParts": {
-			"0": "",
-			"1": ""
+			"0": "Tonight I lit lamps for",
+			"1": "people"
 		},
-		"firework": "",
-		"glow": "",
-		"city": "",
+		"firework": "Tonight I set off a firework over the night sky of {city}",
+		"glow": "Tonight in {city}, every line left here had a lamp lit for it",
+		"city": "{cityName}",
 		"newyear": {
-			"lit": "",
+			"lit": "{n, plural, one {On the last night of the year, I lit a lamp for {n} person} other {On the last night of the year, I lit lamps for {n} people}}",
 			"litParts": {
-				"0": "",
-				"1": ""
+				"0": "On the last night of the year, I lit lamps for",
+				"1": "people"
 			},
-			"cityLights": "",
-			"years": ""
+			"cityLights": "{m, plural, one {{city} lit {m} lamp tonight} other {{city} lit {m} lamps tonight}}",
+			"years": "2026→2027"
 		},
 		"invite": {
-			"0": "",
-			"1": ""
+			"0": "Get home and leave a line",
+			"1": "Someone will light a lamp for you"
 		},
-		"domain": ""
+		"inviteCard": {
+			"title": {
+				"0": "Thought of you,",
+				"1": "so I'm sending this"
+			},
+			"sub": {
+				"0": "It's quiet here at night.",
+				"1": "When you get home, leave a line"
+			}
+		},
+		"domain": "porchlamps.app",
+		"findUs": "Search \"Porchlamps\" on Google・porchlamps.app"
 	},
 	"ogQuips": {
-		"taipei": "",
-		"newtaipei": "",
-		"keelung": "",
-		"taoyuan": "",
-		"hsinchucity": "",
-		"hsinchucounty": "",
-		"miaoli": "",
-		"taichung": "",
-		"changhua": "",
-		"nantou": "",
-		"yunlin": "",
-		"chiayicity": "",
-		"chiayicounty": "",
-		"tainan": "",
-		"kaohsiung": "",
-		"pingtung": "",
-		"yilan": "",
-		"hualien": "",
-		"taitung": "",
-		"penghu": "",
-		"kinmen": "",
-		"lienchiang": ""
+		"taipei": "Taipei got off work and lit a few lamps on the way",
+		"newtaipei": "New Taipei lit lamps on the commute home too",
+		"keelung": "It's raining in Keelung, and the lamps are lit anyway",
+		"taoyuan": "Planes are still flying in Taoyuan, and the lamps are still on",
+		"hsinchucity": "Hsinchu's engineers lit their lamps. Time to sleep",
+		"hsinchucounty": "Zhubei's night has lamps too",
+		"miaoli": "Miaoli does exist, and it lit its lamps",
+		"taichung": "Taichung people say: we're just on the road",
+		"changhua": "Changhua lit their lamps, then went for ba-wan",
+		"nantou": "In the mountains of Nantou, someone is awake too",
+		"yunlin": "The night in Yunlin is dark, so the lamps stand out",
+		"chiayicity": "Lamp lit. Now for a bowl of turkey rice",
+		"chiayicounty": "At the foot of Alishan, someone is still up too",
+		"tainan": "The late-night food in Tainan is still open, and so are the lamps",
+		"kaohsiung": "Kaohsiung's night is hot, and the lamps are warm",
+		"pingtung": "Pingtung is long, and the lamps run from north to south",
+		"yilan": "People in Yilan seem to go to bed early. I didn't",
+		"hualien": "The mountains in Hualien are high, and the lamps can still be seen",
+		"taitung": "The night in Taitung is quiet, and the lamps are clear",
+		"penghu": "The wind in Penghu is strong, and the lamps weren't blown out",
+		"kinmen": "The Wind Lion God is watching, and Kinmen lit its lamps",
+		"lienchiang": "Matsu is far away, and the lamps still came on"
 	},
 	"lights": {
-		"orange": "",
-		"amber": "",
-		"pink": "",
-		"blue": "",
-		"mint": "",
-		"orchid": "",
-		"lime": "",
-		"teal": "",
-		"dawn": "",
-		"metoo": "",
-		"unknown": ""
+		"orange": "You've worked hard",
+		"amber": "I get it",
+		"pink": "A hug for you",
+		"blue": "I'm awake too",
+		"mint": "Happy for you",
+		"orchid": "You're doing great",
+		"lime": "Take your time",
+		"teal": "Sleep well",
+		"dawn": "Good morning",
+		"metoo": "Me too",
+		"unknown": "A lamp"
 	},
 	"areas": {
-		"taipei": "",
-		"newtaipei": "",
-		"keelung": "",
-		"taoyuan": "",
-		"hsinchucity": "",
-		"hsinchucounty": "",
-		"miaoli": "",
-		"taichung": "",
-		"changhua": "",
-		"nantou": "",
-		"yunlin": "",
-		"chiayicity": "",
-		"chiayicounty": "",
-		"tainan": "",
-		"kaohsiung": "",
-		"pingtung": "",
-		"yilan": "",
-		"hualien": "",
-		"taitung": "",
-		"penghu": "",
-		"kinmen": "",
-		"lienchiang": "",
-		"hk-centralwestern": "",
-		"hk-wanchai": "",
-		"hk-eastern": "",
-		"hk-southern": "",
-		"hk-yautsimmong": "",
-		"hk-shamshuipo": "",
-		"hk-kowlooncity": "",
-		"hk-wongtaisin": "",
-		"hk-kwuntong": "",
-		"hk-tsuenwan": "",
-		"hk-tuenmun": "",
-		"hk-yuenlong": "",
-		"hk-north": "",
-		"hk-taipo": "",
-		"hk-saikung": "",
-		"hk-shatin": "",
-		"hk-kwaitsing": "",
-		"hk-islands": ""
+		"taipei": "Taipei",
+		"newtaipei": "New Taipei",
+		"keelung": "Keelung",
+		"taoyuan": "Taoyuan",
+		"hsinchucity": "Hsinchu City",
+		"hsinchucounty": "Hsinchu County",
+		"miaoli": "Miaoli",
+		"taichung": "Taichung",
+		"changhua": "Changhua",
+		"nantou": "Nantou",
+		"yunlin": "Yunlin",
+		"chiayicity": "Chiayi City",
+		"chiayicounty": "Chiayi County",
+		"tainan": "Tainan",
+		"kaohsiung": "Kaohsiung",
+		"pingtung": "Pingtung",
+		"yilan": "Yilan",
+		"hualien": "Hualien",
+		"taitung": "Taitung",
+		"penghu": "Penghu",
+		"kinmen": "Kinmen",
+		"lienchiang": "Lienchiang",
+		"hk-centralwestern": "Central and Western",
+		"hk-wanchai": "Wan Chai",
+		"hk-eastern": "Eastern",
+		"hk-southern": "Southern",
+		"hk-yautsimmong": "Yau Tsim Mong",
+		"hk-shamshuipo": "Sham Shui Po",
+		"hk-kowlooncity": "Kowloon City",
+		"hk-wongtaisin": "Wong Tai Sin",
+		"hk-kwuntong": "Kwun Tong",
+		"hk-tsuenwan": "Tsuen Wan",
+		"hk-tuenmun": "Tuen Mun",
+		"hk-yuenlong": "Yuen Long",
+		"hk-north": "North",
+		"hk-taipo": "Tai Po",
+		"hk-saikung": "Sai Kung",
+		"hk-shatin": "Sha Tin",
+		"hk-kwaitsing": "Kwai Tsing",
+		"hk-islands": "Islands"
 	},
 	"names": {
-		"who": ""
+		"who": "{nickname} in {area}"
 	}
 }

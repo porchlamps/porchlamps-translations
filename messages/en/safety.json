@@ -1,5 +1,393 @@
 {
 	"welcome": {
-		"skip": "Skip"
+		"cards": {
+			"0": "When you get home at night, leave a line",
+			"1": "Someone will light a lamp for you, glowing for 24 hours",
+			"2": "Come home each day and your house will slowly grow"
+		},
+		"say": "What's on your mind today",
+		"browse": "Go light a lamp first",
+		"skip": "Skip",
+		"next": "Next card",
+		"position": "Card {i} of {n}"
+	},
+	"blocked": {
+		"contact": "Contact details can't be left here",
+		"empty": "Nothing written yet",
+		"too_long": "{max, plural, one {Up to {max} character only} other {Up to {max} characters only}}",
+		"already_posted": "{max, plural, one {You've already said {max} line tonight. Come back and talk tomorrow} other {You've already said {max} lines tonight. Come back and talk tomorrow}}",
+		"generic": "Couldn't send it for now. Try again in a bit"
+	},
+	"crisis": {
+		"lead": "{daypart, select, morning {Today seems really hard.} day {Today seems really hard.} evening {Tonight seems really hard.} other {Tonight seems really hard.}}",
+		"invite": "If you'd like someone to talk with:",
+		"keep": "Keep this line anyway",
+		"after": "{daypart, select, morning {If today is especially hard, you can call {name} at {number}. Someone is there {hours}.} day {If today is especially hard, you can call {name} at {number}. Someone is there {hours}.} evening {If tonight is especially hard, you can call {name} at {number}. Someone is there {hours}.} other {If tonight is especially hard, you can call {name} at {number}. Someone is there {hours}.}}"
+	},
+	"support": {
+		"formLabel": "Sponsorship form",
+		"kindLabel": "How to sponsor",
+		"kinds": {
+			"monthly": "Monthly",
+			"once": "One-time"
+		},
+		"amountLabel": {
+			"monthly": "Monthly amount",
+			"once": "Amount"
+		},
+		"notes": {
+			"monthly": {
+				"60": "A hot tea every month, so the author has something to drink at night",
+				"100": "A latte every month. The barista is starting to recognize the author",
+				"300": "Helps pay the server's electricity each month",
+				"500": "On domain renewal day, the author won't have to frown",
+				"1000": "The author will work very hard to keep this place lit for years to come",
+				"custom": "How much each month is up to you"
+			},
+			"once": {
+				"60": "A hot tea to keep the author company while finishing tonight's code",
+				"100": "A latte. The foam probably won't come out as a heart",
+				"300": "A late-night snack and a coffee, so the author can stay up one more night",
+				"500": "This month's email costs are covered",
+				"1000": "The author will secretly take a screenshot and look at it now and then",
+				"custom": "Any amount is fine. It's up to you"
+			}
+		},
+		"customLabel": "Custom amount",
+		"customPlaceholder": "Custom",
+		"customMin": "(from NT${min})",
+		"range": "The amount needs to be a whole number from NT${min} to NT${max}.",
+		"emailLabel": {
+			"monthly": "Email: charge notices, the manage link, and e-invoices are sent here",
+			"once": "Email: the payment notice and e-invoice are sent here"
+		},
+		"nameLabel": "What should the author call you (optional)",
+		"namePlaceholder": "Leave blank to stay anonymous",
+		"messageLabel": "Something to say to the author (optional)",
+		"count": "{n}/{max}",
+		"onlyAuthor": "Only the author can see your name and message. They won't appear on the site.",
+		"submit": {
+			"monthly": "Continue to ECPay・NT${amount} a month",
+			"once": "Continue to ECPay・NT${amount}"
+		},
+		"submitPlain": "Continue to ECPay",
+		"redirecting": "Going to ECPay",
+		"fine": {
+			"monthly": "Charged automatically every month until you cancel. An email is sent for each payment, with a link to cancel. Card only.",
+			"once": "Charged just this once. You can pay by card, ATM, or convenience store (as shown on ECPay's payment page)."
+		},
+		"cardNote": "Your card number is entered only on ECPay's page. Porchlamps can't touch it and doesn't store it.",
+		"emailNeeded": "Enter an email that can receive mail. The e-invoice will be sent there.",
+		"invalid": "The amount or email doesn't look quite right. Fix it and send again.",
+		"busy": "A lot was sent just now. Try again in a minute.",
+		"failed": "Can't send it right now. Try again later, or write to {email}",
+		"manage": {
+			"loading": "Loading",
+			"gone": "This link has expired or is incomplete. You can tap it again from the email.",
+			"loadFailed": "Can't load the sponsorship details right now. Try again later.",
+			"amount": "Monthly amount",
+			"amountValue": "NT${amount}",
+			"started": "Start date",
+			"notStarted": "Not charged yet",
+			"times": "Charged",
+			"timesValue": "{n, plural, one {{n} payment} other {{n} payments}}",
+			"next": "Next charge",
+			"status": "Status",
+			"statuses": {
+				"pending": "Waiting for the first charge",
+				"active": "Charging monthly",
+				"failing": "The last charge didn't go through",
+				"cancelled": "Canceled",
+				"ended": "Ended",
+				"paid": "Paid",
+				"failed": "Payment didn't go through"
+			},
+			"cancel": "Cancel monthly sponsorship",
+			"cancelling": "Canceling",
+			"cancelNote": "Once canceled, it can't be restored. If you want to sponsor again, just start over from the sponsor page.",
+			"cancelFailed": "Can't cancel right now. Try again later; if it keeps failing, write to {email}",
+			"done": "It's canceled. There won't be any more charges, and a confirmation will be sent to your email. Thank you for the tea all this time.",
+			"stopped": "This monthly sponsorship has stopped.",
+			"again": "Back to the sponsor page"
+		}
+	},
+	"sponsorMail": {
+		"anonymous": "Anonymous",
+		"money": "NT${amount}",
+		"date": "{month}/{day}",
+		"monthlyDay": "{day, selectordinal, one {{day}st} two {{day}nd} few {{day}rd} other {{day}th}} of each month",
+		"monthlyDayUnknown": "same day each month",
+		"periods": "{n, plural, one {{n} payment} other {{n} payments}}",
+		"sign": "The author of Porchlamps",
+		"manage": "Manage my sponsorship",
+		"again": "Sponsor again",
+		"home": "Back to Porchlamps",
+		"facts": {
+			"amount": "Amount",
+			"monthlyAmount": "Monthly amount",
+			"periodAmount": "This payment",
+			"chargeDay": "Charge day",
+			"paidOn": "Paid on",
+			"periods": "Total so far",
+			"method": "Payment method",
+			"card": "Credit card (ECPay)"
+		},
+		"invoice": "ECPay will send the e-invoice to this address separately.",
+		"thanksOnce": {
+			"subject": "Your sponsorship came through. Thank you",
+			"preheader": "{amount} went through.",
+			"heading": "Received. Thank you",
+			"body": "Your sponsorship of {amount} went through. Porchlamps has no ads; the server and domain are kept going by kindness like this.",
+			"closing": "The lamps will be on tonight too."
+		},
+		"thanks": {
+			"subject": "Your monthly sponsorship came through. Thank you",
+			"preheader": "Your first payment of {amount} went through. After this, it's charged on the {day}.",
+			"heading": "Received. Thank you",
+			"body": "Your first payment of {amount} went through. For a small site looked after by one person, having someone stay with it every month is a real relief.",
+			"note": "You'll get an email for every charge. If you ever want to stop, press the button below to cancel. No need to sign in, and no need to explain.",
+			"closing": "Thank you."
+		},
+		"charged": {
+			"subject": "This month's sponsorship came through. Thank you",
+			"preheader": "Your {n, selectordinal, one {{n}st} two {{n}nd} few {{n}rd} other {{n}th}} payment, {amount}, went through.",
+			"heading": "Received again this month",
+			"body": "Your {n, selectordinal, one {{n}st} two {{n}nd} few {{n}rd} other {{n}th}} payment, {amount}, went through. Thank you for still being here this month.",
+			"note": "If you want to stop, press the button below to cancel. No need to sign in.",
+			"closing": "See you next month."
+		},
+		"failed": {
+			"subject": "This month's sponsorship charge didn't go through",
+			"preheader": "This month's {amount} didn't go through.",
+			"heading": "This month's charge didn't go through",
+			"body": "This month's {amount} didn't go through. Common reasons are an expired card, not enough credit, or a card that's been deactivated. You won't be charged anything extra.",
+			"note": "If you'd like to continue, please check your card; after 6 failed charges in a row, ECPay automatically stops this monthly sponsorship. If you don't want to continue, you can also cancel right from below.",
+			"closing": "Either way, thank you for all your support so far."
+		},
+		"cancelled": {
+			"subject": "Monthly sponsorship canceled",
+			"preheader": "There won't be any more charges.",
+			"heading": "Monthly sponsorship canceled",
+			"body": "Your monthly sponsorship ({amount} a month) has been canceled. There won't be any more charges.",
+			"thanks": "{n, plural, =0 {Thank you for all this time.} one {Thank you for this month.} other {Thank you for these {n} months.}}",
+			"note": "The site will stay open. If you'd like to support it again someday, one-time or monthly both work.",
+			"status": "Sponsorship record",
+			"closing": "Thank you."
+		},
+		"ended": {
+			"subject": "Your monthly sponsorship ends with this payment. Thank you",
+			"preheader": "{n, plural, one {That was the only payment} other {All {n} payments are done}}. There won't be any more charges.",
+			"heading": "That was the last payment. Thank you",
+			"body": "Your monthly sponsorship ({amount} a month) has completed {n, plural, one {its {n} payment} other {all {n} payments}}. There won't be any more charges.",
+			"note": "Thank you for being here for such a long time. The site will stay open. If you'd like to support it again, one-time or monthly both work.",
+			"closing": "Thank you."
+		},
+		"footer": {
+			"monthly": "This email was sent to {email} because you set up a monthly sponsorship on Porchlamps.",
+			"once": "This email was sent to {email} because you sponsored Porchlamps."
+		},
+		"toAuthor": {
+			"subject": "Sponsorship message from {name}: {kind} {amount}",
+			"heading": "Someone left a message with their sponsorship",
+			"monthly": "Monthly",
+			"once": "One-time",
+			"name": "Name",
+			"time": "Time",
+			"timeValue": "{month}/{day} {clock}",
+			"amount": "Amount",
+			"email": "Email",
+			"noEmail": "(No email)",
+			"note": "To reply, write to the email above. The message is only in this email and the sponsorship admin page, and is not made public.",
+			"footer": "This email is sent only to the author of Porchlamps."
+		}
+	},
+	"hotlines": {
+		"label": "{name} {number}, {hours}",
+		"tw": {
+			"0": {
+				"name": "Mental Health Hotline (安心專線)",
+				"hours": "24 hours a day"
+			},
+			"1": {
+				"name": "Lifeline (生命線)",
+				"hours": "24 hours a day"
+			}
+		},
+		"hk": {
+			"0": {
+				"name": "The Samaritan Befrienders Hong Kong (撒瑪利亞防止自殺會)",
+				"hours": "24 hours a day"
+			},
+			"1": {
+				"name": "Suicide Prevention Services (生命熱線)",
+				"hours": "24 hours a day"
+			}
+		}
+	},
+	"pages": {
+		"support": {
+			"title": "Buy the author a coffee",
+			"description": "Porchlamps is made by one person after work. You can sponsor the author monthly or once, paying through ECPay.",
+			"lead": {
+				"0": "Porchlamps is made by one person after work.",
+				"1": "Servers, the domain, and sending email all cost money.",
+				"2": "If you'd like, you can treat the author to a cup."
+			},
+			"useTitle": "Where the money goes",
+			"use": "Servers, the domain, sending that morning email, and the tea the author drinks while staying up late. Porchlamps has no ads; sponsoring doesn't change who gets seen, and lamps, houses, and the map have nothing to do with sponsorship.",
+			"payTitle": "How to pay",
+			"pay": {
+				"0": "Choose monthly or one-time and the amount, then press \"Continue to ECPay\" to pay on ECPay's payment page. Your card number is entered only on ECPay's side; Porchlamps can't touch it and doesn't store it.",
+				"1": "One-time payments can be made by card, or by ATM transfer or a convenience store payment code (as shown on ECPay's payment page); with ATM or convenience store payments, it only counts as complete once paid before the deadline. Monthly payments are card only; that's ECPay's rule for recurring payments.",
+				"2": "A monthly sponsorship charges the same amount once a month until you cancel. Whether each charge succeeds or not, an email is sent to the address you entered, with a link to manage it. If you want to stop, you can stop it yourself at any time, without signing in.",
+				"3": "This is a sponsorship; nothing will be mailed to you. Every payment gets an e-invoice, which ECPay sends to the email you entered and keeps in its e-invoice carrier under that email, so both one-time and monthly need an email."
+			},
+			"refundTitle": "Refunds",
+			"refund": "Sponsorships are generally not refunded once complete. If you were charged twice or entered the wrong amount, please write to {email} within {days} days of paying, with the payment time and amount. Once confirmed, it will be refunded in full.",
+			"storeTitle": "Store information",
+			"storeName": "Store name: {name}",
+			"storeTaxId": "Tax ID number: {taxId}",
+			"storeEmail": "Contact email: ",
+			"thanks": {
+				"title": "Thank you",
+				"description": "The page you come back to after paying for a sponsorship.",
+				"body": {
+					"0": "Thank you for treating the author to a cup. Porchlamps doesn't run ads, and the author has always paid the costs alone; with someone sharing a little, it really is much lighter.",
+					"1": "Once the payment is complete, a thank-you note from the author will be sent to the email you entered; the e-invoice is also issued once the payment succeeds, and sent to the same address.",
+					"2": "For a monthly sponsorship, the thank-you note has a link to manage and cancel it; another email is sent for each charge after that.",
+					"3": "With ATM or a convenience store payment code, it only counts as complete once paid before the deadline."
+				},
+				"mail": "If no email has arrived after a while, check your spam folder first. If the amount was wrong or you were charged twice, write to {email} with the payment time and amount."
+			},
+			"manage": {
+				"title": "Manage my sponsorship",
+				"description": "See the status of your monthly sponsorship, or cancel it."
+			}
+		},
+		"privacy": {
+			"title": "Privacy policy",
+			"description": "What Porchlamps records, why it's needed, how long it's kept, and what you can do with your own data.",
+			"effective": "Effective November 20, 2026",
+			"intro": "Porchlamps only records the information needed to keep the site working. This page explains what we record, why we need it, how long we keep it, and what you can do with your own data.",
+			"storedTitle": "What we record",
+			"stored": {
+				"0": "Your Google account identifier (sub) and the email verified by Google: stored only if you choose to sign in. The sub is used to recognize your house. The email is used for only two things: sending you email when you turn on \"Tell me by email in the morning\", and confirming it's you when you write to ask for your data to be deleted. The email is not made public and is not used for anything else. We don't store your name or profile picture. People who don't sign in with Google can leave an email themselves to get the morning email. It's only sent after you click the link in the confirmation email, which is also sent through Cloudflare; if you don't click it, no morning email is sent.",
+				"1": "Nickname: one you choose yourself, or one picked for you at random.",
+				"2": "The line you leave, and the city or district you chose at the time. What everyone sees is \"so-and-so in some city or district\".",
+				"3": "The lamps you light and the ones you receive. The city or district you chose and the time when you light a lamp become a small postmark, sent to the other person.",
+				"4": "Which lines you reported.",
+				"5": "What you write in \"Feedback\", and the optional contact info: once sent, it becomes a to-do item in the author's private GitHub project, along with your browser version information, and with your house code if you have a house. These are not stored in Porchlamps' database and are not made public.",
+				"6": "A hash of your IP: used to prevent abuse and to handle reports. The hashing key is changed every night, and the hash can't be turned back into the original IP.",
+				"7": "Notification subscriptions: stored only when you turn on notifications on your profile page or after you've said your line. It contains the push address the browser gives, the encryption keys, and which kinds of notifications you turned on. It's only used to send these three kinds of notifications: \"someone lit a lamp for you\", \"some lamps lit up for you\", and \"a reminder in the evening to come back\". The \"someone lit a lamp for you\" notification says which city or district the person lighting the lamp is in and which lamp they lit. Notifications never contain any content of a line or any nickname. Notifications are encrypted and passed along by your browser vendor's push service (for example Google, Apple, or Mozilla), which can't see the content.",
+				"8": "One cookie: used only to recognize who you are, so that when you come back next time you return to the same house. During the few minutes of signing in there is also a temporary cookie, which is cleared once it's been used.",
+				"9": "Your browser's localStorage: helps remember which small tips you've seen, how many lamps you've lit tonight, and whether you've dismissed the sign-in or \"Add to Home Screen\" reminders. These stay only on your own device.",
+				"10": "Sponsorship records: only if you sponsor through \"Buy the author a coffee\". We store the email you enter, the optional name and message, the amount, whether it's monthly or one-time, and the record of each charge and e-invoice (the time, whether it succeeded, and the invoice number). Your card number is entered on ECPay's payment page; Porchlamps never receives it and doesn't store it. These records have no connection to your Porchlamps account or house, and are not matched against the email you sign in with. The sponsorship email is used for only four things: charge notices, the link to manage a monthly sponsorship, e-invoices, and the author's reply to your message. It does not get the morning email."
+			},
+			"purposeTitle": "Why we keep it",
+			"purpose": "This data is only used to keep Porchlamps running: recognizing your house, showing your words to others, counting the lamps on houses and the map, and blocking abuse and handling reports. It is not used for ads, is not sold, and is not given to anyone.",
+			"keepTitle": "How long we keep it",
+			"keep": {
+				"0": "Lines, lamps, and house: kept until you delete your account. Others can see your line on tonight's screen for 24 hours; if your house is open, they can also see your lines from the last 7 nights.",
+				"1": "IP hashes used for rate limiting: deleted after 2 days. The one attached to a report is deleted together with that line.",
+				"2": "Notification subscriptions: until you turn notifications off, delete your account, or the push service tells us the subscription is no longer valid.",
+				"3": "The cookie that recognizes you: 400 days. The temporary sign-in cookie: 10 minutes.",
+				"4": "Feedback: kept in the author's private GitHub project. To have it deleted, write to the author.",
+				"5": "Sponsorship records: a monthly sponsorship is kept for 365 days after it's canceled or all of its payments are done; a completed one-time payment is kept for 90 days; orders that were never paid are deleted after 3 days for monthly and 8 days for one-time (ATM and convenience store payments need time to be paid). When they're deleted, their charge records are deleted with them. Records held by ECPay and for e-invoices are kept as ECPay's rules and tax law require.",
+				"6": "Email addresses that haven't been confirmed: kept for up to two days, then deleted."
+			},
+			"whoSeesTitle": "Who sees this",
+			"whoSees": {
+				"0": "Others can see your nickname, your city or district, and your line from tonight; also your house's lines from the last 7 nights and what your house looks like (without lamp counts), and, when you light a lamp, the nickname and postmark next to the lamp. If you agree to share, others can turn a line into an image without your nickname, city or district and share it outside the site. The house part can be turned off on your profile page; for people who joined before this feature launched, the house is off by default, and lamps they lit earlier don't carry a nickname.",
+				"1": "The author can see all lines (including hidden ones), to handle reports and keep the community safe.",
+				"2": "Only the author can see the feedback you write.",
+				"3": "The author can see recordings of screen activity in Microsoft Clarity. They include the lines and nicknames that were on screen at the time, but not your Google account.",
+				"4": "When someone writes something heavier, or a line is hidden because it was reported, the author gets a notification on Discord. The notification only contains a number, and does not include what the line said.",
+				"5": "Sponsors' email, name, message, and amount can be seen only by the author, and never appear anywhere on Porchlamps; lamps, houses, and the map have nothing to do with sponsorship."
+			},
+			"servicesTitle": "Services that help it run",
+			"servicesLead": "Porchlamps uses the services below. They handle the data that passes through them according to their own privacy policies:",
+			"services": {
+				"0": {
+					"name": "Cloudflare",
+					"use": "Site hosting and database; data may be stored outside Taiwan and Hong Kong. It also sends the morning email, the email confirmation, and sponsorship charge notices, and only gets the recipient's email address and the contents of the email",
+					"url": "https://www.cloudflare.com/privacypolicy/"
+				},
+				"1": {
+					"name": "Google sign-in",
+					"use": "Only used when you choose to sign in. Google only sends back your sub and email",
+					"url": "https://policies.google.com/privacy"
+				},
+				"3": {
+					"name": "Google Analytics 4",
+					"use": "Measures overall use. It only sends event names and counts, and does not include the content of lines or personal identity. It sets its own cookie, which you can turn off with your browser's tracking protection",
+					"url": "https://policies.google.com/privacy"
+				},
+				"4": {
+					"name": "Microsoft Clarity",
+					"use": "To understand how people use the interface (clicks, scrolling, and screen recordings). Text in input boxes is masked automatically, but the lines and nicknames shown on screen are recorded. It sets its own cookie, which you can turn off with your browser's tracking protection",
+					"url": "https://privacy.microsoft.com/privacystatement"
+				},
+				"5": {
+					"name": "GitHub",
+					"use": "Where feedback is stored: the author's private project, which only the author can see",
+					"url": "https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement"
+				},
+				"6": {
+					"name": "Discord",
+					"use": "Where the author receives notifications. It only receives a number",
+					"url": "https://discord.com/privacy"
+				},
+				"7": {
+					"name": "ECPay",
+					"use": "Sponsorship payments and e-invoices. What you fill in on the payment page is handled by ECPay. The email you enter is given to ECPay to issue the e-invoice and keep it in ECPay's e-invoice carrier under that email, and ECPay sends you the notice that it was issued",
+					"url": "https://www.ecpay.com.tw/CreditCard/Privacy_20131226"
+				}
+			},
+			"rightsTitle": "What you can do",
+			"rights": "Under Taiwan's Personal Data Protection Act, you can ask to look up, view, copy, correct, stop the use of, or delete your data. The most direct way is in \"My house\": it has all of your lines and lamps. From the top right you can go to your profile page to change your nickname, city or district, and to decide whether others can visit your house. \"Delete account\" at the very bottom clears your account, the words you've said, the lamps you've received, and your whole house together, and it can't be undone. As for the lamps you lit for others, they stay in their houses anonymously and are no longer connected to you in any way. If you're in Hong Kong, under Hong Kong's Personal Data (Privacy) Ordinance, you can likewise ask to access and correct your data, in the same way as above.",
+			"deleteLink": "Go to your profile page",
+			"rightsMail": "For other requests, you can write to the author. If you write from the email you signed in with, the author can confirm it's you. If you write from another address, the author can only search using the nickname, city or district, and date you give in the email, and can't confirm that the sender is the owner of the house.",
+			"changesTitle": "Changes to this page",
+			"changes": "When what we store or how it's used changes, this page and the date above will be updated."
+		},
+		"terms": {
+			"title": "Terms of use",
+			"description": "A few things we'd like you to know before you leave a line or light a lamp on Porchlamps.",
+			"effective": "Effective November 19, 2026",
+			"intro": "Porchlamps is a place where people keep each other company at night. Before you start, please look through these points. Continuing to use it means you agree to them.",
+			"whoTitle": "Who can use it",
+			"who": "You must be at least 13 years old to use it. If you're under 18, please let a parent or guardian know first.",
+			"dontTitle": "Please don't",
+			"dont": {
+				"0": "Don't leave any contact information (such as a phone number, social media account, or email).",
+				"1": "Don't leave personal information that could identify you or someone else.",
+				"2": "Don't harass, insult, or threaten others, or pretend to be someone else.",
+				"3": "Don't post ads or scam messages, or use programs to leave lines, light lamps, or report in bulk."
+			},
+			"wordsTitle": "What you say",
+			"words": "What you say belongs to you. You agree that Porchlamps may display it in order to provide the service: shown to others for 24 hours, and afterward kept only in your house until you delete your account. Share cards don't include anyone's line unless the person who wrote it agrees that line can be shared. That agreement can be withdrawn at any time, but an image that has already been shared can't be taken back.",
+			"careTitle": "Care and moderation",
+			"care": {
+				"0": "A line reported by two different people is hidden for now, and reviewed by the author.",
+				"1": "The author can hide lines and restrict people who break the rules, without further notice.",
+				"2": "This place is run by the author alone, who isn't on call at night, so a quick response can't be guaranteed."
+			},
+			"houseTitle": "Your house",
+			"house": "A house that isn't signed in is only remembered in this browser's cookie, and can't be found again once it's cleared. If you sign in with Google, you can get back to the same house even on another device. You can delete your account at any time.",
+			"sponsorTitle": "Sponsorship",
+			"sponsor": {
+				"0": "Sponsoring is voluntary. It doesn't get you anything in return, and it doesn't change who gets seen; lamps, houses, and the map have nothing to do with sponsorship.",
+				"1": "Payments are handled by ECPay. A monthly sponsorship charges the same amount once a month until you cancel it with the manage link in the email; after you cancel, there are no more charges.",
+				"2": "Sponsorships are generally not refunded once complete. If you were charged twice or entered the wrong amount, please write to the author within {days} days of paying, with the payment time and amount. Once confirmed, it will be refunded in full."
+			},
+			"notService": "Porchlamps is not a counseling or crisis service. If you need someone to talk with, the About page has hotlines you can call.",
+			"aboutLink": "Go to About",
+			"asIsTitle": "The service itself",
+			"asIs": "Porchlamps is provided as is, and may be interrupted, changed, or stopped. The author will do their best to preserve every house, but can't guarantee that data will never be lost. To the extent the law allows, the author is not responsible for indirect losses caused by using Porchlamps.",
+			"changesTitle": "Changes to the terms",
+			"changes": "When the terms change, this page and the date above will be updated. If you keep using Porchlamps afterward, it means you agree to the new terms.",
+			"lawTitle": "Governing law",
+			"law": "These terms are governed by the laws of the Republic of China (Taiwan). Any dispute arising from them will have the Taiwan Taipei District Court as the court of first instance."
+		}
 	}
 }
