@@ -5,14 +5,6 @@
 		"description": "",
 		"ogAlt": ""
 	},
-	"legend": {
-		"open": "",
-		"rules": {
-			"0": "",
-			"1": "",
-			"2": ""
-		}
-	},
 	"hints": {
 		"planeAimed": "",
 		"planeDrift": "",
@@ -39,6 +31,16 @@
 		"shareStory": ""
 	},
 	"tonight": {
+		"newyearRemind": {
+			"open": "",
+			"ics": "",
+			"google": "",
+			"push": "",
+			"pushOn": "",
+			"pushFailed": "",
+			"calendarTitle": "",
+			"calendarDetails": ""
+		},
 		"newyear": {
 			"minutes": "",
 			"seconds": "",
@@ -63,6 +65,7 @@
 		"noLightYet": "",
 		"nthLight": "",
 		"litBefore": "",
+		"litLine": "",
 		"loading": "",
 		"loadFailed": "",
 		"mine": "",
@@ -71,7 +74,24 @@
 		"moreLights": "",
 		"inputPlaceholder": "",
 		"leave": "",
-		"rise": ""
+		"rise": "",
+		"riseWait": "",
+		"echo": {
+			"returned": "",
+			"first": "",
+			"sameCity": "",
+			"nth": ""
+		},
+		"nightEnd": {
+			"line": "",
+			"more": ""
+		}
+	},
+	"sound": {
+		"toggle": "",
+		"ask": "",
+		"yes": "",
+		"no": ""
 	},
 	"actions": {
 		"house": "",
@@ -91,7 +111,22 @@
 		"backTonight": "",
 		"retry": "",
 		"write": "",
-		"mine": ""
+		"mine": "",
+		"reportFlow": {
+			"title": "",
+			"why": "",
+			"reasons": {
+				"harass": "",
+				"contact": "",
+				"sexual": "",
+				"other": ""
+			},
+			"submit": "",
+			"cancel": "",
+			"failed": "",
+			"done": "",
+			"ok": ""
+		}
 	},
 	"compose": {
 		"label": "",
@@ -252,6 +287,12 @@
 		"morningWithPlanes": "",
 		"morningLines": "",
 		"evening": "",
+		"newyearTwoDays": "",
+		"newyearTomorrow": "",
+		"newyearTonight": "",
+		"newyearGiver": "",
+		"wantsNewyear": "",
+		"wantsNewyearGiver": "",
 		"ask": "",
 		"wantsLights": "",
 		"wantsEvening": "",
@@ -317,6 +358,8 @@
 			"unknown": ""
 		},
 		"send": "",
+		"sendTo": "",
+		"to": "",
 		"drift": "",
 		"fire": "",
 		"sent": "",
@@ -413,6 +456,7 @@
 		"subject": "",
 		"subjectPlanes": "",
 		"planes": "",
+		"newyear": "",
 		"preheader": "",
 		"preheaderPlanes": "",
 		"brand": "",
@@ -715,7 +759,8 @@
 				"1": ""
 			}
 		},
-		"domain": ""
+		"domain": "",
+		"findUs": ""
 	},
 	"ogQuips": {
 		"taipei": "",
