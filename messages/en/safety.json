@@ -205,22 +205,22 @@
 		"label": "{name} {number} ({hours})",
 		"tw": {
 			"0": {
-				"name": "安心專線",
-				"hours": "24 hours"
+				"name": "1925 Mental Health Hotline (安心專線)",
+				"hours": "24 hours a day"
 			},
 			"1": {
-				"name": "生命線",
-				"hours": "24 hours"
+				"name": "Lifeline (生命線)",
+				"hours": "24 hours a day"
 			}
 		},
 		"hk": {
 			"0": {
-				"name": "撒瑪利亞防止自殺會",
-				"hours": "24 hours"
+				"name": "The Samaritan Befrienders Hong Kong (撒瑪利亞防止自殺會)",
+				"hours": "24 hours a day"
 			},
 			"1": {
-				"name": "生命熱線",
-				"hours": "24 hours"
+				"name": "Suicide Prevention Services (生命熱線)",
+				"hours": "24 hours a day"
 			}
 		}
 	},

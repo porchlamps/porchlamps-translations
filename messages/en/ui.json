@@ -63,7 +63,7 @@
 			"seeYou": "All set, see you in the morning"
 		},
 		"noLightYet": "{daypart, select, morning {This line will glow for 24 hours. Come back tonight to see who stopped by} day {This line will glow for 24 hours. Come back tonight to see who stopped by} evening {This line will glow for 24 hours. Come back tomorrow to see who stopped by} other {This line will glow for 24 hours. Come back after you've slept to see who stopped by}}",
-		"nthLight": "{n, selectordinal, one {The {n}st lamp lit for you} two {The {n}nd lamp lit for you} few {The {n}rd lamp lit for you} other {The {n}th lamp lit for you}}",
+		"nthLight": "Someone has lit a lamp for you for the {n, selectordinal, one {{n}st} two {{n}nd} few {{n}rd} other {{n}th}} time",
 		"litBefore": "You've lit a lamp for them before",
 		"litLine": "Lamp lit. It'll glow for 24 hours, and they'll see it when they're back",
 		"loading": "{daypart, select, morning {Loading today's lines} day {Loading today's lines} evening {Loading tonight's lines} other {Loading tonight's lines}}",
@@ -73,16 +73,16 @@
 		"sayAnother": "Say one more",
 		"moreLights": "More lamps",
 		"inputPlaceholder": "{daypart, select, morning {What's on your mind today…} day {What's on your mind today…} evening {What's on your mind tonight…} other {What's on your mind tonight…}}",
-		"leave": "Leave it",
+		"leave": "Leave it here",
 		"rise": "{n, plural, one {{n} lamp glowed for you last night} other {{n} lamps glowed for you last night}}",
 		"echo": {
 			"returned": "You lit a lamp for them before, and they came back",
 			"first": "Their first lamp tonight",
 			"sameCity": "You're both in {city}",
-			"nth": "You're number {n} to light one for them"
+			"nth": "You're the {n, selectordinal, one {{n}st} two {{n}nd} few {{n}rd} other {{n}th}} to light one for them"
 		},
 		"nightEnd": {
-			"line": "{n, plural, one {Tonight your {n} lamp landed here} other {Tonight your {n} lamps landed in these places}}",
+			"line": "{n, plural, one {Tonight your lamp landed here} other {Tonight your {n} lamps landed in these places}}",
 			"more": "Light a few more"
 		}
 	},
@@ -195,7 +195,7 @@
 		"greeting": "Good morning",
 		"nightPassed": "{n, plural, one {{n} lamp came by in the night} other {{n} lamps came by in the night}}",
 		"whileAway": "{n, plural, one {{n} lamp came by while you were away} other {{n} lamps came by while you were away}}",
-		"nth": "{n, selectordinal, one {The {n}st lamp lit for you} two {The {n}nd lamp lit for you} few {The {n}rd lamp lit for you} other {The {n}th lamp lit for you}}",
+		"nth": "The {n, selectordinal, one {{n}st} two {{n}nd} few {{n}rd} other {{n}th}} time they've lit a lamp for you",
 		"enter": "See my house"
 	},
 	"house": {
@@ -279,7 +279,7 @@
 		"morningPlanes": "{n, plural, one {{n} paper plane is waiting at your door} other {{n} paper planes are waiting at your door}}",
 		"morningWithPlanes": "{n, plural, one {{n} lamp glowed for you} other {{n} lamps glowed for you}}, and {planes, plural, one {{planes} paper plane is waiting at your door} other {{planes} paper planes are waiting at your door}}",
 		"morningLines": "{n, plural, one {In the night, {n} person you lit a lamp for said one more thing} other {In the night, {n} people you lit lamps for said one more thing}}",
-		"evening": "Home yet? Have something to say tonight",
+		"evening": "Home yet? Anything you'd like to say tonight",
 		"newyearTwoDays": "New Year's Eve is the day after tomorrow. On the night of 12/31, everyone lights lamps and counts down together",
 		"newyearTomorrow": "New Year's Eve is tomorrow. Count down together at 11 p.m. on 12/31",
 		"newyearTonight": "Tonight at 11 p.m., all of Taiwan lights lamps and counts down together",
@@ -346,7 +346,7 @@
 			"sleep": "Get a good night's sleep tonight",
 			"awake": "You're not the only one awake",
 			"seeyou": "See you tomorrow",
-			"enough": "Leave today here. It's already good enough",
+			"enough": "Let's stop here for today. That's already enough",
 			"far": "Someone far away is thinking of you",
 			"unknown": "Someone folded a plane for you"
 		},
@@ -526,10 +526,10 @@
 	"pages": {
 		"about": {
 			"title": "About Porchlamps",
-			"description": "Porchlamps is a quiet little place: when you can't sleep at night, leave a line, and someone will quietly light a lamp for you. No real names, and no one to keep track of.",
+			"description": "Porchlamps is a quiet little place: when you can't sleep at night, leave a line, and someone will quietly light a lamp for you. No real names, and no one to follow.",
 			"what": {
 				"0": "Porchlamps is a quiet little place: when you can't sleep at night, come here and leave a line, and someone will quietly light a lamp for you.",
-				"1": "There are no real names, no profile pictures, and no one to keep track of. The lines and lamps stay lit on the home page for only 24 hours.",
+				"1": "There are no real names, no profile pictures, and no one to follow. The lines and lamps stay lit on the home page for only 24 hours.",
 				"2": "After you light 3 lamps, you can set off a firework over a city or district, without leaving your name. When every line left in a city or district has had a lamp lit for it, the ground there lights up.",
 				"3": "You can invite a friend to Porchlamps. Once they leave their first line, each of you gets a firework, and you have seven days to set it off. The link won't lead them to your house or your lines, and you won't know which line is theirs.",
 				"4": "After you sign in, you can send a paper plane to a line you lit a lamp for tonight, or let one drift on the wind and land at the door of someone who left a line tonight. One plane a night. It only carries a few set phrases: you can't type, and no one can reply. You won't know if they open it. If no one opens it within 24 hours, it flies away."
