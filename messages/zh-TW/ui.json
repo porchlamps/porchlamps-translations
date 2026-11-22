@@ -5,14 +5,6 @@
 		"description": "晚上回到家、睡不著，想說話又不想回訊息？在留燈匿名留一句，別人不能回你，只能默默替你點一盞燈，亮在台灣的夜晚地圖上。",
 		"ogAlt": "留燈：回到家，留一句話，會有人替你點一盞燈"
 	},
-	"legend": {
-		"open": "燈的顏色與規則",
-		"rules": {
-			"0": "這裡不聊天，只點燈。不用回，不用解釋",
-			"1": "每盞燈亮 24 小時",
-			"2": "一晚可以留一句話"
-		}
-	},
 	"hints": {
 		"planeAimed": "也可以射一架紙飛機給他",
 		"planeDrift": "讓一架紙飛機隨風飛，落到某個人家門口",
@@ -39,6 +31,16 @@
 		"shareStory": "把這句做成卡片分享"
 	},
 	"tonight": {
+		"newyearRemind": {
+			"open": "跨年那晚叫我",
+			"ics": "加到行事曆",
+			"google": "Google 日曆",
+			"push": "用通知叫我",
+			"pushOn": "12/31 晚上會通知你",
+			"pushFailed": "沒設定成功，晚點再試",
+			"calendarTitle": "留燈：一起點燈倒數",
+			"calendarDetails": "今晚 23:00，全台一起點燈倒數"
+		},
 		"newyear": {
 			"minutes": "離 2027 還有 {m} 分鐘",
 			"seconds": "離 2027 還有 {s} 秒",
@@ -63,6 +65,7 @@
 		"noLightYet": "{daypart, select, morning {這句話會亮 24 小時，晚上再來看看誰來過} day {這句話會亮 24 小時，晚上再來看看誰來過} evening {這句話會亮 24 小時，明天再來看看誰來過} other {這句話會亮 24 小時，睡醒再來看看誰來過}}",
 		"nthLight": "第 {n} 次替你點燈了",
 		"litBefore": "你之前點過他的燈",
+		"litLine": "燈點好了，會亮 24 小時，他回來就看得到",
 		"loading": "{daypart, select, morning {正在讀今天的話} day {正在讀今天的話} evening {正在讀今晚的話} other {正在讀今晚的話}}",
 		"loadFailed": "連線不太穩，晚點再試",
 		"mine": "{cityName}・你",
@@ -71,7 +74,17 @@
 		"moreLights": "其他的燈",
 		"inputPlaceholder": "{daypart, select, morning {今天想說什麼…} day {今天想說什麼…} evening {今晚想說什麼…} other {今晚想說什麼…}}",
 		"leave": "留下",
-		"rise": "昨晚 {n} 盞燈為你亮著"
+		"rise": "昨晚 {n} 盞燈為你亮著",
+		"echo": {
+			"returned": "你為他點過燈，他又回來了",
+			"first": "他今晚的第一盞燈",
+			"sameCity": "你們都在{city}",
+			"nth": "你是第 {n} 個為他亮的"
+		},
+		"nightEnd": {
+			"line": "今晚你的 {n} 盞燈落在這些地方",
+			"more": "再點一些"
+		}
 	},
 	"actions": {
 		"house": "我的房子",
@@ -91,7 +104,22 @@
 		"backTonight": "回到地圖",
 		"retry": "再試一次",
 		"write": "留一句",
-		"mine": "看我今晚說的"
+		"mine": "看我今晚說的",
+		"reportFlow": {
+			"title": "檢舉這句話",
+			"why": "最接近的是",
+			"reasons": {
+				"harass": "攻擊、騷擾或歧視別人",
+				"contact": "留了聯絡方式或廣告",
+				"sexual": "色情或讓人不舒服的內容",
+				"other": "其他"
+			},
+			"submit": "送出檢舉",
+			"cancel": "取消",
+			"failed": "沒有送出去，晚點再試一次",
+			"done": "已收到，謝謝你",
+			"ok": "好"
+		}
 	},
 	"compose": {
 		"label": "{daypart, select, morning {今天想說的一句話} day {今天想說的一句話} evening {今晚想說的一句話} other {今晚想說的一句話}}",
@@ -252,6 +280,12 @@
 		"morningWithPlanes": "有 {n} 盞燈為你亮過，門口還有 {planes} 架紙飛機在等你",
 		"morningLines": "夜裡有 {n} 位你點過燈的人又說了一句",
 		"evening": "到家了嗎？今晚想說點什麼",
+		"newyearTwoDays": "後天就跨年了。12/31 晚上，大家一起點燈倒數",
+		"newyearTomorrow": "明天就跨年了。12/31 晚上 23:00 一起倒數",
+		"newyearTonight": "今晚 23:00，全台一起點燈倒數",
+		"newyearGiver": "今晚很多人第一次來，有人還在等第一盞燈",
+		"wantsNewyear": "跨年前兩晚提醒我",
+		"wantsNewyearGiver": "跨年夜 23:00 叫我來點燈",
 		"ask": "有人點燈時通知我",
 		"wantsLights": "收到燈或紙飛機時通知我",
 		"wantsEvening": "晚上提醒我回來留句話",
@@ -317,6 +351,8 @@
 			"unknown": "有人摺了一架飛機給你"
 		},
 		"send": "射一架紙飛機",
+		"sendTo": "射一架紙飛機給{who}",
+		"to": "給{who}",
 		"drift": "讓一架紙飛機隨風飛",
 		"fire": "射出去",
 		"sent": "飛出去了",
@@ -405,7 +441,7 @@
 		"story": {
 			"invite": "回到家，也留一句",
 			"brand": "留燈",
-			"domain": "porchlamps.app",
+			"domain": "Google 搜「留燈」・porchlamps.app",
 			"text": "回到家，也留一句話"
 		}
 	},
@@ -413,6 +449,7 @@
 		"subject": "有 {n} 盞燈為你亮過",
 		"subjectPlanes": "門口有紙飛機在等你",
 		"planes": "門口有 {n} 架紙飛機在等你",
+		"newyear": "今晚 23:00，全台一起點燈倒數",
 		"preheader": "昨晚你睡著以後，有人經過你家門口。",
 		"preheaderPlanes": "昨晚你睡著以後，有人摺了紙飛機給你。",
 		"brand": "留燈",
@@ -715,7 +752,8 @@
 				"1": "回到家可以留一句話"
 			}
 		},
-		"domain": "porchlamps.app"
+		"domain": "porchlamps.app",
+		"findUs": "Google 搜「留燈」・porchlamps.app"
 	},
 	"ogQuips": {
 		"taipei": "台北人下班了，順手點了幾盞燈",
