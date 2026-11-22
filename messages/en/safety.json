@@ -176,7 +176,7 @@
 		},
 		"ended": {
 			"subject": "Your monthly sponsorship ends with this payment. Thank you",
-			"preheader": "{n, plural, one {The {n} payment is done} other {All {n} payments are done}}. There won't be any more charges.",
+			"preheader": "{n, plural, one {That was the only payment} other {All {n} payments are done}}. There won't be any more charges.",
 			"heading": "That was the last payment. Thank you",
 			"body": "Your monthly sponsorship ({amount} a month) has completed {n, plural, one {its {n} payment} other {all {n} payments}}. There won't be any more charges.",
 			"note": "Thank you for being here for such a long time. The site will stay open. If you'd like to support it again, one-time or monthly both work.",
@@ -202,10 +202,10 @@
 		}
 	},
 	"hotlines": {
-		"label": "{name} {number} ({hours})",
+		"label": "{name} {number}, {hours}",
 		"tw": {
 			"0": {
-				"name": "1925 Mental Health Hotline (安心專線)",
+				"name": "Mental Health Hotline (安心專線)",
 				"hours": "24 hours a day"
 			},
 			"1": {
@@ -240,7 +240,7 @@
 				"0": "Choose monthly or one-time and the amount, then press \"Continue to ECPay\" to pay on ECPay's payment page. Your card number is entered only on ECPay's side; Porchlamps can't touch it and doesn't store it.",
 				"1": "One-time payments can be made by card, or by ATM transfer or a convenience store payment code (as shown on ECPay's payment page); with ATM or convenience store payments, it only counts as complete once paid before the deadline. Monthly payments are card only; that's ECPay's rule for recurring payments.",
 				"2": "A monthly sponsorship charges the same amount once a month until you cancel. Whether each charge succeeds or not, an email is sent to the address you entered, with a link to manage it. If you want to stop, you can stop it yourself at any time, without signing in.",
-				"3": "This is a sponsorship; nothing will be mailed to you. Every payment gets an e-invoice, which ECPay sends to the email you entered and stores in your ECPay member carrier, so both one-time and monthly need an email."
+				"3": "This is a sponsorship; nothing will be mailed to you. Every payment gets an e-invoice, which ECPay sends to the email you entered and keeps in its e-invoice carrier under that email, so both one-time and monthly need an email."
 			},
 			"refundTitle": "Refunds",
 			"refund": "Sponsorships are generally not refunded once complete. If you were charged twice or entered the wrong amount, please write to {email} within {days} days of paying, with the payment time and amount. Once confirmed, it will be refunded in full.",
@@ -271,7 +271,7 @@
 			"intro": "Porchlamps only records the information needed to keep the site working. This page explains what we record, why we need it, how long we keep it, and what you can do with your own data.",
 			"storedTitle": "What we record",
 			"stored": {
-				"0": "Your Google account identifier (sub) and the email verified by Google: stored only if you choose to sign in. The sub is used to recognize your house. The email is used for only two things: sending you email when you turn on \"Tell me by email in the morning\", and confirming it's you when you write to ask for your data to be deleted. The email is not made public and is not used for anything else. We don't store your name or profile picture. People who don't sign in with Google can leave an email themselves to get the morning email. It's only sent after you click the confirmation email, which is also sent through Cloudflare; if you don't click it, no morning email is sent.",
+				"0": "Your Google account identifier (sub) and the email verified by Google: stored only if you choose to sign in. The sub is used to recognize your house. The email is used for only two things: sending you email when you turn on \"Tell me by email in the morning\", and confirming it's you when you write to ask for your data to be deleted. The email is not made public and is not used for anything else. We don't store your name or profile picture. People who don't sign in with Google can leave an email themselves to get the morning email. It's only sent after you click the link in the confirmation email, which is also sent through Cloudflare; if you don't click it, no morning email is sent.",
 				"1": "Nickname: one you choose yourself, or one picked for you at random.",
 				"2": "The line you leave, and the city or district you chose at the time. What everyone sees is \"so-and-so in some city or district\".",
 				"3": "The lamps you light and the ones you receive. The city or district you chose and the time when you light a lamp become a small postmark, sent to the other person.",
@@ -339,7 +339,7 @@
 				},
 				"7": {
 					"name": "ECPay",
-					"use": "Sponsorship payments and e-invoices. What you fill in on the payment page is handled by ECPay. The email you enter is given to ECPay to issue the e-invoice and store it in your ECPay member carrier, and ECPay sends you the notice that it was issued",
+					"use": "Sponsorship payments and e-invoices. What you fill in on the payment page is handled by ECPay. The email you enter is given to ECPay to issue the e-invoice and keep it in ECPay's e-invoice carrier under that email, and ECPay sends you the notice that it was issued",
 					"url": "https://www.ecpay.com.tw/CreditCard/Privacy_20131226"
 				}
 			},
