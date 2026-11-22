@@ -267,7 +267,7 @@
 		"privacy": {
 			"title": "Privacy policy",
 			"description": "What Porchlamps records, why it's needed, how long it's kept, and what you can do with your own data.",
-			"effective": "Effective November 20, 2026",
+			"effective": "Effective November 22, 2026",
 			"intro": "Porchlamps only records the information needed to keep the site working. This page explains what we record, why we need it, how long we keep it, and what you can do with your own data.",
 			"storedTitle": "What we record",
 			"stored": {
@@ -281,7 +281,8 @@
 				"7": "Notification subscriptions: stored only when you turn on notifications on your profile page or after you've said your line. It contains the push address the browser gives, the encryption keys, and which kinds of notifications you turned on. It's only used to send these three kinds of notifications: \"someone lit a lamp for you\", \"some lamps lit up for you\", and \"a reminder in the evening to come back\". The \"someone lit a lamp for you\" notification says which city or district the person lighting the lamp is in and which lamp they lit. Notifications never contain any content of a line or any nickname. Notifications are encrypted and passed along by your browser vendor's push service (for example Google, Apple, or Mozilla), which can't see the content.",
 				"8": "One cookie: used only to recognize who you are, so that when you come back next time you return to the same house. During the few minutes of signing in there is also a temporary cookie, which is cleared once it's been used.",
 				"9": "Your browser's localStorage: helps remember which small tips you've seen, how many lamps you've lit tonight, and whether you've dismissed the sign-in or \"Add to Home Screen\" reminders. These stay only on your own device.",
-				"10": "Sponsorship records: only if you sponsor through \"Buy the author a coffee\". We store the email you enter, the optional name and message, the amount, whether it's monthly or one-time, and the record of each charge and e-invoice (the time, whether it succeeded, and the invoice number). Your card number is entered on ECPay's payment page; Porchlamps never receives it and doesn't store it. These records have no connection to your Porchlamps account or house, and are not matched against the email you sign in with. The sponsorship email is used for only four things: charge notices, the link to manage a monthly sponsorship, e-invoices, and the author's reply to your message. It does not get the morning email."
+				"10": "Sponsorship records: only if you sponsor through \"Buy the author a coffee\". We store the email you enter, the optional name and message, the amount, whether it's monthly or one-time, and the record of each charge and e-invoice (the time, whether it succeeded, and the invoice number). Your card number is entered on ECPay's payment page; Porchlamps never receives it and doesn't store it. These records have no connection to your Porchlamps account or house, and are not matched against the email you sign in with. The sponsorship email is used for only four things: charge notices, the link to manage a monthly sponsorship, e-invoices, and the author's reply to your message. It does not get the morning email.",
+				"11": "Your browser's time zone name (for example, Asia/Taipei): used to separate each night by the time where you are, and so that notifications and the morning email reach you in your morning and evening. Others can't see it."
 			},
 			"purposeTitle": "Why we keep it",
 			"purpose": "This data is only used to keep Porchlamps running: recognizing your house, showing your words to others, counting the lamps on houses and the map, and blocking abuse and handling reports. It is not used for ads, is not sold, and is not given to anyone.",
@@ -302,7 +303,8 @@
 				"2": "Only the author can see the feedback you write.",
 				"3": "The author can see recordings of screen activity in Microsoft Clarity. They include the lines and nicknames that were on screen at the time, but not your Google account.",
 				"4": "When someone writes something heavier, or a line is hidden because it was reported, the author gets a notification on Discord. The notification only contains a number, and does not include what the line said.",
-				"5": "Sponsors' email, name, message, and amount can be seen only by the author, and never appear anywhere on Porchlamps; lamps, houses, and the map have nothing to do with sponsorship."
+				"5": "Sponsors' email, name, message, and amount can be seen only by the author, and never appear anywhere on Porchlamps; lamps, houses, and the map have nothing to do with sponsorship.",
+				"6": "The author can see your time zone name on the admin page, and uses it only to fill in lamps by the time where you are on New Year's Eve."
 			},
 			"servicesTitle": "Services that help it run",
 			"servicesLead": "Porchlamps uses the services below. They handle the data that passes through them according to their own privacy policies:",
