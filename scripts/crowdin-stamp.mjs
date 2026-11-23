@@ -41,7 +41,8 @@ export const planCrowdinStamps = ({
 	const stamped = [];
 	/** @type {string[]} */
 	const held = [];
-	for (const key of Object.keys(head).sort()) {
+	// 照譯文檔的順序（跟 validate.mjs --stamp 一樣），不排序：不然每個 Crowdin PR 都會重排整個 safety.hashes.json
+	for (const key of Object.keys(head)) {
 		const value = head[key];
 		const changed = value.trim() !== '' && value !== base[key];
 		if (!changed) {
