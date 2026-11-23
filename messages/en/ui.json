@@ -83,7 +83,6 @@
 			"nth": "You're the {n, selectordinal, one {{n}st} two {{n}nd} few {{n}rd} other {{n}th}} to light one for them"
 		},
 		"nightEnd": {
-			"line": "{n, plural, one {Tonight your lamp landed here} other {Tonight your {n} lamps landed in these places}}",
 			"more": "Light a few more"
 		}
 	},
@@ -143,7 +142,6 @@
 		},
 		"count": "{n}/{max}",
 		"countLabel": "{n, plural, one {{n} character written} other {{n} characters written}}, up to {max}",
-		"cityOnly": "{region, select, hk {Only your district will be shown} many {Only where you are will be shown} other {Only your city will be shown}}",
 		"share": {
 			"label": "This line can be made into a card and shared",
 			"hint": "{region, select, hk {Your name and district won't be on the card. Once an image is shared, it can't be taken back} many {Your name and where you are won't be on the card. Once an image is shared, it can't be taken back} other {Your name and city won't be on the card. Once an image is shared, it can't be taken back}}"
@@ -302,7 +300,8 @@
 		"needsInstall": "Add this to your Home Screen and open it from there to get notifications",
 		"unsupported": "This browser doesn't support notifications",
 		"serviceOff": "Your browser's push service is off. Turn it on in privacy settings",
-		"failed": "Couldn't set that up. Try again in a bit"
+		"failed": "Couldn't set that up. Try again in a bit",
+		"morningJoined": "{first}. {second}"
 	},
 	"me": {
 		"pageTitle": "Me・Porchlamps",
@@ -497,7 +496,11 @@
 			"sent": "The confirmation email is on its way. Open your inbox and tap it",
 			"invalid": "That doesn't look quite right",
 			"failed": "It didn't send. Try again in a moment"
-		}
+		},
+		"labeled": "{label}: {value}",
+		"mixLine": "· {label}  {count}",
+		"closingText": "{first} {second}",
+		"brandLine": "{brand} · {domain}"
 	},
 	"emailVerify": {
 		"mail": {

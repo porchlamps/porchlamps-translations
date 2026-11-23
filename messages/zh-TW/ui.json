@@ -63,7 +63,8 @@
 			"seeYou": "設好了，明早見"
 		},
 		"noLightYet": "{daypart, select, morning {這句話會亮 24 小時，晚上再來看看誰來過} day {這句話會亮 24 小時，晚上再來看看誰來過} evening {這句話會亮 24 小時，明天再來看看誰來過} other {這句話會亮 24 小時，睡醒再來看看誰來過}}",
-		"nthLight": "第 {n} 次替你點燈了",
+		"nthLight": "有人第 {n} 次替你點燈了",
+		"nthLightBy": "{who}，第 {n} 次替你點燈了",
 		"litBefore": "你之前點過他的燈",
 		"litLine": "燈點好了，會亮 24 小時，他回來就看得到",
 		"loading": "{daypart, select, morning {正在讀今天的話} day {正在讀今天的話} evening {正在讀今晚的話} other {正在讀今晚的話}}",
@@ -72,6 +73,7 @@
 		"chipLights": "{n} 盞燈",
 		"sayAnother": "再說一句",
 		"moreLights": "其他的燈",
+		"foldedLights": "還有 {n} 盞燈，展開",
 		"inputPlaceholder": "{daypart, select, morning {今天想說什麼…} day {今天想說什麼…} evening {今晚想說什麼…} other {今晚想說什麼…}}",
 		"leave": "留下",
 		"rise": "昨晚 {n} 盞燈為你亮著",
@@ -83,7 +85,24 @@
 			"nth": "你是第 {n} 個為他亮的"
 		},
 		"nightEnd": {
-			"line": "今晚你的 {n} 盞燈落在這些地方",
+			"quips": {
+				"q3": {
+					"warm": "三盞了，今晚的你很會照顧人",
+					"funny": "三盞，比小七的燈還暖"
+				},
+				"q6": {
+					"warm": "六盞，有人會因為你睡得好一點",
+					"funny": "六盞，你的手指比你還清醒"
+				},
+				"q9": {
+					"warm": "九盞了，記得也幫自己留一盞",
+					"funny": "九盞，市公所想找你去當路燈"
+				},
+				"q12": {
+					"warm": "{n} 盞，夜晚變得沒那麼長了",
+					"funny": "{n} 盞，台電打來問你還好嗎"
+				}
+			},
 			"more": "再點一些"
 		}
 	},
@@ -143,7 +162,7 @@
 		},
 		"count": "{n}/{max}",
 		"countLabel": "已經寫了 {n} 個字，最多 {max} 個字",
-		"cityOnly": "{region, select, hk {只會顯示地區} many {只會顯示所在的地方} other {只會顯示縣市}}",
+		"privacy": "{region, select, hk {匿名，別人只看得到地區和暱稱；24 小時後只留在你的房子裡} many {匿名，別人只看得到所在的地方和暱稱；24 小時後只留在你的房子裡} other {匿名，別人只看得到縣市和暱稱；24 小時後只留在你的房子裡}}",
 		"share": {
 			"label": "這句可以做成卡片分享出去",
 			"hint": "{region, select, hk {卡片上不會有你的名字和地區；分享出去的圖收不回來} many {卡片上不會有你的名字和所在的地方；分享出去的圖收不回來} other {卡片上不會有你的名字和縣市；分享出去的圖收不回來}}"
@@ -286,6 +305,7 @@
 		"morningPlanes": "門口有 {n} 架紙飛機在等你",
 		"morningWithPlanes": "有 {n} 盞燈為你亮過，門口還有 {planes} 架紙飛機在等你",
 		"morningLines": "夜裡有 {n} 位你點過燈的人又說了一句",
+		"morningJoined": "{first}，{second}",
 		"evening": "到家了嗎？今晚想說點什麼",
 		"newyearTwoDays": "後天就跨年了。12/31 晚上，大家一起點燈倒數",
 		"newyearTomorrow": "明天就跨年了。12/31 晚上 23:00 一起倒數",
@@ -479,6 +499,10 @@
 		"footerGuest": "這封信只寫給你：不會有你寫的話，也不會有別人的名字。你在留燈留下了這個信箱，所以收到這封。",
 		"settings": "通知設定",
 		"domain": "porchlamps.app",
+		"brandLine": "{brand}・{domain}",
+		"labeled": "{label}：{value}",
+		"mixLine": "・{label}　{count}",
+		"closingText": "{first}{second}",
 		"unsubscribe": "取消訂閱早上的信",
 		"coffee": "請作者喝杯咖啡",
 		"setting": "早上用 email 通知我",
