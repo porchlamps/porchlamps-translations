@@ -57,4 +57,4 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           PR: ${{ github.event.pull_request.number }}
-        run: gh pr comment "$PR" --edit-last --body-file comment.md || gh pr comment "$PR" --body-file comment.md
+        run: gh pr comment "$PR" --edit-last --create-if-none --body-file comment.md
