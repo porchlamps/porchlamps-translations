@@ -39,12 +39,12 @@
 			"pushOn": "12/31 晚上會通知你",
 			"pushFailed": "沒設定成功，晚點再試",
 			"calendarTitle": "留燈：一起點燈倒數",
-			"calendarDetails": "今晚 23:00，全台一起點燈倒數"
+			"calendarDetails": "今晚 23:00，大家一起點燈倒數"
 		},
 		"newyear": {
 			"minutes": "離 2027 還有 {m} 分鐘",
 			"seconds": "離 2027 還有 {s} 秒",
-			"celebrate": "2027 了。今晚全台 {n} 盞燈陪你跨年",
+			"celebrate": "2027 了。今晚有 {n} 盞燈陪你跨年",
 			"celebrateQuiet": "2027 了。今晚有人陪你跨年",
 			"held": "還有 {m} 個人把煙火留到現在一起放",
 			"show": "留燈給大家的跨年煙火"
@@ -341,7 +341,7 @@
 		"evening": "到家了嗎？今晚想說點什麼",
 		"newyearTwoDays": "後天就跨年了。12/31 晚上，大家一起點燈倒數",
 		"newyearTomorrow": "明天就跨年了。12/31 晚上 23:00 一起倒數",
-		"newyearTonight": "今晚 23:00，全台一起點燈倒數",
+		"newyearTonight": "今晚 23:00，大家一起點燈倒數",
 		"giverEvening": "今晚有人在等第一盞燈",
 		"newyearGiver": "今晚很多人第一次來，有人還在等第一盞燈",
 		"wantsNewyear": "跨年前兩晚提醒我",
@@ -517,7 +517,7 @@
 			"seen": "你點的 {n} 盞燈被看到了",
 			"lines": "夜裡有 {n} 位你點過燈的人又說了一句"
 		},
-		"newyear": "今晚 23:00，全台一起點燈倒數",
+		"newyear": "今晚 23:00，大家一起點燈倒數",
 		"preheader": "昨晚你睡著以後，有人經過你家門口。",
 		"preheaderPlanes": "昨晚你睡著以後，有人摺了紙飛機給你。",
 		"brand": "留燈",
@@ -793,20 +793,12 @@
 	},
 	"og": {
 		"brand": "留燈",
-		"lit": "今晚我替 {n} 個人點了燈",
-		"litParts": {
-			"0": "今晚我替",
-			"1": "個人點了燈"
-		},
+		"lit": "今晚我替 <num>{n}</num> 個人點了燈",
 		"firework": "今晚我在{city}的夜空放了一朵煙火",
 		"glow": "今晚{city}每則留下的話都有人點了燈",
 		"city": "{cityName}",
 		"newyear": {
-			"lit": "今年最後一晚，我替 {n} 個人點了燈",
-			"litParts": {
-				"0": "今年最後一晚，我替",
-				"1": "個人點了燈"
-			},
+			"lit": "今年最後一晚，我替 <num>{n}</num> 個人點了燈",
 			"cityLights": "{city}今晚亮了 {m} 盞",
 			"years": "2026→2027"
 		},
