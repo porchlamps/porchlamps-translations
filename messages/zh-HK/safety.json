@@ -1,1 +1,401 @@
-{}
+{
+	"welcome": {
+		"cards": {
+			"0": "",
+			"1": "",
+			"2": ""
+		},
+		"say": "",
+		"browse": "",
+		"skip": "",
+		"next": "",
+		"position": ""
+	},
+	"blocked": {
+		"contact": "",
+		"empty": "",
+		"too_long": "",
+		"already_posted": "",
+		"generic": ""
+	},
+	"crisis": {
+		"lead": "",
+		"invite": "",
+		"keep": "",
+		"thanks": "",
+		"reach": "",
+		"held": ""
+	},
+	"support": {
+		"formLabel": "",
+		"kindLabel": "",
+		"kinds": {
+			"monthly": "",
+			"once": ""
+		},
+		"amountLabel": {
+			"monthly": "",
+			"once": ""
+		},
+		"notes": {
+			"monthly": {
+				"60": "",
+				"100": "",
+				"300": "",
+				"500": "",
+				"1000": "",
+				"custom": ""
+			},
+			"once": {
+				"60": "",
+				"100": "",
+				"300": "",
+				"500": "",
+				"1000": "",
+				"custom": ""
+			}
+		},
+		"customLabel": "",
+		"customPlaceholder": "",
+		"customMin": "",
+		"range": "",
+		"emailLabel": {
+			"monthly": "",
+			"once": ""
+		},
+		"nameLabel": "",
+		"namePlaceholder": "",
+		"messageLabel": "",
+		"count": "",
+		"onlyAuthor": "",
+		"submit": {
+			"monthly": "",
+			"once": ""
+		},
+		"submitPlain": "",
+		"redirecting": "",
+		"fine": {
+			"monthly": "",
+			"once": ""
+		},
+		"cardNote": "",
+		"emailNeeded": "",
+		"invalid": "",
+		"busy": "",
+		"failed": "",
+		"manage": {
+			"loading": "",
+			"gone": "",
+			"loadFailed": "",
+			"amount": "",
+			"amountValue": "",
+			"started": "",
+			"notStarted": "",
+			"times": "",
+			"timesValue": "",
+			"next": "",
+			"status": "",
+			"statuses": {
+				"pending": "",
+				"active": "",
+				"failing": "",
+				"cancelled": "",
+				"ended": "",
+				"paid": "",
+				"failed": ""
+			},
+			"cancel": "",
+			"cancelling": "",
+			"cancelNote": "",
+			"cancelFailed": "",
+			"done": "",
+			"stopped": "",
+			"again": ""
+		}
+	},
+	"sponsorMail": {
+		"anonymous": "",
+		"money": "",
+		"date": "",
+		"monthlyDay": "",
+		"monthlyDayUnknown": "",
+		"periods": "",
+		"sign": "",
+		"manage": "",
+		"again": "",
+		"home": "",
+		"facts": {
+			"amount": "",
+			"monthlyAmount": "",
+			"periodAmount": "",
+			"chargeDay": "",
+			"paidOn": "",
+			"periods": "",
+			"method": "",
+			"card": ""
+		},
+		"invoice": "",
+		"thanksOnce": {
+			"subject": "",
+			"preheader": "",
+			"heading": "",
+			"body": "",
+			"closing": ""
+		},
+		"thanks": {
+			"subject": "",
+			"preheader": "",
+			"heading": "",
+			"body": "",
+			"note": "",
+			"closing": ""
+		},
+		"charged": {
+			"subject": "",
+			"preheader": "",
+			"heading": "",
+			"body": "",
+			"note": "",
+			"closing": ""
+		},
+		"failed": {
+			"subject": "",
+			"preheader": "",
+			"heading": "",
+			"body": "",
+			"note": "",
+			"closing": ""
+		},
+		"cancelled": {
+			"subject": "",
+			"preheader": "",
+			"heading": "",
+			"body": "",
+			"thanks": "",
+			"note": "",
+			"status": "",
+			"closing": ""
+		},
+		"ended": {
+			"subject": "",
+			"preheader": "",
+			"heading": "",
+			"body": "",
+			"note": "",
+			"closing": ""
+		},
+		"footer": {
+			"monthly": "",
+			"once": ""
+		},
+		"toAuthor": {
+			"subject": "",
+			"heading": "",
+			"monthly": "",
+			"once": "",
+			"name": "",
+			"time": "",
+			"timeValue": "",
+			"amount": "",
+			"email": "",
+			"noEmail": "",
+			"note": "",
+			"footer": ""
+		}
+	},
+	"hotlines": {
+		"label": "",
+		"tw": {
+			"0": {
+				"name": "",
+				"hours": ""
+			},
+			"1": {
+				"name": "",
+				"hours": ""
+			},
+			"2": {
+				"name": "",
+				"hours": ""
+			}
+		},
+		"hk": {
+			"0": {
+				"name": "",
+				"hours": ""
+			},
+			"1": {
+				"name": "",
+				"hours": ""
+			}
+		}
+	},
+	"pages": {
+		"support": {
+			"title": "",
+			"description": "",
+			"lead": {
+				"0": "",
+				"1": "",
+				"2": ""
+			},
+			"useTitle": "",
+			"use": "",
+			"payTitle": "",
+			"pay": {
+				"0": "",
+				"1": "",
+				"2": "",
+				"3": ""
+			},
+			"refundTitle": "",
+			"refund": "",
+			"storeTitle": "",
+			"storeName": "",
+			"storeTaxId": "",
+			"storeEmail": "",
+			"thanks": {
+				"title": "",
+				"description": "",
+				"body": {
+					"0": "",
+					"1": "",
+					"2": "",
+					"3": ""
+				},
+				"mail": ""
+			},
+			"manage": {
+				"title": "",
+				"description": ""
+			}
+		},
+		"privacy": {
+			"title": "",
+			"description": "",
+			"effective": "",
+			"intro": "",
+			"storedTitle": "",
+			"stored": {
+				"0": "",
+				"1": "",
+				"2": "",
+				"3": "",
+				"4": "",
+				"5": "",
+				"6": "",
+				"7": "",
+				"8": "",
+				"9": "",
+				"10": "",
+				"11": ""
+			},
+			"purposeTitle": "",
+			"purpose": "",
+			"keepTitle": "",
+			"keep": {
+				"0": "",
+				"1": "",
+				"2": "",
+				"3": "",
+				"4": "",
+				"5": "",
+				"6": ""
+			},
+			"whoSeesTitle": "",
+			"whoSees": {
+				"0": "",
+				"1": "",
+				"2": "",
+				"3": "",
+				"4": "",
+				"5": "",
+				"6": ""
+			},
+			"servicesTitle": "",
+			"servicesLead": "",
+			"services": {
+				"0": {
+					"name": "",
+					"use": "",
+					"url": ""
+				},
+				"1": {
+					"name": "",
+					"use": "",
+					"url": ""
+				},
+				"3": {
+					"name": "",
+					"use": "",
+					"url": ""
+				},
+				"4": {
+					"name": "",
+					"use": "",
+					"url": ""
+				},
+				"5": {
+					"name": "",
+					"use": "",
+					"url": ""
+				},
+				"6": {
+					"name": "",
+					"use": "",
+					"url": ""
+				},
+				"7": {
+					"name": "",
+					"use": "",
+					"url": ""
+				}
+			},
+			"rightsTitle": "",
+			"rights": "",
+			"deleteLink": "",
+			"rightsMail": "",
+			"changesTitle": "",
+			"changes": ""
+		},
+		"terms": {
+			"title": "",
+			"description": "",
+			"effective": "",
+			"intro": "",
+			"whoTitle": "",
+			"who": "",
+			"dontTitle": "",
+			"dont": {
+				"0": "",
+				"1": "",
+				"2": "",
+				"3": ""
+			},
+			"wordsTitle": "",
+			"words": "",
+			"careTitle": "",
+			"care": {
+				"0": "",
+				"1": "",
+				"2": ""
+			},
+			"houseTitle": "",
+			"house": "",
+			"sponsorTitle": "",
+			"sponsor": {
+				"0": "",
+				"1": "",
+				"2": ""
+			},
+			"notService": "",
+			"aboutLink": "",
+			"asIsTitle": "",
+			"asIs": "",
+			"changesTitle": "",
+			"changes": "",
+			"lawTitle": "",
+			"law": ""
+		}
+	}
+}
