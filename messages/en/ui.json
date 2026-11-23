@@ -24,7 +24,7 @@
 		"again": "Light another",
 		"backMap": "Back to the map",
 		"allLit": "{daypart, select, morning {You've lit a lamp for every house on the map today} day {You've lit a lamp for every house on the map today} evening {You've lit a lamp for every house on the map tonight} other {You've lit a lamp for every house on the map tonight}}",
-		"returned": "{daypart, select, morning {Of the people you lit lamps for, {n, plural, one {{n} came back today} other {{n} came back today}} →} day {Of the people you lit lamps for, {n, plural, one {{n} came back today} other {{n} came back today}} →} evening {Of the people you lit lamps for, {n, plural, one {{n} came back tonight} other {{n} came back tonight}} →} other {Of the people you lit lamps for, {n, plural, one {{n} came back tonight} other {{n} came back tonight}} →}}",
+		"returned": "",
 		"earlier": "Earlier nights",
 		"report": "Report this line",
 		"reported": "Report received, thank you",
@@ -39,19 +39,19 @@
 			"pushOn": "You'll get a notification on the night of 12/31",
 			"pushFailed": "Couldn't set that up. Try again in a bit",
 			"calendarTitle": "Porchlamps: light lamps and count down together",
-			"calendarDetails": "Tonight at 11 p.m., everyone lights lamps and counts down together"
+			"calendarDetails": "Tonight at 11 p.m., all of Taiwan lights lamps and counts down together"
 		},
 		"newyear": {
 			"minutes": "{m, plural, one {{m} minute until 2027} other {{m} minutes until 2027}}",
 			"seconds": "{s, plural, one {{s} second until 2027} other {{s} seconds until 2027}}",
-			"celebrate": "It's 2027. Tonight, {n, plural, one {{n} lamp is} other {{n} lamps are}} celebrating with you",
+			"celebrate": "It's 2027. Tonight, {n, plural, one {{n} lamp} other {{n} lamps}} across Taiwan are celebrating with you",
 			"celebrateQuiet": "It's 2027. Someone is celebrating with you tonight",
 			"held": "{m, plural, one {{m} more person saved their firework to set off together now} other {{m} more people saved their fireworks to set off together now}}",
 			"show": "Porchlamps' New Year fireworks for everyone"
 		},
 		"whispersLabel": "{daypart, select, morning {Lines others left today} day {Lines others left today} evening {Lines others left tonight} other {Lines others left tonight}}",
 		"nextHouse": "Next →",
-		"countyLights": "{daypart, select, morning {{n, plural, one {{n} lamp today} other {{n} lamps today}}} day {{n, plural, one {{n} lamp today} other {{n} lamps today}}} evening {{n, plural, one {{n} lamp tonight} other {{n} lamps tonight}}} other {{n, plural, one {{n} lamp tonight} other {{n} lamps tonight}}}}",
+		"countyLights": "",
 		"countyLit": "{daypart, select, morning {Lamps are lit today} day {Lamps are lit today} evening {Lamps are lit tonight} other {Lamps are lit tonight}}",
 		"countyDark": "{daypart, select, morning {No lamps yet today} day {No lamps yet today} evening {No lamps yet tonight} other {No lamps yet tonight}}",
 		"countyEmpty": "{daypart, select, morning {No lamps in {cityName} this morning yet. Come back tonight} day {No lamps in {cityName} during the day yet. Come back tonight} evening {No lamps in {cityName} tonight yet. Check back in a bit} other {No lamps in {cityName} in the night yet. Check back a little later}}",
@@ -256,7 +256,7 @@
 			"label": "This line can be made into a card and shared",
 			"heavy": "This line won't be made into a card"
 		},
-		"returned": "{daypart, select, morning {Of the people you lit lamps for, {n, plural, one {{n} came back today} other {{n} came back today}}} day {Of the people you lit lamps for, {n, plural, one {{n} came back today} other {{n} came back today}}} evening {Of the people you lit lamps for, {n, plural, one {{n} came back tonight} other {{n} came back tonight}}} other {Of the people you lit lamps for, {n, plural, one {{n} came back tonight} other {{n} came back tonight}}}}",
+		"returned": "",
 		"lightAgain": "Light another lamp for {who}",
 		"windowDate": "{m}/{d}",
 		"windowReceived": "{n, plural, =0 {Glowing} one {{n} lamp} other {{n} lamps}}",
@@ -278,7 +278,7 @@
 		"saveHouse": "Sign in and your house will still be here when you change phones",
 		"saveHouseLater": "Not now",
 		"day": "Day {n}",
-		"growNext": "{left, plural, one {In {left} more night,} other {In {left} more nights,}} {id, select, plant {a small plant will appear by the door} lamp {a small lamp will light up by the door} smoke {smoke will drift from the chimney} tree {a tree will grow in the yard} cat {a cat will come to the door} star {a star will appear above the roof} other {}}",
+		"growNext": "",
 		"received": "lamps have shone on your house",
 		"waitingRead": "Your line is being read",
 		"waitingRemember": "The house will remember every night you came",
@@ -341,7 +341,7 @@
 		"evening": "Home yet? Anything you'd like to say tonight",
 		"newyearTwoDays": "New Year's Eve is the day after tomorrow. On the night of 12/31, everyone lights lamps and counts down together",
 		"newyearTomorrow": "New Year's Eve is tomorrow. Count down together at 11 p.m. on 12/31",
-		"newyearTonight": "Tonight at 11 p.m., everyone lights lamps and counts down together",
+		"newyearTonight": "Tonight at 11 p.m., all of Taiwan lights lamps and counts down together",
 		"giverEvening": "Someone is waiting for their first lamp tonight",
 		"newyearGiver": "Lots of people are here for the first time tonight. Some are still waiting for their first lamp",
 		"wantsNewyear": "Remind me on the two nights before New Year's Eve",
@@ -517,7 +517,7 @@
 			"seen": "{n, plural, one {The lamp you lit was seen} other {The {n} lamps you lit were seen}}",
 			"lines": "{n, plural, one {In the night, {n} person you lit a lamp for said one more thing} other {In the night, {n} people you lit lamps for said one more thing}}"
 		},
-		"newyear": "Tonight at 11 p.m., everyone lights lamps and counts down together",
+		"newyear": "Tonight at 11 p.m., all of Taiwan lights lamps and counts down together",
 		"preheader": "Last night after you fell asleep, someone passed by your door.",
 		"preheaderPlanes": "Last night after you fell asleep, someone folded a paper plane for you.",
 		"brand": "Porchlamps",
@@ -793,12 +793,12 @@
 	},
 	"og": {
 		"brand": "Porchlamps",
-		"lit": "{n, plural, one {Tonight I lit a lamp for <num>{n}</num> person} other {Tonight I lit lamps for <num>{n}</num> people}}",
+		"lit": "{n, plural, one {Tonight I lit a lamp for {n} person} other {Tonight I lit lamps for {n} people}}",
 		"firework": "Tonight I set off a firework over the night sky of {city}",
 		"glow": "Tonight in {city}, every line left here had a lamp lit for it",
 		"city": "{cityName}",
 		"newyear": {
-			"lit": "{n, plural, one {On the last night of the year, I lit a lamp for <num>{n}</num> person} other {On the last night of the year, I lit lamps for <num>{n}</num> people}}",
+			"lit": "{n, plural, one {On the last night of the year, I lit a lamp for {n} person} other {On the last night of the year, I lit lamps for {n} people}}",
 			"cityLights": "{m, plural, one {{city} lit {m} lamp tonight} other {{city} lit {m} lamps tonight}}",
 			"years": "2026→2027"
 		},
