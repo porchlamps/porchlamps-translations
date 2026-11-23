@@ -228,6 +228,20 @@
 				"name": "",
 				"hours": ""
 			}
+		},
+		"jp": {
+			"0": {
+				"name": "",
+				"hours": ""
+			},
+			"1": {
+				"name": "",
+				"hours": ""
+			},
+			"2": {
+				"name": "",
+				"hours": ""
+			}
 		}
 	},
 	"pages": {
@@ -353,6 +367,7 @@
 			},
 			"rightsTitle": "",
 			"rights": "",
+			"rightsJapan": "",
 			"deleteLink": "",
 			"rightsMail": "",
 			"changesTitle": "",
