@@ -118,10 +118,19 @@
 				}
 			},
 			"more": ""
+		},
+		"giverAsk": {
+			"open": "",
+			"lines": "",
+			"seen": "",
+			"remind": "",
+			"ok": ""
 		}
 	},
 	"sound": {
 		"toggle": "",
+		"music": "",
+		"audio": "",
 		"ask": "",
 		"yes": "",
 		"no": ""
@@ -316,6 +325,8 @@
 	"push": {
 		"light": "",
 		"lightAnon": "",
+		"seen": "",
+		"seenAnon": "",
 		"lightMilestone": "",
 		"morning": "",
 		"plane": "",
@@ -325,11 +336,13 @@
 		"morningPlanes": "",
 		"morningWithPlanes": "",
 		"morningLines": "",
+		"morningSeen": "",
 		"morningJoined": "",
 		"evening": "",
 		"newyearTwoDays": "",
 		"newyearTomorrow": "",
 		"newyearTonight": "",
+		"giverEvening": "",
 		"newyearGiver": "",
 		"wantsNewyear": "",
 		"wantsNewyearGiver": "",
@@ -337,6 +350,8 @@
 		"wantsLights": "",
 		"wantsEvening": "",
 		"wantsLines": "",
+		"wantsSeen": "",
+		"wantsGiverEvening": "",
 		"sectionTitle": "",
 		"denied": "",
 		"needsInstall": "",
@@ -496,6 +511,12 @@
 		"subject": "",
 		"subjectPlanes": "",
 		"planes": "",
+		"giver": {
+			"wantsSeen": "",
+			"wantsLines": "",
+			"seen": "",
+			"lines": ""
+		},
 		"newyear": "",
 		"preheader": "",
 		"preheaderPlanes": "",
