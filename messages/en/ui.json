@@ -59,11 +59,13 @@
 		"countyLitByMe": "Lamp lit",
 		"countyGo": "Light a lamp →",
 		"heavy": "This line is a bit heavy",
+		"heavyNote": "You don't have to fix anything. A lamp is enough. The lamp keeper is looking out too.",
 		"mineNote": {
 			"seeYou": "All set, see you in the morning"
 		},
-		"noLightYet": "{daypart, select, morning {This line will glow for 24 hours. Come back tonight to see who stopped by} day {This line will glow for 24 hours. Come back tonight to see who stopped by} evening {This line will glow for 24 hours. Come back tomorrow to see who stopped by} other {This line will glow for 24 hours. Come back after you've slept to see who stopped by}}",
-		"nthLight": "Someone has lit a lamp for you for the {n, selectordinal, one {{n}st} two {{n}nd} few {{n}rd} other {{n}th}} time",
+		"noLightYet": "{daypart, select, morning {This line is here now. Someone will pass by today. It will glow for 24 hours.} day {This line is here now. Someone will pass by today. It will glow for 24 hours.} evening {This line is here now. Someone will pass by tonight. It will glow for 24 hours.} other {This line is here now. Someone will pass by tonight. It will glow for 24 hours.}}",
+		"nthLight": "{n, selectordinal, one {Someone has lit a lamp for you for the {n}st time} two {Someone has lit a lamp for you for the {n}nd time} few {Someone has lit a lamp for you for the {n}rd time} other {Someone has lit a lamp for you for the {n}th time}}",
+		"nthLightBy": "{n, selectordinal, one {{who} has lit a lamp for you for the {n}st time} two {{who} has lit a lamp for you for the {n}nd time} few {{who} has lit a lamp for you for the {n}rd time} other {{who} has lit a lamp for you for the {n}th time}}",
 		"litBefore": "You've lit a lamp for them before",
 		"litLine": "Lamp lit. It'll glow for 24 hours, and they'll see it when they're back",
 		"loading": "{daypart, select, morning {Loading today's lines} day {Loading today's lines} evening {Loading tonight's lines} other {Loading tonight's lines}}",
@@ -71,7 +73,21 @@
 		"mine": "{cityName}・You",
 		"chipLights": "{n, plural, one {{n} lamp} other {{n} lamps}}",
 		"sayAnother": "Say one more",
+		"intro": {
+			"line": "You can leave a line here about how you feel. Others can't reply; they can only light a lamp for you.",
+			"say": "I want to say something",
+			"keep": "Keep others company"
+		},
+		"retract": {
+			"button": "Take back",
+			"ask": "Once you take it back, others won't see this line. You still will",
+			"yes": "Take back",
+			"no": "Not now",
+			"done": "Taken back. Only you can see it",
+			"failed": "Couldn't take it back right now. Try again later"
+		},
 		"moreLights": "More lamps",
+		"foldedLights": "{n, plural, one {{n} more lamp, show} other {{n} more lamps, show}}",
 		"inputPlaceholder": "{daypart, select, morning {What's on your mind today…} day {What's on your mind today…} evening {What's on your mind tonight…} other {What's on your mind tonight…}}",
 		"leave": "Leave it here",
 		"rise": "{n, plural, one {{n} lamp glowed for you last night} other {{n} lamps glowed for you last night}}",
@@ -79,11 +95,28 @@
 		"echo": {
 			"returned": "You lit a lamp for them before, and they came back",
 			"first": "Their first lamp tonight",
-			"sameCity": "You're both in {city}",
+			"sameCity": "They're in {city} too, not far from you",
 			"nth": "You're the {n, selectordinal, one {{n}st} two {{n}nd} few {{n}rd} other {{n}th}} to light one for them"
 		},
 		"nightEnd": {
-			"line": "{n, plural, one {Tonight your lamp landed here} other {Tonight your {n} lamps landed in these places}}",
+			"quips": {
+				"q3": {
+					"warm": "Three lamps, you're taking good care of people tonight",
+					"funny": "Three lamps, warmer than a 7-Eleven at night"
+				},
+				"q6": {
+					"warm": "Six lamps, someone will sleep a little better because of you",
+					"funny": "Six lamps, your fingers are more awake than you are"
+				},
+				"q9": {
+					"warm": "Nine lamps, remember to leave one on for yourself too",
+					"funny": "Nine lamps, the city wants to hire you as a streetlight"
+				},
+				"q12": {
+					"warm": "{n} lamps, the night doesn't feel so long anymore",
+					"funny": "{n} lamps, the power company called to ask if you're okay"
+				}
+			},
 			"more": "Light a few more"
 		}
 	},
@@ -129,6 +162,8 @@
 		}
 	},
 	"compose": {
+		"whoSees": "Others will see: {who}",
+		"someone": "someone",
 		"label": "{daypart, select, morning {A line for today} day {A line for today} evening {A line for tonight} other {A line for tonight}}",
 		"placeholders": {
 			"0": "Worked late again today...",
@@ -143,7 +178,7 @@
 		},
 		"count": "{n}/{max}",
 		"countLabel": "{n, plural, one {{n} character written} other {{n} characters written}}, up to {max}",
-		"cityOnly": "{region, select, hk {Only your district will be shown} many {Only where you are will be shown} other {Only your city will be shown}}",
+		"privacy": "{region, select, hk {Anonymous. Others only see your district and nickname; after 24 hours it stays only in your house} many {Anonymous. Others only see where you are and your nickname; after 24 hours it stays only in your house} other {Anonymous. Others only see your city and nickname; after 24 hours it stays only in your house}}",
 		"share": {
 			"label": "This line can be made into a card and shared",
 			"hint": "{region, select, hk {Your name and district won't be on the card. Once an image is shared, it can't be taken back} many {Your name and where you are won't be on the card. Once an image is shared, it can't be taken back} other {Your name and city won't be on the card. Once an image is shared, it can't be taken back}}"
@@ -215,12 +250,12 @@
 		"returned": "{daypart, select, morning {Of the people you lit lamps for, {n, plural, one {{n} came back today} other {{n} came back today}}} day {Of the people you lit lamps for, {n, plural, one {{n} came back today} other {{n} came back today}}} evening {Of the people you lit lamps for, {n, plural, one {{n} came back tonight} other {{n} came back tonight}}} other {Of the people you lit lamps for, {n, plural, one {{n} came back tonight} other {{n} came back tonight}}}}",
 		"lightAgain": "Light another lamp for {who}",
 		"windowDate": "{m}/{d}",
-		"windowReceived": "{n, plural, =0 {No lamps yet} one {{n} lamp} other {{n} lamps}}",
+		"windowReceived": "{n, plural, =0 {Glowing} one {{n} lamp} other {{n} lamps}}",
 		"windowOpen": "{m}/{d}, {n, plural, one {{n} lamp received} other {{n} lamps received}}",
 		"nightNoLight": "No lamps this night, but the window is still lit",
 		"nightLoadFailed": "Can't open this night for now. Try again in a bit",
 		"recentTitle": "Lamps you received",
-		"recentEmpty": "No lamps in the last 24 hours",
+		"recentEmpty": "Earlier lamps have gone out, and the house still remembers them",
 		"moreLights": "{n, plural, one {See {n} more lamp} other {See {n} more lamps}}",
 		"morePeople": "{n, plural, one {See {n} more person} other {See {n} more people}}",
 		"fold": "Collapse",
@@ -236,6 +271,10 @@
 		"day": "Day {n}",
 		"growNext": "{left, plural, one {In {left} more night,} other {In {left} more nights,}} {id, select, plant {a small plant will appear by the door} lamp {a small lamp will light up by the door} smoke {smoke will drift from the chimney} tree {a tree will grow in the yard} cat {a cat will come to the door} star {a star will appear above the roof} other {}}",
 		"received": "lamps have shone on your house",
+		"waitingRead": "Your line is being read",
+		"waitingRemember": "The house will remember every night you came",
+		"awakeSome": "{daypart, select, morning {Someone else is up today too} day {Someone else is up today too} evening {Someone else is up tonight too} other {Someone else is up tonight too}}",
+		"awakeMany": "{daypart, select, morning {{n} other people are up today too} day {{n} other people are up today too} evening {{n} other people are up tonight too} other {{n} other people are up tonight too}}",
 		"given": "lamps you lit for others",
 		"collectionTitle": "Where your lamps came from",
 		"noHouse": "You don't have a house here yet. Leave a line and your first window will light up",
@@ -286,6 +325,7 @@
 		"morningPlanes": "{n, plural, one {{n} paper plane is waiting at your door} other {{n} paper planes are waiting at your door}}",
 		"morningWithPlanes": "{n, plural, one {{n} lamp glowed for you} other {{n} lamps glowed for you}}, and {planes, plural, one {{planes} paper plane is waiting at your door} other {{planes} paper planes are waiting at your door}}",
 		"morningLines": "{n, plural, one {In the night, {n} person you lit a lamp for said one more thing} other {In the night, {n} people you lit lamps for said one more thing}}",
+		"morningJoined": "{first}. {second}",
 		"evening": "Home yet? Anything you'd like to say tonight",
 		"newyearTwoDays": "New Year's Eve is the day after tomorrow. On the night of 12/31, everyone lights lamps and counts down together",
 		"newyearTomorrow": "New Year's Eve is tomorrow. Count down together at 11 p.m. on 12/31",
@@ -479,6 +519,10 @@
 		"footerGuest": "This email is written only for you: it doesn't include anything you wrote, or anyone else's name. You're getting it because you left this email address on Porchlamps.",
 		"settings": "Notification settings",
 		"domain": "porchlamps.app",
+		"brandLine": "{brand} · {domain}",
+		"labeled": "{label}: {value}",
+		"mixLine": "· {label}  {count}",
+		"closingText": "{first} {second}",
 		"unsubscribe": "Unsubscribe from the morning email",
 		"coffee": "Buy the author a coffee",
 		"setting": "Tell me by email in the morning",

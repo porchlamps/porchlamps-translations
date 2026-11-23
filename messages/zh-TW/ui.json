@@ -59,11 +59,13 @@
 		"countyLitByMe": "已留燈",
 		"countyGo": "點燈 →",
 		"heavy": "這句話有點沉重",
+		"heavyNote": "你不用解決什麼，點盞燈就夠了。守燈人也會照看。",
 		"mineNote": {
 			"seeYou": "設好了，明早見"
 		},
-		"noLightYet": "{daypart, select, morning {這句話會亮 24 小時，晚上再來看看誰來過} day {這句話會亮 24 小時，晚上再來看看誰來過} evening {這句話會亮 24 小時，明天再來看看誰來過} other {這句話會亮 24 小時，睡醒再來看看誰來過}}",
-		"nthLight": "第 {n} 次替你點燈了",
+		"noLightYet": "{daypart, select, morning {這句話放在這裡了，今天有人會經過。它會亮 24 小時。} day {這句話放在這裡了，今天有人會經過。它會亮 24 小時。} evening {這句話放在這裡了，今晚有人會經過。它會亮 24 小時。} other {這句話放在這裡了，今晚有人會經過。它會亮 24 小時。}}",
+		"nthLight": "有人第 {n} 次替你點燈了",
+		"nthLightBy": "{who}，第 {n} 次替你點燈了",
 		"litBefore": "你之前點過他的燈",
 		"litLine": "燈點好了，會亮 24 小時，他回來就看得到",
 		"loading": "{daypart, select, morning {正在讀今天的話} day {正在讀今天的話} evening {正在讀今晚的話} other {正在讀今晚的話}}",
@@ -71,7 +73,21 @@
 		"mine": "{cityName}・你",
 		"chipLights": "{n} 盞燈",
 		"sayAnother": "再說一句",
+		"intro": {
+			"line": "這裡可以留一句心情。別人不能回覆，只能為你點一盞燈。",
+			"say": "想說點什麼",
+			"keep": "陪陪別人"
+		},
+		"retract": {
+			"button": "收回",
+			"ask": "收回之後，別人就看不到這句了，你自己還看得到",
+			"yes": "收回",
+			"no": "先不要",
+			"done": "已收回，只有你看得到",
+			"failed": "暫時收不回來，晚點再試"
+		},
 		"moreLights": "其他的燈",
+		"foldedLights": "還有 {n} 盞燈，展開",
 		"inputPlaceholder": "{daypart, select, morning {今天想說什麼…} day {今天想說什麼…} evening {今晚想說什麼…} other {今晚想說什麼…}}",
 		"leave": "留下",
 		"rise": "昨晚 {n} 盞燈為你亮著",
@@ -79,11 +95,28 @@
 		"echo": {
 			"returned": "你為他點過燈，他又回來了",
 			"first": "他今晚的第一盞燈",
-			"sameCity": "你們都在{city}",
+			"sameCity": "他也在{city}，離你不遠",
 			"nth": "你是第 {n} 個為他亮的"
 		},
 		"nightEnd": {
-			"line": "今晚你的 {n} 盞燈落在這些地方",
+			"quips": {
+				"q3": {
+					"warm": "三盞了，今晚的你很會照顧人",
+					"funny": "三盞，比小七的燈還暖"
+				},
+				"q6": {
+					"warm": "六盞，有人會因為你睡得好一點",
+					"funny": "六盞，你的手指比你還清醒"
+				},
+				"q9": {
+					"warm": "九盞了，記得也幫自己留一盞",
+					"funny": "九盞，市公所想找你去當路燈"
+				},
+				"q12": {
+					"warm": "{n} 盞，夜晚變得沒那麼長了",
+					"funny": "{n} 盞，台電打來問你還好嗎"
+				}
+			},
 			"more": "再點一些"
 		}
 	},
@@ -129,6 +162,8 @@
 		}
 	},
 	"compose": {
+		"whoSees": "別人會看到：{who}",
+		"someone": "一個人",
 		"label": "{daypart, select, morning {今天想說的一句話} day {今天想說的一句話} evening {今晚想說的一句話} other {今晚想說的一句話}}",
 		"placeholders": {
 			"0": "今天加班到現在……",
@@ -143,7 +178,7 @@
 		},
 		"count": "{n}/{max}",
 		"countLabel": "已經寫了 {n} 個字，最多 {max} 個字",
-		"cityOnly": "{region, select, hk {只會顯示地區} many {只會顯示所在的地方} other {只會顯示縣市}}",
+		"privacy": "{region, select, hk {匿名，別人只看得到地區和暱稱；24 小時後只留在你的房子裡} many {匿名，別人只看得到所在的地方和暱稱；24 小時後只留在你的房子裡} other {匿名，別人只看得到縣市和暱稱；24 小時後只留在你的房子裡}}",
 		"share": {
 			"label": "這句可以做成卡片分享出去",
 			"hint": "{region, select, hk {卡片上不會有你的名字和地區；分享出去的圖收不回來} many {卡片上不會有你的名字和所在的地方；分享出去的圖收不回來} other {卡片上不會有你的名字和縣市；分享出去的圖收不回來}}"
@@ -215,12 +250,12 @@
 		"returned": "{daypart, select, morning {你點過燈的人裡，今天有 {n} 位又回來了} day {你點過燈的人裡，今天有 {n} 位又回來了} evening {你點過燈的人裡，今晚有 {n} 位又回來了} other {你點過燈的人裡，今晚有 {n} 位又回來了}}",
 		"lightAgain": "{who}，去替他再點一盞燈",
 		"windowDate": "{m}/{d}",
-		"windowReceived": "{n, plural, =0 {還沒有燈} other {{n} 盞}}",
+		"windowReceived": "{n, plural, =0 {亮著} other {{n} 盞}}",
 		"windowOpen": "{m} 月 {d} 日，收到 {n} 盞燈",
 		"nightNoLight": "這一晚沒有燈，窗還是亮著",
 		"nightLoadFailed": "暫時打不開這一晚，晚點再試",
 		"recentTitle": "收到的燈",
-		"recentEmpty": "這 24 小時還沒有燈",
+		"recentEmpty": "之前的燈都熄了，房子還記得它們",
 		"moreLights": "再看 {n} 盞",
 		"morePeople": "再看 {n} 位",
 		"fold": "收起",
@@ -236,6 +271,10 @@
 		"day": "第 {n} 天",
 		"growNext": "再 {left} 個晚上，{id, select, plant {門邊會多一盆小植物} lamp {門邊會亮起一盞小燈} smoke {煙囪會冒出一陣輕煙} tree {院子裡會長出一棵樹} cat {門口會來一隻貓} star {屋頂上會多一顆星星} other {}}",
 		"received": "盞燈照過你的房子",
+		"waitingRead": "你的話正在被讀",
+		"waitingRemember": "房子會記得你來過的每一晚",
+		"awakeSome": "{daypart, select, morning {今天也有人醒著} day {今天也有人醒著} evening {今晚也有人醒著} other {今晚也有人醒著}}",
+		"awakeMany": "{daypart, select, morning {今天有 {n} 個人也醒著} day {今天有 {n} 個人也醒著} evening {今晚有 {n} 個人也醒著} other {今晚有 {n} 個人也醒著}}",
 		"given": "盞燈是你替別人點的",
 		"collectionTitle": "燈從這些地方來",
 		"noHouse": "這裡還沒有你的房子，留一句話，第一扇窗就會亮起來",
@@ -286,6 +325,7 @@
 		"morningPlanes": "門口有 {n} 架紙飛機在等你",
 		"morningWithPlanes": "有 {n} 盞燈為你亮過，門口還有 {planes} 架紙飛機在等你",
 		"morningLines": "夜裡有 {n} 位你點過燈的人又說了一句",
+		"morningJoined": "{first}，{second}",
 		"evening": "到家了嗎？今晚想說點什麼",
 		"newyearTwoDays": "後天就跨年了。12/31 晚上，大家一起點燈倒數",
 		"newyearTomorrow": "明天就跨年了。12/31 晚上 23:00 一起倒數",
@@ -479,6 +519,10 @@
 		"footerGuest": "這封信只寫給你：不會有你寫的話，也不會有別人的名字。你在留燈留下了這個信箱，所以收到這封。",
 		"settings": "通知設定",
 		"domain": "porchlamps.app",
+		"brandLine": "{brand}・{domain}",
+		"labeled": "{label}：{value}",
+		"mixLine": "・{label}　{count}",
+		"closingText": "{first}{second}",
 		"unsubscribe": "取消訂閱早上的信",
 		"coffee": "請作者喝杯咖啡",
 		"setting": "早上用 email 通知我",

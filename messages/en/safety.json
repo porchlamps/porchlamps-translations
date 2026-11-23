@@ -22,7 +22,9 @@
 		"lead": "{daypart, select, morning {Today seems really hard.} day {Today seems really hard.} evening {Tonight seems really hard.} other {Tonight seems really hard.}}",
 		"invite": "If you'd like someone to talk with:",
 		"keep": "Keep this line anyway",
-		"after": "{daypart, select, morning {If today is especially hard, you can call {name} at {number}. Someone is there {hours}.} day {If today is especially hard, you can call {name} at {number}. Someone is there {hours}.} evening {If tonight is especially hard, you can call {name} at {number}. Someone is there {hours}.} other {If tonight is especially hard, you can call {name} at {number}. Someone is there {hours}.}}"
+		"thanks": "Thank you for being willing to say it.",
+		"reach": "{daypart, select, morning {If today feels especially hard, you can talk to someone right now} day {If today feels especially hard, you can talk to someone right now} evening {If tonight feels especially hard, you can talk to someone right now} other {If tonight feels especially hard, you can talk to someone right now}}",
+		"held": "{daypart, select, morning {This line is here now. The lamp keeper and people awake today will see it} day {This line is here now. The lamp keeper and people awake today will see it} evening {This line is here now. The lamp keeper and people awake tonight will see it} other {This line is here now. The lamp keeper and people awake tonight will see it}}"
 	},
 	"support": {
 		"formLabel": "Sponsorship form",
@@ -211,6 +213,10 @@
 			"1": {
 				"name": "Lifeline (生命線)",
 				"hours": "24 hours a day"
+			},
+			"2": {
+				"name": "Teacher Chang Foundation (張老師)",
+				"hours": "Mon–Sat 9 am–12 pm, 2–5 pm, 6–9:30 pm; Sun 9 am–12 pm, 2–5 pm"
 			}
 		},
 		"hk": {
