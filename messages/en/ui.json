@@ -59,7 +59,7 @@
 		"countyLitByMe": "Lamp lit",
 		"countyGo": "Light a lamp →",
 		"heavy": "This line is a bit heavy",
-		"heavyNote": "You don't have to fix anything. A lamp is enough. The lamp keeper will see it too.",
+		"heavyNote": "You don't have to fix anything. A lamp is enough. The lamp keeper is looking out too.",
 		"mineNote": {
 			"seeYou": "All set, see you in the morning"
 		},
@@ -87,7 +87,7 @@
 			"failed": "Couldn't take it back right now. Try again later"
 		},
 		"moreLights": "More lamps",
-		"foldedLights": "{n, plural, one {{n} more lamp, show} other {{n} more lamps, show}}",
+		"foldedLights": "{n, plural, one {Show {n} more lamp} other {Show {n} more lamps}}",
 		"inputPlaceholder": "{daypart, select, morning {What's on your mind today…} day {What's on your mind today…} evening {What's on your mind tonight…} other {What's on your mind tonight…}}",
 		"leave": "Leave it here",
 		"rise": "{n, plural, one {{n} lamp glowed for you last night} other {{n} lamps glowed for you last night}}",
@@ -102,7 +102,7 @@
 			"quips": {
 				"q3": {
 					"warm": "Three lamps, you're taking good care of people tonight",
-					"funny": "Three lamps, warmer than a 7-Eleven at night"
+					"funny": "Three lamps, warmer than the lights at 7-Eleven"
 				},
 				"q6": {
 					"warm": "Six lamps, someone will sleep a little better because of you",
@@ -122,6 +122,8 @@
 	},
 	"sound": {
 		"toggle": "Sound",
+		"music": "Music",
+		"audio": "Sound and music",
 		"ask": "Want to hear the lamps?",
 		"yes": "Yes",
 		"no": "Quiet is fine"
