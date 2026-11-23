@@ -22,7 +22,9 @@
 		"lead": "{daypart, select, morning {今天好像很難熬。} day {今天好像很難熬。} evening {今晚好像很難熬。} other {今晚好像很難熬。}}",
 		"invite": "如果需要有人陪你聊聊：",
 		"keep": "還是留下這句話",
-		"after": "{daypart, select, morning {如果今天特別難受，可以打{name} {number}，{hours}都有人在。} day {如果今天特別難受，可以打{name} {number}，{hours}都有人在。} evening {如果今晚特別難受，可以打{name} {number}，{hours}都有人在。} other {如果今晚特別難受，可以打{name} {number}，{hours}都有人在。}}"
+		"thanks": "謝謝你願意說出來。",
+		"reach": "{daypart, select, morning {如果今天特別難受，現在就可以找人說說話} day {如果今天特別難受，現在就可以找人說說話} evening {如果今晚特別難受，現在就可以找人說說話} other {如果今晚特別難受，現在就可以找人說說話}}",
+		"held": "{daypart, select, morning {這句話放在這裡了，守燈人和今天醒著的人會看到} day {這句話放在這裡了，守燈人和今天醒著的人會看到} evening {這句話放在這裡了，守燈人和今晚醒著的人會看到} other {這句話放在這裡了，守燈人和今晚醒著的人會看到}}"
 	},
 	"support": {
 		"formLabel": "贊助表單",
@@ -211,6 +213,10 @@
 			"1": {
 				"name": "生命線",
 				"hours": "24 小時"
+			},
+			"2": {
+				"name": "張老師",
+				"hours": "週一至週六 9–21 點、週日 9–17 點"
 			}
 		},
 		"hk": {
