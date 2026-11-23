@@ -161,6 +161,7 @@
 				"harass": "",
 				"contact": "",
 				"sexual": "",
+				"doodle": "",
 				"other": ""
 			},
 			"submit": "",
@@ -198,6 +199,19 @@
 			"tray": "",
 			"remove": ""
 		}
+	},
+	"doodle": {
+		"alt": "",
+		"open": "",
+		"close": "",
+		"undo": "",
+		"clear": "",
+		"color": "",
+		"size": "",
+		"fullscreen": "",
+		"exitFullscreen": "",
+		"textHint": "",
+		"share": ""
 	},
 	"stickers": {
 		"tea": "",
@@ -501,7 +515,8 @@
 		"invitedCount": "",
 		"share": {
 			"label": "",
-			"heavy": ""
+			"heavy": "",
+			"failed": ""
 		},
 		"returned": "",
 		"lightAgain": "",
