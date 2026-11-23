@@ -59,11 +59,13 @@
 		"countyLitByMe": "",
 		"countyGo": "",
 		"heavy": "",
+		"heavyNote": "",
 		"mineNote": {
 			"seeYou": ""
 		},
 		"noLightYet": "",
 		"nthLight": "",
+		"nthLightBy": "",
 		"litBefore": "",
 		"litLine": "",
 		"loading": "",
@@ -71,7 +73,21 @@
 		"mine": "",
 		"chipLights": "",
 		"sayAnother": "",
+		"intro": {
+			"line": "",
+			"say": "",
+			"keep": ""
+		},
+		"retract": {
+			"button": "",
+			"ask": "",
+			"yes": "",
+			"no": "",
+			"done": "",
+			"failed": ""
+		},
 		"moreLights": "",
+		"foldedLights": "",
 		"inputPlaceholder": "",
 		"leave": "",
 		"rise": "",
@@ -83,7 +99,24 @@
 			"nth": ""
 		},
 		"nightEnd": {
-			"line": "",
+			"quips": {
+				"q3": {
+					"warm": "",
+					"funny": ""
+				},
+				"q6": {
+					"warm": "",
+					"funny": ""
+				},
+				"q9": {
+					"warm": "",
+					"funny": ""
+				},
+				"q12": {
+					"warm": "",
+					"funny": ""
+				}
+			},
 			"more": ""
 		}
 	},
@@ -129,6 +162,8 @@
 		}
 	},
 	"compose": {
+		"whoSees": "",
+		"someone": "",
 		"label": "",
 		"placeholders": {
 			"0": "",
@@ -143,7 +178,7 @@
 		},
 		"count": "",
 		"countLabel": "",
-		"cityOnly": "",
+		"privacy": "",
 		"share": {
 			"label": "",
 			"hint": ""
@@ -236,6 +271,10 @@
 		"day": "",
 		"growNext": "",
 		"received": "",
+		"waitingRead": "",
+		"waitingRemember": "",
+		"awakeSome": "",
+		"awakeMany": "",
 		"given": "",
 		"collectionTitle": "",
 		"noHouse": "",
@@ -286,6 +325,7 @@
 		"morningPlanes": "",
 		"morningWithPlanes": "",
 		"morningLines": "",
+		"morningJoined": "",
 		"evening": "",
 		"newyearTwoDays": "",
 		"newyearTomorrow": "",
@@ -479,6 +519,10 @@
 		"footerGuest": "",
 		"settings": "",
 		"domain": "",
+		"brandLine": "",
+		"labeled": "",
+		"mixLine": "",
+		"closingText": "",
 		"unsubscribe": "",
 		"coffee": "",
 		"setting": "",
