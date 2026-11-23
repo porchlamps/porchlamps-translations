@@ -6,6 +6,8 @@
 		"ogAlt": ""
 	},
 	"hints": {
+		"planeAimed": "",
+		"planeDrift": "",
 		"skipAll": ""
 	},
 	"visit": {
@@ -29,6 +31,16 @@
 		"shareStory": ""
 	},
 	"tonight": {
+		"newyearRemind": {
+			"open": "",
+			"ics": "",
+			"google": "",
+			"push": "",
+			"pushOn": "",
+			"pushFailed": "",
+			"calendarTitle": "",
+			"calendarDetails": ""
+		},
 		"newyear": {
 			"minutes": "",
 			"seconds": "",
@@ -47,20 +59,86 @@
 		"countyLitByMe": "",
 		"countyGo": "",
 		"heavy": "",
+		"heavyNote": "",
 		"mineNote": {
 			"seeYou": ""
 		},
 		"noLightYet": "",
 		"nthLight": "",
+		"nthLightBy": "",
 		"litBefore": "",
+		"litLine": "",
 		"loading": "",
 		"loadFailed": "",
 		"mine": "",
-		"chipLights": ""
+		"chipLights": "",
+		"sayAnother": "",
+		"intro": {
+			"line": "",
+			"say": "",
+			"keep": ""
+		},
+		"retract": {
+			"button": "",
+			"ask": "",
+			"yes": "",
+			"no": "",
+			"done": "",
+			"failed": ""
+		},
+		"moreLights": "",
+		"foldedLights": "",
+		"inputPlaceholder": "",
+		"leave": "",
+		"rise": "",
+		"riseWait": "",
+		"echo": {
+			"returned": "",
+			"first": "",
+			"sameCity": "",
+			"nth": ""
+		},
+		"nightEnd": {
+			"quips": {
+				"q3": {
+					"warm": "",
+					"funny": ""
+				},
+				"q6": {
+					"warm": "",
+					"funny": ""
+				},
+				"q9": {
+					"warm": "",
+					"funny": ""
+				},
+				"q12": {
+					"warm": "",
+					"funny": ""
+				}
+			},
+			"more": ""
+		},
+		"giverAsk": {
+			"open": "",
+			"lines": "",
+			"seen": "",
+			"remind": "",
+			"ok": ""
+		}
+	},
+	"sound": {
+		"toggle": "",
+		"music": "",
+		"audio": "",
+		"ask": "",
+		"yes": "",
+		"no": ""
 	},
 	"actions": {
 		"house": "",
 		"houseUnseen": "",
+		"wish": "",
 		"me": "",
 		"light": "",
 		"next": "",
@@ -73,9 +151,28 @@
 		"close": "",
 		"back": "",
 		"backTonight": "",
-		"retry": ""
+		"retry": "",
+		"write": "",
+		"mine": "",
+		"reportFlow": {
+			"title": "",
+			"why": "",
+			"reasons": {
+				"harass": "",
+				"contact": "",
+				"sexual": "",
+				"other": ""
+			},
+			"submit": "",
+			"cancel": "",
+			"failed": "",
+			"done": "",
+			"ok": ""
+		}
 	},
 	"compose": {
+		"whoSees": "",
+		"someone": "",
 		"label": "",
 		"placeholders": {
 			"0": "",
@@ -90,6 +187,7 @@
 		},
 		"count": "",
 		"countLabel": "",
+		"privacy": "",
 		"share": {
 			"label": "",
 			"hint": ""
@@ -116,7 +214,11 @@
 		"lantern": ""
 	},
 	"city": {
-		"pick": ""
+		"pick": "",
+		"region": {
+			"tw": "",
+			"hk": ""
+		}
 	},
 	"login": {
 		"google": "",
@@ -149,6 +251,7 @@
 	},
 	"house": {
 		"pageTitle": "",
+		"invitedCount": "",
 		"share": {
 			"label": "",
 			"heavy": ""
@@ -177,6 +280,10 @@
 		"day": "",
 		"growNext": "",
 		"received": "",
+		"waitingRead": "",
+		"waitingRemember": "",
+		"awakeSome": "",
+		"awakeMany": "",
 		"given": "",
 		"collectionTitle": "",
 		"noHouse": "",
@@ -185,7 +292,25 @@
 		"publicAsk": "",
 		"publicYes": "",
 		"publicNo": "",
-		"publicFailed": ""
+		"publicFailed": "",
+		"silhouette": {
+			"reader": {
+				"line0": "",
+				"line1": ""
+			},
+			"cat": {
+				"line0": "",
+				"line1": ""
+			},
+			"plant": {
+				"line0": "",
+				"line1": ""
+			},
+			"guitar": {
+				"line0": "",
+				"line1": ""
+			}
+		}
 	},
 	"install": {
 		"add": "",
@@ -200,11 +325,33 @@
 	"push": {
 		"light": "",
 		"lightAnon": "",
+		"seen": "",
+		"seenAnon": "",
+		"lightMilestone": "",
 		"morning": "",
+		"plane": "",
+		"planeAnon": "",
+		"line": "",
+		"lineAnon": "",
+		"morningPlanes": "",
+		"morningWithPlanes": "",
+		"morningLines": "",
+		"morningSeen": "",
+		"morningJoined": "",
 		"evening": "",
+		"newyearTwoDays": "",
+		"newyearTomorrow": "",
+		"newyearTonight": "",
+		"giverEvening": "",
+		"newyearGiver": "",
+		"wantsNewyear": "",
+		"wantsNewyearGiver": "",
 		"ask": "",
 		"wantsLights": "",
 		"wantsEvening": "",
+		"wantsLines": "",
+		"wantsSeen": "",
+		"wantsGiverEvening": "",
 		"sectionTitle": "",
 		"denied": "",
 		"needsInstall": "",
@@ -228,15 +375,19 @@
 			"length": "",
 			"chars": "",
 			"blocked": "",
+			"area": "",
 			"generic": ""
 		},
 		"loadFailed": "",
 		"logout": "",
+		"coffee": "",
 		"logoutFailed": "",
 		"deleteAccount": "",
 		"deleteConfirm": "",
 		"deleteConfirmYes": "",
 		"deleteCancel": "",
+		"translate": "",
+		"translateLink": "",
 		"deleteFailed": ""
 	},
 	"map": {
@@ -245,18 +396,66 @@
 		"showAll": "",
 		"collectedLabel": ""
 	},
+	"planes": {
+		"phrases": {
+			"thought": "",
+			"noreply": "",
+			"blanket": "",
+			"fed": "",
+			"tomorrow": "",
+			"slow": "",
+			"company": "",
+			"sleep": "",
+			"awake": "",
+			"seeyou": "",
+			"enough": "",
+			"far": "",
+			"unknown": ""
+		},
+		"send": "",
+		"sendTo": "",
+		"to": "",
+		"drift": "",
+		"fire": "",
+		"sent": "",
+		"blocked": "",
+		"from": "",
+		"fromAnon": "",
+		"waiting": "",
+		"mailbox": "",
+		"mailboxCount": "",
+		"open": "",
+		"letter": "",
+		"fold": ""
+	},
 	"firework": {
 		"button": "",
 		"offerTitle": "",
 		"offerBody": "",
+		"failed": "",
 		"fire": "",
 		"later": "",
 		"pick": "",
 		"cancel": "",
 		"hold": "",
-		"heldNote": ""
+		"heldNote": "",
+		"giftInvitedTitle": "",
+		"giftInvitedBody": "",
+		"explainTitle": "",
+		"explainBody": "",
+		"explainShare": "",
+		"explainShareText": "",
+		"explainLater": "",
+		"giftInviterTitle": "",
+		"giftInviterBody": "",
+		"giftMore": ""
 	},
 	"inAppBrowser": "",
+	"error": {
+		"title": "",
+		"line": "",
+		"reload": ""
+	},
 	"footer": {
 		"coffee": "",
 		"about": "",
@@ -265,7 +464,8 @@
 		"contact": "",
 		"feedback": "",
 		"home": "",
-		"nav": ""
+		"nav": "",
+		"translate": ""
 	},
 	"feedback": {
 		"kindLabel": "",
@@ -275,6 +475,11 @@
 			"other": ""
 		},
 		"messageLabel": "",
+		"placeholders": {
+			"idea": "",
+			"bug": "",
+			"other": ""
+		},
 		"contactLabel": "",
 		"contactPlaceholder": "",
 		"contactHint": "",
@@ -290,6 +495,10 @@
 	},
 	"share": {
 		"copied": "",
+		"fireworkButton": "",
+		"glowButton": "",
+		"litText": "",
+		"newyearLitText": "",
 		"saveImage": "",
 		"story": {
 			"invite": "",
@@ -300,7 +509,17 @@
 	},
 	"email": {
 		"subject": "",
+		"subjectPlanes": "",
+		"planes": "",
+		"giver": {
+			"wantsSeen": "",
+			"wantsLines": "",
+			"seen": "",
+			"lines": ""
+		},
+		"newyear": "",
 		"preheader": "",
+		"preheaderPlanes": "",
 		"brand": "",
 		"date": "",
 		"greeting": "",
@@ -318,9 +537,15 @@
 			"1": ""
 		},
 		"footer": "",
+		"footerGuest": "",
 		"settings": "",
 		"domain": "",
+		"brandLine": "",
+		"labeled": "",
+		"mixLine": "",
+		"closingText": "",
 		"unsubscribe": "",
+		"coffee": "",
 		"setting": "",
 		"ask": "",
 		"sendsTo": "",
@@ -329,6 +554,45 @@
 			"button": "",
 			"done": "",
 			"bad": ""
+		},
+		"guestAsk": {
+			"ask": "",
+			"placeholder": "",
+			"send": "",
+			"sent": "",
+			"invalid": "",
+			"failed": ""
+		}
+	},
+	"emailVerify": {
+		"mail": {
+			"subject": "",
+			"preheader": "",
+			"opening": "",
+			"lead": "",
+			"cta": "",
+			"ttl": "",
+			"footer": ""
+		},
+		"page": {
+			"title": "",
+			"lead": "",
+			"button": "",
+			"failed": "",
+			"doneTitle": "",
+			"doneLead": "",
+			"doneCta": "",
+			"expiredTitle": "",
+			"expired": "",
+			"badTitle": "",
+			"bad": "",
+			"home": "",
+			"previewLead": "",
+			"previewEmpty": "",
+			"mine": "",
+			"notMine": "",
+			"notMineTitle": "",
+			"notMineLead": ""
 		}
 	},
 	"pages": {
@@ -338,13 +602,18 @@
 			"what": {
 				"0": "",
 				"1": "",
-				"2": ""
+				"2": "",
+				"3": "",
+				"4": ""
 			},
 			"keeper": "",
+			"support": "",
+			"supportLink": "",
 			"notService": "",
 			"crisisLead": "",
 			"translate": "",
-			"translateLink": ""
+			"translateLink": "",
+			"mapCredit": ""
 		},
 		"feedback": {
 			"title": "",
@@ -517,6 +786,11 @@
 	"browserSwitch": {
 		"openIn": ""
 	},
+	"invite": {
+		"pageTitle": "",
+		"description": "",
+		"ogAlt": ""
+	},
 	"og": {
 		"brand": "",
 		"lit": "",
@@ -532,7 +806,18 @@
 			"0": "",
 			"1": ""
 		},
-		"domain": ""
+		"inviteCard": {
+			"title": {
+				"0": "",
+				"1": ""
+			},
+			"sub": {
+				"0": "",
+				"1": ""
+			}
+		},
+		"domain": "",
+		"findUs": ""
 	},
 	"ogQuips": {
 		"taipei": "",
