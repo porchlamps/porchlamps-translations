@@ -520,19 +520,11 @@
 	"og": {
 		"brand": "",
 		"lit": "",
-		"litParts": {
-			"0": "",
-			"1": ""
-		},
 		"firework": "",
 		"glow": "",
 		"city": "",
 		"newyear": {
 			"lit": "",
-			"litParts": {
-				"0": "",
-				"1": ""
-			},
 			"cityLights": "",
 			"years": ""
 		},
