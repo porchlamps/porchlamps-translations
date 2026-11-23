@@ -44,7 +44,9 @@ export const planCrowdinStamps = ({
 	// 照譯文檔的順序（跟 validate.mjs --stamp 一樣），不排序：不然每個 Crowdin PR 都會重排整個 safety.hashes.json
 	for (const key of Object.keys(head)) {
 		const value = head[key];
-		const changed = value.trim() !== '' && value !== base[key];
+		// 空字串＝沒翻（匯入與執行時都改用中文）：連舊的 stamp 一起拿掉
+		if (value.trim() === '') continue;
+		const changed = value !== base[key];
 		if (!changed) {
 			if (Object.hasOwn(stamps, key)) out[key] = stamps[key];
 			continue;
