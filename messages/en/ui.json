@@ -59,7 +59,7 @@
 		"countyLitByMe": "Lamp lit",
 		"countyGo": "Light a lamp →",
 		"heavy": "This line is a bit heavy",
-		"heavyNote": "You don't have to fix anything. A lamp is enough. The lamp keeper is looking out too.",
+		"heavyNote": "You don't have to fix anything. A lamp is enough. The lamp keeper will see it too.",
 		"mineNote": {
 			"seeYou": "All set, see you in the morning"
 		},
