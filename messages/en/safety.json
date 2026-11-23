@@ -22,7 +22,9 @@
 		"lead": "",
 		"invite": "",
 		"keep": "",
-		"after": ""
+		"thanks": "",
+		"reach": "",
+		"held": ""
 	},
 	"support": {
 		"formLabel": "",
@@ -209,6 +211,10 @@
 				"hours": ""
 			},
 			"1": {
+				"name": "",
+				"hours": ""
+			},
+			"2": {
 				"name": "",
 				"hours": ""
 			}
