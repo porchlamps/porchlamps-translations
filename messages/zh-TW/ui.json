@@ -118,6 +118,13 @@
 				}
 			},
 			"more": "再點一些"
+		},
+		"giverAsk": {
+			"open": "告訴我",
+			"lines": "他再說話時",
+			"seen": "燈被看到時",
+			"remind": "明晚提醒我來點燈",
+			"ok": "好"
 		}
 	},
 	"sound": {
@@ -318,6 +325,8 @@
 	"push": {
 		"light": "{city}有人替你點了一盞『{label}』",
 		"lightAnon": "有人替你點了一盞燈",
+		"seen": "你點的『{label}』被看到了",
+		"seenAnon": "你點的燈被看到了",
 		"lightMilestone": "今晚已經有 {n} 盞燈為你亮著",
 		"morning": "有 {n} 盞燈為你亮過",
 		"plane": "有一架紙飛機從{city}飛來",
@@ -327,11 +336,13 @@
 		"morningPlanes": "門口有 {n} 架紙飛機在等你",
 		"morningWithPlanes": "有 {n} 盞燈為你亮過，門口還有 {planes} 架紙飛機在等你",
 		"morningLines": "夜裡有 {n} 位你點過燈的人又說了一句",
+		"morningSeen": "你點的 {n} 盞燈被看到了",
 		"morningJoined": "{first}，{second}",
 		"evening": "到家了嗎？今晚想說點什麼",
 		"newyearTwoDays": "後天就跨年了。12/31 晚上，大家一起點燈倒數",
 		"newyearTomorrow": "明天就跨年了。12/31 晚上 23:00 一起倒數",
 		"newyearTonight": "今晚 23:00，全台一起點燈倒數",
+		"giverEvening": "今晚有人在等第一盞燈",
 		"newyearGiver": "今晚很多人第一次來，有人還在等第一盞燈",
 		"wantsNewyear": "跨年前兩晚提醒我",
 		"wantsNewyearGiver": "跨年夜 23:00 叫我來點燈",
@@ -339,6 +350,8 @@
 		"wantsLights": "收到燈或紙飛機時通知我",
 		"wantsEvening": "晚上提醒我回來留句話",
 		"wantsLines": "點過燈的人又說話時通知我",
+		"wantsSeen": "我點的燈被看到時通知我",
+		"wantsGiverEvening": "有人在等第一盞燈時提醒我",
 		"sectionTitle": "通知",
 		"denied": "通知權限被關掉了，請到瀏覽器設定打開",
 		"needsInstall": "要先加到主畫面、從那裡打開，才收得到通知",
@@ -498,6 +511,12 @@
 		"subject": "有 {n} 盞燈為你亮過",
 		"subjectPlanes": "門口有紙飛機在等你",
 		"planes": "門口有 {n} 架紙飛機在等你",
+		"giver": {
+			"wantsSeen": "我點的燈被看到時寫進早上的信",
+			"wantsLines": "我點過燈的人又說話時寫進早上的信",
+			"seen": "你點的 {n} 盞燈被看到了",
+			"lines": "夜裡有 {n} 位你點過燈的人又說了一句"
+		},
 		"newyear": "今晚 23:00，全台一起點燈倒數",
 		"preheader": "昨晚你睡著以後，有人經過你家門口。",
 		"preheaderPlanes": "昨晚你睡著以後，有人摺了紙飛機給你。",

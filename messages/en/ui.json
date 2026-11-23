@@ -118,6 +118,13 @@
 				}
 			},
 			"more": "Light a few more"
+		},
+		"giverAsk": {
+			"open": "Tell me",
+			"lines": "When they say more",
+			"seen": "When the lamp is seen",
+			"remind": "Remind me to light lamps tomorrow night",
+			"ok": "OK"
 		}
 	},
 	"sound": {
@@ -318,6 +325,8 @@
 	"push": {
 		"light": "Someone in {city} lit a “{label}” lamp for you",
 		"lightAnon": "Someone lit a lamp for you",
+		"seen": "Your “{label}” lamp was seen",
+		"seenAnon": "Your lamp was seen",
 		"lightMilestone": "{n, plural, one {{n} lamp is already glowing for you tonight} other {{n} lamps are already glowing for you tonight}}",
 		"morning": "{n, plural, one {{n} lamp glowed for you} other {{n} lamps glowed for you}}",
 		"plane": "A paper plane flew in from {city}",
@@ -327,11 +336,13 @@
 		"morningPlanes": "{n, plural, one {{n} paper plane is waiting at your door} other {{n} paper planes are waiting at your door}}",
 		"morningWithPlanes": "{n, plural, one {{n} lamp glowed for you} other {{n} lamps glowed for you}}, and {planes, plural, one {{planes} paper plane is waiting at your door} other {{planes} paper planes are waiting at your door}}",
 		"morningLines": "{n, plural, one {In the night, {n} person you lit a lamp for said one more thing} other {In the night, {n} people you lit lamps for said one more thing}}",
+		"morningSeen": "{n, plural, one {The lamp you lit was seen} other {The {n} lamps you lit were seen}}",
 		"morningJoined": "{first}. {second}",
 		"evening": "Home yet? Anything you'd like to say tonight",
 		"newyearTwoDays": "New Year's Eve is the day after tomorrow. On the night of 12/31, everyone lights lamps and counts down together",
 		"newyearTomorrow": "New Year's Eve is tomorrow. Count down together at 11 p.m. on 12/31",
 		"newyearTonight": "Tonight at 11 p.m., all of Taiwan lights lamps and counts down together",
+		"giverEvening": "Someone is waiting for their first lamp tonight",
 		"newyearGiver": "Lots of people are here for the first time tonight. Some are still waiting for their first lamp",
 		"wantsNewyear": "Remind me on the two nights before New Year's Eve",
 		"wantsNewyearGiver": "Call me at 11 p.m. on New Year's Eve to light lamps",
@@ -339,6 +350,8 @@
 		"wantsLights": "Notify me when I get lamps or paper planes",
 		"wantsEvening": "Remind me in the evening to come back and leave a line",
 		"wantsLines": "Notify me when someone I lit a lamp for says more",
+		"wantsSeen": "Notify me when my lamps are seen",
+		"wantsGiverEvening": "Remind me when someone is waiting for their first lamp",
 		"sectionTitle": "Notifications",
 		"denied": "Notifications are turned off. Turn them on in your browser settings",
 		"needsInstall": "Add this to your Home Screen and open it from there to get notifications",
@@ -498,6 +511,12 @@
 		"subject": "{n, plural, one {{n} lamp was lit for you} other {{n} lamps were lit for you}}",
 		"subjectPlanes": "Paper planes are waiting at your door",
 		"planes": "{n, plural, one {{n} paper plane is waiting at your door} other {{n} paper planes are waiting at your door}}",
+		"giver": {
+			"wantsSeen": "Put it in the morning email when my lamps are seen",
+			"wantsLines": "Put it in the morning email when someone I lit a lamp for says more",
+			"seen": "{n, plural, one {The lamp you lit was seen} other {The {n} lamps you lit were seen}}",
+			"lines": "{n, plural, one {In the night, {n} person you lit a lamp for said one more thing} other {In the night, {n} people you lit lamps for said one more thing}}"
+		},
 		"newyear": "Tonight at 11 p.m., all of Taiwan lights lamps and counts down together",
 		"preheader": "Last night after you fell asleep, someone passed by your door.",
 		"preheaderPlanes": "Last night after you fell asleep, someone folded a paper plane for you.",
