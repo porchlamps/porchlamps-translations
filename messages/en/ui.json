@@ -197,7 +197,9 @@
 			"open": "Add a sticker",
 			"change": "Sticker: {name}. Tap to change or remove",
 			"tray": "Pick a sticker",
-			"remove": "No sticker"
+			"remove": "No sticker",
+			"next": "More stickers",
+			"prev": "Previous stickers"
 		}
 	},
 	"doodle": {
@@ -225,7 +227,19 @@
 		"boba": "Bubble tea",
 		"scooter": "Scooter",
 		"sprout": "Sprout",
-		"lantern": "Lantern"
+		"lantern": "Lantern",
+		"headphones": "Headphones",
+		"hotwater": "Hot water bottle",
+		"pillow": "Pillow",
+		"ricecooker": "Rice cooker",
+		"bento": "Lunch box",
+		"chicken": "Fried chicken bites",
+		"dog": "Sleeping dog",
+		"rain": "Rain cloud",
+		"book": "Open book",
+		"metro": "Metro train",
+		"socks": "Socks",
+		"slippers": "Slippers"
 	},
 	"city": {
 		"pick": "{scope, select, many {Where are you right now} other {Which city are you in right now}}",
@@ -658,6 +672,10 @@
 		"house": "Visit this house",
 		"myHouse": "My house",
 		"showAll": "Show all",
+		"label": "Tonight's map",
+		"zoomIn": "Zoom in",
+		"zoomOut": "Zoom out",
+		"zoomHome": "Back to where you started",
 		"collectedLabel": "{scope, select, many {{count, plural, =0 {No lamps from other places yet} one {Received lamps from this place: {cityNames}} other {Received lamps from these places: {cityNames}}}} other {{count, plural, =0 {No lamps from other cities yet} one {Received lamps from this city: {cityNames}} other {Received lamps from these cities: {cityNames}}}}}"
 	},
 	"planes": {
@@ -880,7 +898,8 @@
 			"crisisLead": "If you need someone to talk to right now:",
 			"translate": "Porchlamps also wants to be understood by people in Hong Kong and elsewhere. If you'd like to help translate, you don't need to know how to code. You just translate one sentence at a time on a web page.",
 			"translateLink": "Help translate on Crowdin",
-			"mapCredit": "Hong Kong district boundaries: Home Affairs Department, Government of the Hong Kong Special Administrative Region, via DATA.GOV.HK. Copyright in the data belongs to the Government of the Hong Kong Special Administrative Region and the relevant organizations."
+			"mapCredit": "Hong Kong district boundaries: Home Affairs Department, Government of the Hong Kong Special Administrative Region, via DATA.GOV.HK. Copyright in the data belongs to the Government of the Hong Kong Special Administrative Region and the relevant organizations.",
+			"worldMapCredit": "World map data: Natural Earth (public domain)."
 		},
 		"feedback": {
 			"title": "Wishing well",
