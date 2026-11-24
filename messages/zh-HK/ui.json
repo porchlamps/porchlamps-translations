@@ -790,6 +790,7 @@
 		"greeting": "",
 		"lead": "",
 		"litFor": "",
+		"litForText": "",
 		"more": "",
 		"mixTitle": "",
 		"count": "",
@@ -863,6 +864,7 @@
 	"pages": {
 		"about": {
 			"title": "",
+			"name": "",
 			"description": "",
 			"what": {
 				"0": "",
