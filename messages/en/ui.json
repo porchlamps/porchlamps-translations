@@ -637,7 +637,7 @@
 		"cityFailed": "Couldn't update. Try again in a bit",
 		"nicknameErrors": {
 			"length": "Names can be up to 8 Chinese characters or 16 English letters",
-			"chars": "Names can only use Chinese characters, English letters and \"・\"",
+			"chars": "Names can only use Chinese characters, Japanese kana, English letters and \"・\"",
 			"blocked": "This name can't be used. Please pick another",
 			"area": "{region, select, hk {No need to add your district to the name. It shows up on its own} many {No need to add where you are to the name. It shows up on its own} other {No need to add your city to the name. It shows up on its own}}",
 			"generic": "Couldn't change the name. Try again in a bit"
@@ -790,6 +790,7 @@
 		"greeting": "Good morning.",
 		"lead": "Last night after you fell asleep, someone passed by your door and lit a lamp for you.",
 		"litFor": "lamps lit for you",
+		"litForText": "{n} lamps lit for you",
 		"more": "+{n}",
 		"mixTitle": "Someone wanted to tell you",
 		"count": "{n, plural, one {{n} lamp} other {{n} lamps}}",
@@ -863,6 +864,7 @@
 	"pages": {
 		"about": {
 			"title": "About Porchlamps",
+			"name": "Porchlamps (留燈): a lamp left on for whoever comes home late.",
 			"description": "Porchlamps is a quiet little place: when you can't sleep at night, leave a line, and someone will quietly light a lamp for you. No real names, and no one to follow.",
 			"what": {
 				"0": "Porchlamps is a quiet little place: when you can't sleep at night, come here and leave a line, and someone will quietly light a lamp for you.",

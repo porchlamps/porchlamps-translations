@@ -18,6 +18,7 @@ files:
       locale:
         zh-HK: zh-HK
         en: en
+        ja: ja
   - source: /messages/zh-TW/safety.json
     translation: /messages/%locale%/safety.json
     skip_untranslated_strings: true
@@ -26,3 +27,4 @@ files:
       locale:
         zh-HK: zh-HK
         en: en
+        ja: ja
