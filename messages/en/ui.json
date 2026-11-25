@@ -553,7 +553,7 @@
 		"hoursLeft": "{h, plural, =0 {About to go out} one {Will glow for {h} more hour} other {Will glow for {h} more hours}}",
 		"legendTitle": "Lamp colors",
 		"collected": "{n} / {total}",
-		"collectedRegion": "",
+		"collectedRegion": "{region} {n} / {total}",
 		"collectedWorld": "{n, plural, one {World: {n} place} other {World: {n} places}}",
 		"saveHouse": "Sign in and your house will still be here when you change phones",
 		"saveHouseLater": "Not now",
