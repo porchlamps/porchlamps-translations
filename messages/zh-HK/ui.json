@@ -3,7 +3,9 @@
 		"name": "",
 		"title": "",
 		"description": "",
-		"ogAlt": ""
+		"ogAlt": "",
+		"heading": "",
+		"intro": ""
 	},
 	"hints": {
 		"planeAimed": "",
@@ -884,6 +886,7 @@
 			"title": "",
 			"name": "",
 			"description": "",
+			"when": "",
 			"what": {
 				"0": "",
 				"1": "",
