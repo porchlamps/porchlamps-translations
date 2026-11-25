@@ -16,7 +16,15 @@
 		"empty": "",
 		"too_long": "",
 		"already_posted": "",
-		"generic": ""
+		"generic": "",
+		"otherLanguage": ""
+	},
+	"consent": {
+		"ask": "",
+		"privacy": "",
+		"yes": "",
+		"no": "",
+		"setting": ""
 	},
 	"crisis": {
 		"lead": "",
@@ -205,6 +213,7 @@
 	},
 	"hotlines": {
 		"label": "",
+		"findahelpline": "",
 		"tw": {
 			"0": {
 				"name": "",
@@ -239,6 +248,48 @@
 				"hours": ""
 			},
 			"2": {
+				"name": "",
+				"hours": ""
+			}
+		},
+		"us": {
+			"0": {
+				"name": "",
+				"hours": ""
+			}
+		},
+		"ca": {
+			"0": {
+				"name": "",
+				"hours": ""
+			}
+		},
+		"gb": {
+			"0": {
+				"name": "",
+				"hours": ""
+			}
+		},
+		"ie": {
+			"0": {
+				"name": "",
+				"hours": ""
+			}
+		},
+		"au": {
+			"0": {
+				"name": "",
+				"hours": ""
+			}
+		},
+		"nz": {
+			"0": {
+				"name": "",
+				"hours": ""
+			}
+		},
+		"sg": {
+			"0": {
 				"name": "",
 				"hours": ""
 			}
@@ -368,6 +419,9 @@
 			"rightsTitle": "",
 			"rights": "",
 			"rightsJapan": "",
+			"rightsUS": "",
+			"rightsEU": "",
+			"analyticsConsent": "",
 			"deleteLink": "",
 			"rightsMail": "",
 			"changesTitle": "",
