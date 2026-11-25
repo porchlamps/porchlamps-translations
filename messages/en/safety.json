@@ -13,20 +13,20 @@
 	},
 	"blocked": {
 		"contact": "Contact details can't be left here",
-		"contact_digits": "A long string of numbers looks like a phone number or an account, so it can't be left here",
-		"contact_link": "Links can't be left here",
+		"contact_digits": "",
+		"contact_link": "",
 		"empty": "Nothing written yet",
 		"too_long": "{max, plural, one {Up to {max} character only} other {Up to {max} characters only}}",
 		"already_posted": "{max, plural, one {You've already said {max} line tonight. Come back and talk tomorrow} other {You've already said {max} lines tonight. Come back and talk tomorrow}}",
 		"generic": "Couldn't send it for now. Try again in a bit",
-		"otherLanguage": "For now this place can only read Chinese, Japanese and English. This line will wait until someone has read it."
+		"otherLanguage": ""
 	},
 	"consent": {
-		"ask": "Can we use cookies to learn how people use this place, including recordings of what happens on screen? Never for ads.",
-		"privacy": "Privacy",
-		"yes": "OK",
-		"no": "No thanks",
-		"setting": "Let Porchlamps use cookies to learn how people use this place (including screen recordings)"
+		"ask": "",
+		"privacy": "",
+		"yes": "",
+		"no": "",
+		"setting": ""
 	},
 	"crisis": {
 		"lead": "{daypart, select, morning {Today seems really hard.} day {Today seems really hard.} evening {Tonight seems really hard.} other {Tonight seems really hard.}}",
@@ -215,7 +215,7 @@
 	},
 	"hotlines": {
 		"label": "{name} {number}, {hours}",
-		"findahelpline": "Find a helpline where you are",
+		"findahelpline": "",
 		"tw": {
 			"0": {
 				"name": "Mental Health Hotline (安心專線)",
@@ -242,58 +242,58 @@
 		},
 		"jp": {
 			"0": {
-				"name": "Yorisoi Hotline (よりそいホットライン)",
-				"hours": "24 hours a day; press 2 for Chinese or English, every day 10 am–10 pm"
+				"name": "",
+				"hours": ""
 			},
 			"1": {
-				"name": "Inochi no Denwa (いのちの電話)",
-				"hours": "every day 10 am–10 pm; call charges apply"
+				"name": "",
+				"hours": ""
 			},
 			"2": {
-				"name": "TELL Lifeline",
-				"hours": "in English; hours vary by day"
+				"name": "",
+				"hours": ""
 			}
 		},
 		"us": {
 			"0": {
-				"name": "988 Suicide & Crisis Lifeline",
-				"hours": "24/7, call or text"
+				"name": "",
+				"hours": ""
 			}
 		},
 		"ca": {
 			"0": {
-				"name": "9-8-8 Suicide Crisis Helpline",
-				"hours": "24/7, call or text (English, French)"
+				"name": "",
+				"hours": ""
 			}
 		},
 		"gb": {
 			"0": {
-				"name": "Samaritans",
-				"hours": "24/7, free"
+				"name": "",
+				"hours": ""
 			}
 		},
 		"ie": {
 			"0": {
-				"name": "Samaritans",
-				"hours": "24/7, free"
+				"name": "",
+				"hours": ""
 			}
 		},
 		"au": {
 			"0": {
-				"name": "Lifeline",
-				"hours": "24/7"
+				"name": "",
+				"hours": ""
 			}
 		},
 		"nz": {
 			"0": {
-				"name": "Need to talk? 1737",
-				"hours": "24/7, call or text, free"
+				"name": "",
+				"hours": ""
 			}
 		},
 		"sg": {
 			"0": {
-				"name": "Samaritans of Singapore (SOS)",
-				"hours": "24/7"
+				"name": "",
+				"hours": ""
 			}
 		}
 	},
@@ -340,7 +340,7 @@
 		"privacy": {
 			"title": "Privacy policy",
 			"description": "What Porchlamps records, why it's needed, how long it's kept, and what you can do with your own data.",
-			"effective": "Effective November 24, 2026",
+			"effective": "",
 			"intro": "Porchlamps only records the information needed to keep the site working. This page explains what we record, why we need it, how long we keep it, and what you can do with your own data.",
 			"storedTitle": "What we record",
 			"stored": {
@@ -349,7 +349,7 @@
 				"2": "The line you leave, and the city or district you chose at the time. What everyone sees is \"so-and-so in some city or district\".",
 				"3": "The lamps you light and the ones you receive. The city or district you chose and the time when you light a lamp become a small postmark, sent to the other person.",
 				"4": "Which lines you reported.",
-				"5": "What you write in the \"Wishing well\", and the optional contact info: once sent, it becomes a to-do item in the author's private GitHub project, along with your browser version information, and with your house code if you have a house. These are not stored in Porchlamps' database and are not made public.",
+				"5": "",
 				"6": "A hash of your IP: used to prevent abuse and to handle reports. The hashing key is changed every night, and the hash can't be turned back into the original IP.",
 				"7": "Notification subscriptions: stored only when you turn on notifications on your profile page or after you've said your line. It contains the push address the browser gives, the encryption keys, and which kinds of notifications you turned on. It's only used to send these three kinds of notifications: \"someone lit a lamp for you\", \"some lamps lit up for you\", and \"a reminder in the evening to come back\". The \"someone lit a lamp for you\" notification says which city or district the person lighting the lamp is in and which lamp they lit. Notifications never contain any content of a line or any nickname. Notifications are encrypted and passed along by your browser vendor's push service (for example Google, Apple, or Mozilla), which can't see the content.",
 				"8": "One cookie: used only to recognize who you are, so that when you come back next time you return to the same house. During the few minutes of signing in there is also a temporary cookie, which is cleared once it's been used.",
@@ -365,7 +365,7 @@
 				"1": "IP hashes used for rate limiting: deleted after 2 days. The one attached to a report is deleted together with that line.",
 				"2": "Notification subscriptions: until you turn notifications off, delete your account, or the push service tells us the subscription is no longer valid.",
 				"3": "The cookie that recognizes you: 400 days. The temporary sign-in cookie: 10 minutes.",
-				"4": "Wishing well: kept in the author's private GitHub project. To have it deleted, write to the author.",
+				"4": "",
 				"5": "Sponsorship records: a monthly sponsorship is kept for 365 days after it's canceled or all of its payments are done; a completed one-time payment is kept for 90 days; orders that were never paid are deleted after 3 days for monthly and 8 days for one-time (ATM and convenience store payments need time to be paid). When they're deleted, their charge records are deleted with them. Records held by ECPay and for e-invoices are kept as ECPay's rules and tax law require.",
 				"6": "Email addresses that haven't been confirmed: kept for up to two days, then deleted."
 			},
@@ -373,7 +373,7 @@
 			"whoSees": {
 				"0": "Others can see your nickname, your city or district, and your line from tonight; also your house's lines from the last 7 nights and what your house looks like (without lamp counts), and, when you light a lamp, the nickname and postmark next to the lamp. If you agree to share, others can turn a line into an image without your nickname, city or district and share it outside the site. The house part can be turned off on your profile page; for people who joined before this feature launched, the house is off by default, and lamps they lit earlier don't carry a nickname.",
 				"1": "The author can see all lines (including hidden ones), to handle reports and keep the community safe.",
-				"2": "Only the author can see what you write in the wishing well.",
+				"2": "",
 				"3": "The author can see recordings of screen activity in Microsoft Clarity. They include the lines and nicknames that were on screen at the time, but not your Google account.",
 				"4": "When someone writes something heavier, or a line is hidden because it was reported, the author gets a notification on Discord. The notification only contains a number, and does not include what the line said.",
 				"5": "Sponsors' email, name, message, and amount can be seen only by the author, and never appear anywhere on Porchlamps; lamps, houses, and the map have nothing to do with sponsorship.",
@@ -384,7 +384,7 @@
 			"services": {
 				"0": {
 					"name": "Cloudflare",
-					"use": "Site hosting and database; data may be stored outside Taiwan, Hong Kong and Japan. It also sends the morning email, the email confirmation, and sponsorship charge notices, and only gets the recipient's email address and the contents of the email",
+					"use": "",
 					"url": "https://www.cloudflare.com/privacypolicy/"
 				},
 				"1": {
@@ -404,7 +404,7 @@
 				},
 				"5": {
 					"name": "GitHub",
-					"use": "Where the wishing well is stored: the author's private project, which only the author can see",
+					"use": "",
 					"url": "https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement"
 				},
 				"6": {
@@ -420,10 +420,10 @@
 			},
 			"rightsTitle": "What you can do",
 			"rights": "Under Taiwan's Personal Data Protection Act, you can ask to look up, view, copy, correct, stop the use of, or delete your data. The most direct way is in \"My house\": it has all of your lines and lamps. From the top right you can go to your profile page to change your nickname, city or district, and to decide whether others can visit your house. \"Delete account\" at the very bottom clears your account, the words you've said, the lamps you've received, and your whole house together, and it can't be undone. As for the lamps you lit for others, they stay in their houses anonymously and are no longer connected to you in any way. If you're in Hong Kong, under Hong Kong's Personal Data (Privacy) Ordinance, you can likewise ask to access and correct your data, in the same way as above.",
-			"rightsJapan": "If you live in Japan, under Japan's Act on the Protection of Personal Information, you can likewise ask to see your data, or to have it corrected, deleted, or no longer used, also in the same way as above. Porchlamps is looked after by one author in Taiwan. The data is mainly kept on servers run by Cloudflare, an American company, and most of the other services listed on this page are American companies too (ECPay is in Taiwan), so your data may not be kept in Japan. The United States has no single, comprehensive federal privacy law like Japan's; Porchlamps keeps only the data listed on this page and handles it as described above under \"How long we keep it\" and \"Who sees this\". The data is used only for what this page describes; apart from the services listed on this page, it isn't given to anyone, and it isn't sold.",
-			"rightsUS": "If you live in the United States, including California, you can ask what data we keep about you, and ask us to correct or delete it, in the same ways as above. Using these rights won't change how you're treated here. Porchlamps does not sell your data, and does not share it with anyone for cross-site advertising.",
-			"rightsEU": "If you live in the EU, the EEA or the UK, the GDPR (in the UK, the UK GDPR) lets you see, correct or delete your data, ask us to restrict or stop using it, and get a copy you can take with you, in the same ways as above. If you think we've handled your data wrongly, you can complain to the data protection authority where you live. We use your data on two bases: what Porchlamps needs in order to work (legitimate interest), and your consent for the things you turn on yourself (signing in, notifications, the morning email), which you can turn off at any time. The data is mainly kept on servers run by Cloudflare, an American company, so it is transferred outside Europe.",
-			"analyticsConsent": "If you're in the EU, the EEA, the UK or Switzerland, Porchlamps asks you first before using Google Analytics and Microsoft Clarity. You can change your answer on your profile page at any time.",
+			"rightsJapan": "",
+			"rightsUS": "",
+			"rightsEU": "",
+			"analyticsConsent": "",
 			"deleteLink": "Go to your profile page",
 			"rightsMail": "For other requests, you can write to the author. If you write from the email you signed in with, the author can confirm it's you. If you write from another address, the author can only search using the nickname, city or district, and date you give in the email, and can't confirm that the sender is the owner of the house.",
 			"changesTitle": "Changes to this page",
