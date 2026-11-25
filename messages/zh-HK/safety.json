@@ -13,6 +13,8 @@
 	},
 	"blocked": {
 		"contact": "",
+		"contact_digits": "",
+		"contact_link": "",
 		"empty": "",
 		"too_long": "",
 		"already_posted": "",
