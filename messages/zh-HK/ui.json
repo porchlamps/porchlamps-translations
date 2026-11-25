@@ -197,7 +197,9 @@
 			"open": "",
 			"change": "",
 			"tray": "",
-			"remove": ""
+			"remove": "",
+			"next": "",
+			"prev": ""
 		}
 	},
 	"doodle": {
@@ -225,7 +227,19 @@
 		"boba": "",
 		"scooter": "",
 		"sprout": "",
-		"lantern": ""
+		"lantern": "",
+		"headphones": "",
+		"hotwater": "",
+		"pillow": "",
+		"ricecooker": "",
+		"bento": "",
+		"chicken": "",
+		"dog": "",
+		"rain": "",
+		"book": "",
+		"metro": "",
+		"socks": "",
+		"slippers": ""
 	},
 	"city": {
 		"pick": "",
@@ -658,6 +672,10 @@
 		"house": "",
 		"myHouse": "",
 		"showAll": "",
+		"label": "",
+		"zoomIn": "",
+		"zoomOut": "",
+		"zoomHome": "",
 		"collectedLabel": ""
 	},
 	"planes": {
@@ -880,7 +898,8 @@
 			"crisisLead": "",
 			"translate": "",
 			"translateLink": "",
-			"mapCredit": ""
+			"mapCredit": "",
+			"worldMapCredit": ""
 		},
 		"feedback": {
 			"title": "",
