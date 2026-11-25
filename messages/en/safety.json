@@ -13,6 +13,8 @@
 	},
 	"blocked": {
 		"contact": "Contact details can't be left here",
+		"contact_digits": "A long string of numbers looks like a phone number or an account, so it can't be left here",
+		"contact_link": "Links can't be left here",
 		"empty": "Nothing written yet",
 		"too_long": "{max, plural, one {Up to {max} character only} other {Up to {max} characters only}}",
 		"already_posted": "{max, plural, one {You've already said {max} line tonight. Come back and talk tomorrow} other {You've already said {max} lines tonight. Come back and talk tomorrow}}",

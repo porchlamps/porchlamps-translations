@@ -13,6 +13,8 @@
 	},
 	"blocked": {
 		"contact": "這裡不能留聯絡方式",
+		"contact_digits": "一長串數字看起來像電話或帳號，這裡不能留",
+		"contact_link": "這裡不能留網址",
 		"empty": "還沒寫任何話",
 		"too_long": "最多只能寫 {max} 個字",
 		"already_posted": "今晚已經說了 {max} 句，明天再來說說吧",
