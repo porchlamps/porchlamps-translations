@@ -416,6 +416,11 @@
 					"name": "綠界科技",
 					"use": "贊助的付款與電子發票。付款頁上填的資料由綠界處理；你填的 Email 會交給綠界，用來開電子發票、存進綠界的會員載具，開立通知由綠界寄給你",
 					"url": "https://www.ecpay.com.tw/CreditCard/Privacy_20131226"
+				},
+				"8": {
+					"name": "Sentry",
+					"use": "網站出錯時，錯誤紀錄會送到 Sentry，幫我們修好問題；也會抽一小部分紀錄看網站快不快。紀錄裡有出錯的頁面路徑、瀏覽器和裝置種類、程式的錯誤訊息。我們設定成不放進你寫的話、暱稱、email 和 IP",
+					"url": "https://sentry.io/privacy/"
 				}
 			},
 			"rightsTitle": "你可以做的事",
