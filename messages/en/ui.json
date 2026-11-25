@@ -3,7 +3,9 @@
 		"name": "Porchlamps",
 		"title": "Porchlamps | Can't sleep? Leave a line anonymously",
 		"description": "Home at night, can't sleep, want to talk but don't feel like answering messages? Leave a line anonymously on Porchlamps. No one can reply; they can only quietly light a lamp for you, glowing on Taiwan's night map.",
-		"ogAlt": "Porchlamps: get home, leave a line, and someone will light a lamp for you"
+		"ogAlt": "Porchlamps: get home, leave a line, and someone will light a lamp for you",
+		"heading": "Porchlamps: on nights you can't sleep, leave a line anonymously",
+		"intro": "Home at night and can't sleep, worn out from work, or wanting to cry but the tears won't come? Leave a line here anonymously. No one can reply; they can only quietly light a lamp for you, glowing on the night map for 24 hours."
 	},
 	"hints": {
 		"planeAimed": "You can also send them a paper plane",
@@ -294,7 +296,7 @@
 			"ck": "Cook Islands",
 			"cl": "Chile",
 			"cm": "Cameroon",
-			"cn": "Mainland China",
+			"cn": "China",
 			"co": "Colombia",
 			"cr": "Costa Rica",
 			"cu": "Cuba",
@@ -884,6 +886,7 @@
 			"title": "About Porchlamps",
 			"name": "Porchlamps (留燈): a lamp left on for whoever comes home late.",
 			"description": "Porchlamps is a quiet little place: when you can't sleep at night, leave a line, and someone will quietly light a lamp for you. No real names, and no one to follow.",
+			"when": "When you can't sleep at night, wake up in the middle of it, or you're worn out from work and want to cry but can't, and you want to talk but don't feel like answering messages, you can come here.",
 			"what": {
 				"0": "Porchlamps is a quiet little place: when you can't sleep at night, come here and leave a line, and someone will quietly light a lamp for you.",
 				"1": "There are no real names, no profile pictures, and no one to follow. The lines and lamps stay lit on the home page for only 24 hours.",
@@ -1248,7 +1251,7 @@
 		"ck": "Cook Islands",
 		"cl": "Chile",
 		"cm": "Cameroon",
-		"cn": "Mainland China",
+		"cn": "China",
 		"co": "Colombia",
 		"cr": "Costa Rica",
 		"cu": "Cuba",
