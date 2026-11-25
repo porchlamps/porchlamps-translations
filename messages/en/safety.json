@@ -16,7 +16,15 @@
 		"empty": "Nothing written yet",
 		"too_long": "{max, plural, one {Up to {max} character only} other {Up to {max} characters only}}",
 		"already_posted": "{max, plural, one {You've already said {max} line tonight. Come back and talk tomorrow} other {You've already said {max} lines tonight. Come back and talk tomorrow}}",
-		"generic": "Couldn't send it for now. Try again in a bit"
+		"generic": "Couldn't send it for now. Try again in a bit",
+		"otherLanguage": ""
+	},
+	"consent": {
+		"ask": "",
+		"privacy": "",
+		"yes": "",
+		"no": "",
+		"setting": ""
 	},
 	"crisis": {
 		"lead": "{daypart, select, morning {Today seems really hard.} day {Today seems really hard.} evening {Tonight seems really hard.} other {Tonight seems really hard.}}",
@@ -205,6 +213,7 @@
 	},
 	"hotlines": {
 		"label": "{name} {number}, {hours}",
+		"findahelpline": "",
 		"tw": {
 			"0": {
 				"name": "Mental Health Hotline (安心專線)",
@@ -239,6 +248,48 @@
 				"hours": ""
 			},
 			"2": {
+				"name": "",
+				"hours": ""
+			}
+		},
+		"us": {
+			"0": {
+				"name": "",
+				"hours": ""
+			}
+		},
+		"ca": {
+			"0": {
+				"name": "",
+				"hours": ""
+			}
+		},
+		"gb": {
+			"0": {
+				"name": "",
+				"hours": ""
+			}
+		},
+		"ie": {
+			"0": {
+				"name": "",
+				"hours": ""
+			}
+		},
+		"au": {
+			"0": {
+				"name": "",
+				"hours": ""
+			}
+		},
+		"nz": {
+			"0": {
+				"name": "",
+				"hours": ""
+			}
+		},
+		"sg": {
+			"0": {
 				"name": "",
 				"hours": ""
 			}
@@ -368,6 +419,9 @@
 			"rightsTitle": "What you can do",
 			"rights": "Under Taiwan's Personal Data Protection Act, you can ask to look up, view, copy, correct, stop the use of, or delete your data. The most direct way is in \"My house\": it has all of your lines and lamps. From the top right you can go to your profile page to change your nickname, city or district, and to decide whether others can visit your house. \"Delete account\" at the very bottom clears your account, the words you've said, the lamps you've received, and your whole house together, and it can't be undone. As for the lamps you lit for others, they stay in their houses anonymously and are no longer connected to you in any way. If you're in Hong Kong, under Hong Kong's Personal Data (Privacy) Ordinance, you can likewise ask to access and correct your data, in the same way as above.",
 			"rightsJapan": "",
+			"rightsUS": "",
+			"rightsEU": "",
+			"analyticsConsent": "",
 			"deleteLink": "Go to your profile page",
 			"rightsMail": "For other requests, you can write to the author. If you write from the email you signed in with, the author can confirm it's you. If you write from another address, the author can only search using the nickname, city or district, and date you give in the email, and can't confirm that the sender is the owner of the house.",
 			"changesTitle": "Changes to this page",
