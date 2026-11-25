@@ -16,7 +16,15 @@
 		"empty": "Nothing written yet",
 		"too_long": "{max, plural, one {Up to {max} character only} other {Up to {max} characters only}}",
 		"already_posted": "{max, plural, one {You've already said {max} line tonight. Come back and talk tomorrow} other {You've already said {max} lines tonight. Come back and talk tomorrow}}",
-		"generic": "Couldn't send it for now. Try again in a bit"
+		"generic": "Couldn't send it for now. Try again in a bit",
+		"otherLanguage": "For now this place can only read Chinese, Japanese and English. This line will wait until someone has read it."
+	},
+	"consent": {
+		"ask": "Can we use cookies to learn how people use this place, including recordings of what happens on screen? Never for ads.",
+		"privacy": "Privacy",
+		"yes": "OK",
+		"no": "No thanks",
+		"setting": "Let Porchlamps use cookies to learn how people use this place (including screen recordings)"
 	},
 	"crisis": {
 		"lead": "{daypart, select, morning {Today seems really hard.} day {Today seems really hard.} evening {Tonight seems really hard.} other {Tonight seems really hard.}}",
@@ -205,6 +213,7 @@
 	},
 	"hotlines": {
 		"label": "{name} {number}, {hours}",
+		"findahelpline": "Find a helpline where you are",
 		"tw": {
 			"0": {
 				"name": "Mental Health Hotline (安心專線)",
@@ -241,6 +250,48 @@
 			"2": {
 				"name": "TELL Lifeline",
 				"hours": "in English; hours vary by day"
+			}
+		},
+		"us": {
+			"0": {
+				"name": "988 Suicide & Crisis Lifeline",
+				"hours": "24/7, call or text"
+			}
+		},
+		"ca": {
+			"0": {
+				"name": "9-8-8 Suicide Crisis Helpline",
+				"hours": "24/7, call or text (English, French)"
+			}
+		},
+		"gb": {
+			"0": {
+				"name": "Samaritans",
+				"hours": "24/7, free"
+			}
+		},
+		"ie": {
+			"0": {
+				"name": "Samaritans",
+				"hours": "24/7, free"
+			}
+		},
+		"au": {
+			"0": {
+				"name": "Lifeline",
+				"hours": "24/7"
+			}
+		},
+		"nz": {
+			"0": {
+				"name": "Need to talk? 1737",
+				"hours": "24/7, call or text, free"
+			}
+		},
+		"sg": {
+			"0": {
+				"name": "Samaritans of Singapore (SOS)",
+				"hours": "24/7"
 			}
 		}
 	},
@@ -368,6 +419,9 @@
 			"rightsTitle": "What you can do",
 			"rights": "Under Taiwan's Personal Data Protection Act, you can ask to look up, view, copy, correct, stop the use of, or delete your data. The most direct way is in \"My house\": it has all of your lines and lamps. From the top right you can go to your profile page to change your nickname, city or district, and to decide whether others can visit your house. \"Delete account\" at the very bottom clears your account, the words you've said, the lamps you've received, and your whole house together, and it can't be undone. As for the lamps you lit for others, they stay in their houses anonymously and are no longer connected to you in any way. If you're in Hong Kong, under Hong Kong's Personal Data (Privacy) Ordinance, you can likewise ask to access and correct your data, in the same way as above.",
 			"rightsJapan": "If you live in Japan, under Japan's Act on the Protection of Personal Information, you can likewise ask to see your data, or to have it corrected, deleted, or no longer used, also in the same way as above. Porchlamps is looked after by one author in Taiwan. The data is mainly kept on servers run by Cloudflare, an American company, and most of the other services listed on this page are American companies too (ECPay is in Taiwan), so your data may not be kept in Japan. The United States has no single, comprehensive federal privacy law like Japan's; Porchlamps keeps only the data listed on this page and handles it as described above under \"How long we keep it\" and \"Who sees this\". The data is used only for what this page describes; apart from the services listed on this page, it isn't given to anyone, and it isn't sold.",
+			"rightsUS": "If you live in the United States, including California, you can ask what data we keep about you, and ask us to correct or delete it, in the same ways as above. Using these rights won't change how you're treated here. Porchlamps does not sell your data, and does not share it with anyone for cross-site advertising.",
+			"rightsEU": "If you live in the EU, the EEA or the UK, the GDPR (in the UK, the UK GDPR) lets you see, correct or delete your data, ask us to restrict or stop using it, and get a copy you can take with you, in the same ways as above. If you think we've handled your data wrongly, you can complain to the data protection authority where you live. We use your data on two bases: what Porchlamps needs in order to work (legitimate interest), and your consent for the things you turn on yourself (signing in, notifications, the morning email), which you can turn off at any time. The data is mainly kept on servers run by Cloudflare, an American company, so it is transferred outside Europe.",
+			"analyticsConsent": "If you're in the EU, the EEA, the UK or Switzerland, Porchlamps asks you first before using Google Analytics and Microsoft Clarity. You can change your answer on your profile page at any time.",
 			"deleteLink": "Go to your profile page",
 			"rightsMail": "For other requests, you can write to the author. If you write from the email you signed in with, the author can confirm it's you. If you write from another address, the author can only search using the nickname, city or district, and date you give in the email, and can't confirm that the sender is the owner of the house.",
 			"changesTitle": "Changes to this page",

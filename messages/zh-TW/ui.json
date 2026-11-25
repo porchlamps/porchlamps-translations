@@ -197,7 +197,9 @@
 			"open": "加一張貼圖",
 			"change": "貼圖：{name}，點一下換或拿掉",
 			"tray": "選一張貼圖",
-			"remove": "不要貼圖"
+			"remove": "不要貼圖",
+			"next": "下一頁貼圖",
+			"prev": "上一頁貼圖"
 		}
 	},
 	"doodle": {
@@ -225,7 +227,19 @@
 		"boba": "珍珠奶茶",
 		"scooter": "機車",
 		"sprout": "小芽",
-		"lantern": "燈籠"
+		"lantern": "燈籠",
+		"headphones": "耳機",
+		"hotwater": "熱水袋",
+		"pillow": "枕頭",
+		"ricecooker": "電鍋",
+		"bento": "便當",
+		"chicken": "鹹酥雞",
+		"dog": "睡著的狗",
+		"rain": "下雨的雲",
+		"book": "翻開的書",
+		"metro": "捷運",
+		"socks": "襪子",
+		"slippers": "室內拖鞋"
 	},
 	"city": {
 		"pick": "{scope, select, many {你現在在哪裡} other {你現在在哪個縣市}}",
@@ -658,6 +672,10 @@
 		"house": "去這棟房子看看",
 		"myHouse": "我的房子",
 		"showAll": "看全部",
+		"label": "今晚的地圖",
+		"zoomIn": "放大",
+		"zoomOut": "縮小",
+		"zoomHome": "回到一開始的位置",
 		"collectedLabel": "{scope, select, many {{count, plural, =0 {還沒收到其他地方的燈} other {已收到這些地方的燈：{cityNames}}}} other {{count, plural, =0 {還沒收到其他縣市的燈} other {已收到這些縣市的燈：{cityNames}}}}}"
 	},
 	"planes": {
@@ -880,7 +898,8 @@
 			"crisisLead": "如果現在需要有人陪你說說話：",
 			"translate": "留燈也想讓香港和其他地方的人讀得懂。如果你願意幫忙翻譯，不用會寫程式，在網頁上一句一句翻就好。",
 			"translateLink": "到 Crowdin 幫忙翻譯",
-			"mapCredit": "香港區界資料來源：香港特別行政區政府民政事務總署，經 DATA.GOV.HK。資料版權屬香港特別行政區政府及相關機構所有。"
+			"mapCredit": "香港區界資料來源：香港特別行政區政府民政事務總署，經 DATA.GOV.HK。資料版權屬香港特別行政區政府及相關機構所有。",
+			"worldMapCredit": "世界地圖資料來源：Natural Earth（公有領域）。"
 		},
 		"feedback": {
 			"title": "許願池",
